@@ -17,7 +17,7 @@ jobs:
               repo: context.repo.repo,
               labels: ["Status: In Progress"]
             })
-            github.rest.issues.removeLabel({
+            github.rest.issues.removeLabels({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
