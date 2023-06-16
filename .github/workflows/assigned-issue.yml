@@ -23,5 +23,13 @@ jobs:
               repo: context.repo.repo,
               labels: ["Status: In Progress"]
             })
-      - run: echo ${{context.issue.state}}
-      - run: echo ${{context.issue.status}}
+      - name: Update status
+        id: update_status
+        uses: github/update-project-action@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN}}
+          organization: layars
+          project_number: 8
+          content_id: ${{ github.event.client_payload.command.resource.id }}
+          field: Status
+          value: "In Progress"
