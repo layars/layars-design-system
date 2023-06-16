@@ -23,5 +23,5 @@ jobs:
               repo: context.repo.repo,
               labels: ["Status: In Progress"]
             })
-      - run: echo context.issue.state
-      - run: echo context.issue.status
+      - run: echo ${{context.issue.state}}
+      - run: echo ${{context.issue.status}}
