@@ -11,4 +11,4 @@ jobs:
         with:
           project: Development
           column: In Progress
-          repo-token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
