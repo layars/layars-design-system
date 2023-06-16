@@ -1,16 +1,19 @@
-name: move assigned issue to in progress
+name: Assigned Issues Are In Progress
 
 on:
   issues:
     types: [assigned]
-    
+
 jobs:
-  move_card:
+  move-to-in-progress:
     runs-on: ubuntu-latest
+    name: Move to In Progress Column
     steps:
-      - uses: HiromiShikata/gh-actions-move-all-cards-on-projects@v1.0.1
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Move to In Progress
+        uses: kin/gh-action-move-issue-to-column@1.0
         with:
-          project_name: 8
-          from_column_name: Backlog
-          to_column_name: In Progress
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          access-token: "#{{ secrets.GITHUB_TOKEN }}"
+          project-name: "Development"
+          target-column: "In Progress"
