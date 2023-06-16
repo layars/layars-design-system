@@ -1,15 +1,17 @@
-name: Move assigned pull requests into To do
+name: move assigned issue to in progress
 
 on:
-  pull_request:
+  issues:
     types: [assigned]
-
+    
 jobs:
-  automate-project-columns:
+  move_card:
     runs-on: ubuntu-latest
     steps:
-      - uses: alex-page/github-project-automation-plus@v0.8.3
-        with:
-          project: Development
-          column: In Progress
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Backlog to In Progress
+      uses: subhamX/github-project-bot@v1.0.0
+      with:
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        COLUMN_NAME: In Progress
+        PROJECT_URL: https://github.com/orgs/layars/projects/8
+        REPO_URL: https://github.com/layars/layars-design-system
