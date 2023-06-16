@@ -8,10 +8,9 @@ jobs:
   move_card:
     runs-on: ubuntu-latest
     steps:
-    - name: Backlog to In Progress
-      uses: subhamX/github-project-bot@v1.0.0
-      with:
-        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        COLUMN_NAME: In Progress
-        PROJECT_URL: https://github.com/orgs/layars/projects/8
-        REPO_URL: https://github.com/layars/layars-design-system
+      - uses: HiromiShikata/gh-actions-move-all-cards-on-projects@v1.0.2
+        with:
+          project_name: 8
+          from_column_name: Backlog
+          to_column_name: In Progress
+          github_token: ${{ secrets.GITHUB_TOKEN }}
