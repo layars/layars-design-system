@@ -1,14 +1,19 @@
-name: Move assigned card
+name: In Progress Change
 on:
   issues:
-    types:
-      - assigned
+    types: [assigned]
 jobs:
-  move-assigned-card:
+  label_issues:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
-      - uses: alex-page/github-project-automation-plus@7ffb872c64bd809d23563a130a0a97d01dfa8f43
+      - uses: actions/github-script@v6
         with:
-          project: "Development"
-          column: "In Progress"
-          repo-token: ${{ secrets.ACTIONS_TOKEN }}
+          script: |
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ["In Progress"]
+            })
