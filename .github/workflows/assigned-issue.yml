@@ -8,7 +8,7 @@ jobs:
   move_card:
     runs-on: ubuntu-latest
     steps:
-      - uses: HiromiShikata/gh-actions-move-all-cards-on-projects@v1.0.2
+      - uses: HiromiShikata/gh-actions-move-all-cards-on-projects@v1.0.1
         with:
           project_name: 8
           from_column_name: Backlog
