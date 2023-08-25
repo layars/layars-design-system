@@ -2,7 +2,7 @@ import { html, LitElement, unsafeCSS } from 'lit'
 import { customElement, property, eventOptions } from 'lit/decorators.js'
 import { classMap } from 'lit/directives/class-map.js'
 
-import { config } from '@layars/ui-web-components-root/.config/layars.config.js'
+import { config } from '@layars/web-components-root/.config/layars.config.js'
 
 import { Theme } from '@layars/theme-provider'
 

@@ -2,7 +2,7 @@ import { html, LitElement, css, render } from 'lit'
 import { customElement, property, state } from 'lit/decorators.js'
 import { provide } from '@lit-labs/context'
 
-import { config } from '@layars/ui-web-components-root/.config/layars.config.js'
+import { config } from '@layars/web-components-root/.config/layars.config.js'
 
 import { _themeContext, themeContext, Theme, cssvarsContext } from './layars-theme-context.js'
 import type { LayarsThemeProviderProperties, LayarsThemeProviderThemes } from './defs.js'
