@@ -1,0 +1,46 @@
+{
+    "name": "@layars/types",
+    "version": "0.0.0",
+    "description": "",
+    "type": "module",
+    "types": "src/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./src/index.d.ts"
+        },
+        "./react": {
+            "types": "./src/react/index.d.ts"
+        },
+        "./web-components": {
+            "types": "./src/web-components/index.d.ts"
+        }
+    },
+    "publishConfig": {
+        "types": "types/index.d.ts",
+        "exports": {
+            ".": {
+                "types": "./types/index.d.ts"
+            },
+            "./react": {
+                "types": "./types/react/index.d.ts"
+            },
+            "./web-components": {
+                "types": "./types/web-components/index.d.ts"
+            }
+        }
+    },
+    "files": [
+        "types"
+    ],
+    "scripts": {
+        "build": "cp -r ./src ./types"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lit-html": "^2.7.4"
+    },
+    "devDependencies": {
+        "@layars/tokens": "workspace:^0.0.0"
+    }
+}

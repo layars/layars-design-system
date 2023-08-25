@@ -1,0 +1,236 @@
+{
+    "typography": {
+        "display": {
+            "xl": {
+                "font_size": {
+                    "type": "dimension",
+                    "value": 72
+                },
+                "text_decoration": {
+                    "type": "string",
+                    "value": "none"
+                },
+                "font_family": {
+                    "type": "string",
+                    "value": "Titillium Web"
+                },
+                "font_weight": {
+                    "type": "number",
+                    "value": 600
+                },
+                "font_style": {
+                    "type": "string",
+                    "value": "normal"
+                },
+                "font_stretch": {
+                    "type": "string",
+                    "value": "normal"
+                },
+                "letter_spacing": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "line_height": {
+                    "type": "dimension",
+                    "value": 80
+                },
+                "paragraph_indent": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paragraph_spacing": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "text_case": {
+                    "type": "string",
+                    "value": "none"
+                }
+            },
+            "lg": {
+                "font_size": {
+                    "type": "dimension",
+                    "value": 64
+                },
+                "text_decoration": {
+                    "type": "string",
+                    "value": "none"
+                },
+                "font_family": {
+                    "type": "string",
+                    "value": "Titillium Web"
+                },
+                "font_weight": {
+                    "type": "number",
+                    "value": 600
+                },
+                "font_style": {
+                    "type": "string",
+                    "value": "normal"
+                },
+                "font_stretch": {
+                    "type": "string",
+                    "value": "normal"
+                },
+                "letter_spacing": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "line_height": {
+                    "type": "dimension",
+                    "value": 72
+                },
+                "paragraph_indent": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paragraph_spacing": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "text_case": {
+                    "type": "string",
+                    "value": "none"
+                }
+            },
+            "md": {
+                "font_size": {
+                    "type": "dimension",
+                    "value": 56
+                },
+                "text_decoration": {
+                    "type": "string",
+                    "value": "none"
+                },
+                "font_family": {
+                    "type": "string",
+                    "value": "Titillium Web"
+                },
+                "font_weight": {
+                    "type": "number",
+                    "value": 600
+                },
+                "font_style": {
+                    "type": "string",
+                    "value": "normal"
+                },
+                "font_stretch": {
+                    "type": "string",
+                    "value": "normal"
+                },
+                "letter_spacing": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "line_height": {
+                    "type": "dimension",
+                    "value": 64
+                },
+                "paragraph_indent": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paragraph_spacing": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "text_case": {
+                    "type": "string",
+                    "value": "none"
+                }
+            },
+            "sm": {
+                "font_size": {
+                    "type": "dimension",
+                    "value": 48
+                },
+                "text_decoration": {
+                    "type": "string",
+                    "value": "none"
+                },
+                "font_family": {
+                    "type": "string",
+                    "value": "Titillium Web"
+                },
+                "font_weight": {
+                    "type": "number",
+                    "value": 600
+                },
+                "font_style": {
+                    "type": "string",
+                    "value": "normal"
+                },
+                "font_stretch": {
+                    "type": "string",
+                    "value": "normal"
+                },
+                "letter_spacing": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "line_height": {
+                    "type": "dimension",
+                    "value": 56
+                },
+                "paragraph_indent": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paragraph_spacing": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "text_case": {
+                    "type": "string",
+                    "value": "none"
+                }
+            },
+            "xs": {
+                "font_size": {
+                    "type": "dimension",
+                    "value": 40
+                },
+                "text_decoration": {
+                    "type": "string",
+                    "value": "none"
+                },
+                "font_family": {
+                    "type": "string",
+                    "value": "Titillium Web"
+                },
+                "font_weight": {
+                    "type": "number",
+                    "value": 600
+                },
+                "font_style": {
+                    "type": "string",
+                    "value": "normal"
+                },
+                "font_stretch": {
+                    "type": "string",
+                    "value": "normal"
+                },
+                "letter_spacing": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "line_height": {
+                    "type": "dimension",
+                    "value": 48
+                },
+                "paragraph_indent": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paragraph_spacing": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "text_case": {
+                    "type": "string",
+                    "value": "none"
+                }
+            }
+        }
+    }
+}

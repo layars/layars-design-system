@@ -1,0 +1,64 @@
+{
+    "name": "@layars/utils",
+    "version": "0.0.0",
+    "description": "",
+    "type": "module",
+    "main": "./src/index.ts",
+    "module": "./src/index.ts",
+    "types": "./src/index.ts",
+    "exports": {
+        ".": {
+            "require": "./src/index.ts",
+            "import": "./src/index.ts",
+            "types": "./src/index.ts"
+        },
+        "./react": {
+            "require": "./src/react/index.ts",
+            "import": "./src/react/index.ts",
+            "types": "./src/react/index.ts"
+        },
+        "./web-components": {
+            "require": "./src/web-components/index.ts",
+            "import": "./src/web-components/index.ts",
+            "types": "./src/web-components/index.ts"
+        }
+    },
+    "publishConfig": {
+        "main": "./lib/layars-utils.cjs",
+        "module": "./lib/layars-utils.js",
+        "types": "./types/index.d.ts",
+        "exports": {
+            ".": {
+                "require": "./lib/layars-utils.cjs",
+                "import": "./lib/layars-utils.js",
+                "types": "./types/index.d.ts"
+            },
+            "./react": {
+                "require": "./lib/layars-utils.cjs",
+                "import": "./lib/layars-utils.js",
+                "types": "./types/index.d.ts"
+            },
+            "./web-components": {
+                "require": "./lib/layars-utils.cjs",
+                "import": "./lib/layars-utils.js",
+                "types": "./types/index.d.ts"
+            }
+        }
+    },
+    "files": [
+        "lib",
+        "types"
+    ],
+    "scripts": {
+        "build": "tsc && pnpm vite build",
+        "test": "echo \"Error: no test specified\"",
+        "vite": "vite --config .config/vite.config.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lit": "^2.7.5",
+        "react": "^18.2.0"
+    }
+}

@@ -1,0 +1,570 @@
+{
+    "typography": {
+        "detail": {
+            "xl": {
+                "regular": {
+                    "font_size": {
+                        "type": "dimension",
+                        "value": 20
+                    },
+                    "text_decoration": {
+                        "type": "string",
+                        "value": "none"
+                    },
+                    "font_family": {
+                        "type": "string",
+                        "value": "Dosis"
+                    },
+                    "font_weight": {
+                        "type": "number",
+                        "value": 400
+                    },
+                    "font_style": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "font_stretch": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "letter_spacing": {
+                        "type": "dimension",
+                        "value": 1
+                    },
+                    "line_height": {
+                        "type": "dimension",
+                        "value": 32
+                    },
+                    "paragraph_indent": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "paragraph_spacing": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "text_case": {
+                        "type": "string",
+                        "value": "none"
+                    }
+                },
+                "bold": {
+                    "font_size": {
+                        "type": "dimension",
+                        "value": 20
+                    },
+                    "text_decoration": {
+                        "type": "string",
+                        "value": "none"
+                    },
+                    "font_family": {
+                        "type": "string",
+                        "value": "Dosis"
+                    },
+                    "font_weight": {
+                        "type": "number",
+                        "value": 600
+                    },
+                    "font_style": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "font_stretch": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "letter_spacing": {
+                        "type": "dimension",
+                        "value": 1
+                    },
+                    "line_height": {
+                        "type": "dimension",
+                        "value": 32
+                    },
+                    "paragraph_indent": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "paragraph_spacing": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "text_case": {
+                        "type": "string",
+                        "value": "uppercase"
+                    }
+                }
+            },
+            "lg": {
+                "regular": {
+                    "font_size": {
+                        "type": "dimension",
+                        "value": 18
+                    },
+                    "text_decoration": {
+                        "type": "string",
+                        "value": "none"
+                    },
+                    "font_family": {
+                        "type": "string",
+                        "value": "Dosis"
+                    },
+                    "font_weight": {
+                        "type": "number",
+                        "value": 400
+                    },
+                    "font_style": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "font_stretch": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "letter_spacing": {
+                        "type": "dimension",
+                        "value": 0.9
+                    },
+                    "line_height": {
+                        "type": "dimension",
+                        "value": 28
+                    },
+                    "paragraph_indent": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "paragraph_spacing": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "text_case": {
+                        "type": "string",
+                        "value": "none"
+                    }
+                },
+                "bold": {
+                    "font_size": {
+                        "type": "dimension",
+                        "value": 18
+                    },
+                    "text_decoration": {
+                        "type": "string",
+                        "value": "none"
+                    },
+                    "font_family": {
+                        "type": "string",
+                        "value": "Dosis"
+                    },
+                    "font_weight": {
+                        "type": "number",
+                        "value": 600
+                    },
+                    "font_style": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "font_stretch": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "letter_spacing": {
+                        "type": "dimension",
+                        "value": 0.9
+                    },
+                    "line_height": {
+                        "type": "dimension",
+                        "value": 28
+                    },
+                    "paragraph_indent": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "paragraph_spacing": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "text_case": {
+                        "type": "string",
+                        "value": "uppercase"
+                    }
+                }
+            },
+            "md": {
+                "regular": {
+                    "font_size": {
+                        "type": "dimension",
+                        "value": 16
+                    },
+                    "text_decoration": {
+                        "type": "string",
+                        "value": "none"
+                    },
+                    "font_family": {
+                        "type": "string",
+                        "value": "Dosis"
+                    },
+                    "font_weight": {
+                        "type": "number",
+                        "value": 400
+                    },
+                    "font_style": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "font_stretch": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "letter_spacing": {
+                        "type": "dimension",
+                        "value": 0.8
+                    },
+                    "line_height": {
+                        "type": "dimension",
+                        "value": 24
+                    },
+                    "paragraph_indent": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "paragraph_spacing": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "text_case": {
+                        "type": "string",
+                        "value": "none"
+                    }
+                },
+                "bold": {
+                    "font_size": {
+                        "type": "dimension",
+                        "value": 16
+                    },
+                    "text_decoration": {
+                        "type": "string",
+                        "value": "none"
+                    },
+                    "font_family": {
+                        "type": "string",
+                        "value": "Dosis"
+                    },
+                    "font_weight": {
+                        "type": "number",
+                        "value": 600
+                    },
+                    "font_style": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "font_stretch": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "letter_spacing": {
+                        "type": "dimension",
+                        "value": 0.8
+                    },
+                    "line_height": {
+                        "type": "dimension",
+                        "value": 24
+                    },
+                    "paragraph_indent": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "paragraph_spacing": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "text_case": {
+                        "type": "string",
+                        "value": "uppercase"
+                    }
+                }
+            },
+            "sm": {
+                "regular": {
+                    "font_size": {
+                        "type": "dimension",
+                        "value": 14
+                    },
+                    "text_decoration": {
+                        "type": "string",
+                        "value": "none"
+                    },
+                    "font_family": {
+                        "type": "string",
+                        "value": "Dosis"
+                    },
+                    "font_weight": {
+                        "type": "number",
+                        "value": 400
+                    },
+                    "font_style": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "font_stretch": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "letter_spacing": {
+                        "type": "dimension",
+                        "value": 0.7
+                    },
+                    "line_height": {
+                        "type": "dimension",
+                        "value": 20
+                    },
+                    "paragraph_indent": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "paragraph_spacing": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "text_case": {
+                        "type": "string",
+                        "value": "none"
+                    }
+                },
+                "bold": {
+                    "font_size": {
+                        "type": "dimension",
+                        "value": 14
+                    },
+                    "text_decoration": {
+                        "type": "string",
+                        "value": "none"
+                    },
+                    "font_family": {
+                        "type": "string",
+                        "value": "Dosis"
+                    },
+                    "font_weight": {
+                        "type": "number",
+                        "value": 600
+                    },
+                    "font_style": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "font_stretch": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "letter_spacing": {
+                        "type": "dimension",
+                        "value": 0.7
+                    },
+                    "line_height": {
+                        "type": "dimension",
+                        "value": 20
+                    },
+                    "paragraph_indent": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "paragraph_spacing": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "text_case": {
+                        "type": "string",
+                        "value": "uppercase"
+                    }
+                }
+            },
+            "xs": {
+                "regular": {
+                    "font_size": {
+                        "type": "dimension",
+                        "value": 12
+                    },
+                    "text_decoration": {
+                        "type": "string",
+                        "value": "none"
+                    },
+                    "font_family": {
+                        "type": "string",
+                        "value": "Dosis"
+                    },
+                    "font_weight": {
+                        "type": "number",
+                        "value": 400
+                    },
+                    "font_style": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "font_stretch": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "letter_spacing": {
+                        "type": "dimension",
+                        "value": 0.6
+                    },
+                    "line_height": {
+                        "type": "dimension",
+                        "value": 16
+                    },
+                    "paragraph_indent": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "paragraph_spacing": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "text_case": {
+                        "type": "string",
+                        "value": "none"
+                    }
+                },
+                "bold": {
+                    "font_size": {
+                        "type": "dimension",
+                        "value": 12
+                    },
+                    "text_decoration": {
+                        "type": "string",
+                        "value": "none"
+                    },
+                    "font_family": {
+                        "type": "string",
+                        "value": "Dosis"
+                    },
+                    "font_weight": {
+                        "type": "number",
+                        "value": 600
+                    },
+                    "font_style": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "font_stretch": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "letter_spacing": {
+                        "type": "dimension",
+                        "value": 0.6
+                    },
+                    "line_height": {
+                        "type": "dimension",
+                        "value": 16
+                    },
+                    "paragraph_indent": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "paragraph_spacing": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "text_case": {
+                        "type": "string",
+                        "value": "uppercase"
+                    }
+                }
+            },
+            "xxs": {
+                "regular": {
+                    "font_size": {
+                        "type": "dimension",
+                        "value": 10
+                    },
+                    "text_decoration": {
+                        "type": "string",
+                        "value": "none"
+                    },
+                    "font_family": {
+                        "type": "string",
+                        "value": "Dosis"
+                    },
+                    "font_weight": {
+                        "type": "number",
+                        "value": 400
+                    },
+                    "font_style": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "font_stretch": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "letter_spacing": {
+                        "type": "dimension",
+                        "value": 0.5
+                    },
+                    "line_height": {
+                        "type": "dimension",
+                        "value": 16
+                    },
+                    "paragraph_indent": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "paragraph_spacing": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "text_case": {
+                        "type": "string",
+                        "value": "none"
+                    }
+                },
+                "bold": {
+                    "font_size": {
+                        "type": "dimension",
+                        "value": 10
+                    },
+                    "text_decoration": {
+                        "type": "string",
+                        "value": "none"
+                    },
+                    "font_family": {
+                        "type": "string",
+                        "value": "Dosis"
+                    },
+                    "font_weight": {
+                        "type": "number",
+                        "value": 600
+                    },
+                    "font_style": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "font_stretch": {
+                        "type": "string",
+                        "value": "normal"
+                    },
+                    "letter_spacing": {
+                        "type": "dimension",
+                        "value": 0.5
+                    },
+                    "line_height": {
+                        "type": "dimension",
+                        "value": 16
+                    },
+                    "paragraph_indent": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "paragraph_spacing": {
+                        "type": "dimension",
+                        "value": 0
+                    },
+                    "text_case": {
+                        "type": "string",
+                        "value": "uppercase"
+                    }
+                }
+            }
+        }
+    }
+}

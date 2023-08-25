@@ -1,0 +1,20 @@
+{
+    "name": "@layars/web-components-root",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "analyze": "custom-elements-manifest analyze --litelement --config '.config/custom-elements-manifest.config.mjs'",
+        "storybook": "pnpm analyze && storybook dev -p 18000 -c .storybook",
+        "storybook:composition": "pnpm storybook --no-open"
+    },
+    "devDependencies": {
+        "@custom-elements-manifest/analyzer": "^0.8.3",
+        "@layars/root": "workspace:latest",
+        "@types/lodash-es": "4.17.7",
+        "happy-dom": "^9.20.3",
+        "lit": "^2.7.5",
+        "lit-html": "^2.7.4",
+        "lodash-es": "^4.17.21"
+    }
+}

@@ -1,0 +1,5 @@
+packages:
+  - '.storybook'
+  - 'packages/**'
+  - '!**/dist/**'
+  - '!**/build/**'

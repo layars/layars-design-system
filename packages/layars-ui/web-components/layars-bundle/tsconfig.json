@@ -1,0 +1,11 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "types": ["vitest/globals"],
+        "rootDir": "src",
+        "outDir": "types"
+    },
+    "include": ["src"],
+    "exclude": ["**/*.test.ts", "**/*.spec.ts", "**/*.stories.ts"],
+    "references": [{ "path": "../layars-button" }, { "path": "../layars-theme-provider" }]
+}

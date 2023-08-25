@@ -1,0 +1,99 @@
+{
+    "name": "@layars/tokens",
+    "version": "0.0.0",
+    "type": "module",
+    "description": "Design tokens for Layars Design System",
+    "keywords": [
+        "layars",
+        "tokens",
+        "design system",
+        "layars-tokens"
+    ],
+    "author": "Layars Design System <layars@laya.rs>",
+    "contributors": [
+        "Bryant Derosier <bryant@laya.rs>",
+        "William Woodard <william@laya.rs>"
+    ],
+    "main": "./src/index.js",
+    "types": "./src/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./src/index.js",
+            "require": "./src/index.js",
+            "types": "./src/index.d.ts"
+        },
+        "./light": {
+            "import": "./src/light/theme.js",
+            "require": "./src/light/theme.js",
+            "types": "./src/light/theme.d.ts"
+        },
+        "./dark": {
+            "import": "./src/dark/theme.js",
+            "require": "./src/dark/theme.js",
+            "types": "./src/dark/theme.d.ts"
+        },
+        "./light/*": {
+            "import": "./src/light/*",
+            "require": "./src/light/*",
+            "types": "./src/light/*"
+        },
+        "./dark/*": {
+            "import": "./src/dark/*",
+            "require": "./src/dark/*",
+            "types": "./src/dark/*"
+        }
+    },
+    "publishConfig": {
+        "main": "./lib/index.js",
+        "types": "./lib/index.d.ts",
+        "exports": {
+            ".": {
+                "import": "./lib/index.js",
+                "require": "./lib/index.js",
+                "types": "./lib/index.d.ts"
+            },
+            "./light": {
+                "import": "./lib/light/theme.js",
+                "require": "./lib/light/theme.js",
+                "types": "./lib/light/theme.d.ts"
+            },
+            "./dark": {
+                "import": "./lib/dark/theme.js",
+                "require": "./lib/dark/theme.js",
+                "types": "./lib/dark/theme.d.ts"
+            },
+            "./light/*": {
+                "import": "./lib/light/*.js",
+                "require": "./lib/light/*.js",
+                "types": "./lib/light/*.d.ts"
+            },
+            "./dark/*": {
+                "import": "./lib/dark/*.js",
+                "require": "./lib/dark/*.js",
+                "types": "./lib/dark/*.d.ts"
+            }
+        }
+    },
+    "sideEffects": false,
+    "scripts": {
+        "start": "echo \"@layars/tokens: Nothing to start...\"",
+        "build": "pnpm node:ts scripts/build.ts",
+        "generate": "npm-run-all generate:tokens generate:artifacts generate:artifacts:prettier",
+        "generate:tokens": "pnpm node:ts generator-tokens/run.ts",
+        "generate:artifacts": "pnpm node:ts generator-artifacts/run.ts",
+        "generate:artifacts:prettier": "prettier --write src",
+        "test": "echo \"@layars/tokens: no test... \"",
+        "test:update": "echo \"@layars/tokens: no test... \"",
+        "test:ci": "echo \"@layars/tokens: no tests... \"",
+        "lint": "echo \"@layars/tokens: no lint... \"",
+        "node:ts": "node --loader ts-node/esm"
+    },
+    "devDependencies": {
+        "@layars/root": "workspace:latest",
+        "@types/mustache": "^4.2.2",
+        "change-case": "^4.1.2",
+        "flat": "^5.0.2",
+        "mustache": "^4.2.0",
+        "style-dictionary": "^3.8.0"
+    }
+}

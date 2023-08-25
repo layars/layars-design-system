@@ -1,0 +1,19 @@
+{
+    "name": "@layars/icons-generator",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "generate:svgs": "pnpm ts:node --esm scripts/generate-svgs.ts",
+        "generate:wc": "GEN_TYPE='wc' pnpm ts:node --esm scripts/generate-icons.ts",
+        "ts:node": "ts-node --project ./tsconfig.json"
+    },
+    "devDependencies": {
+        "@layars/root": "workspace:latest",
+        "@types/mustache": "^4.2.2",
+        "lit": "^2.7.5",
+        "lit-html": "^2.7.4",
+        "mustache": "^4.2.0",
+        "svgo": "^3.0.2"
+    }
+}

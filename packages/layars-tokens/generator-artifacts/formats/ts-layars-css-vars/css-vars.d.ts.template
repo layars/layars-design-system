@@ -1,0 +1,7 @@
+export interface LayarsCSSVars {
+{{#properties}}
+    '--{{name}}': '{{value}}'
+{{/properties}}
+}
+
+export default LayarsCSSVars

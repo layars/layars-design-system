@@ -1,0 +1,66 @@
+{
+    "color": {
+        "action": {
+            "primary": {
+                "description": "",
+                "type": "color",
+                "value": "#a060f0ff"
+            },
+            "primary_hover": {
+                "description": "",
+                "type": "color",
+                "value": "#a96ff1ff"
+            },
+            "primary_pressed": {
+                "description": "",
+                "type": "color",
+                "value": "#b37ff3ff"
+            },
+            "primary_depressed": {
+                "description": "",
+                "type": "color",
+                "value": "#d8bcf8ff"
+            },
+            "default": {
+                "description": "",
+                "type": "color",
+                "value": "#080e12ff"
+            },
+            "default_hover": {
+                "description": "",
+                "type": "color",
+                "value": "#151f28ff"
+            },
+            "default_pressed": {
+                "description": "",
+                "type": "color",
+                "value": "#212c36ff"
+            },
+            "default_depressed": {
+                "description": "",
+                "type": "color",
+                "value": "#728394ff"
+            },
+            "critical": {
+                "description": "",
+                "type": "color",
+                "value": "#e74836ff"
+            },
+            "critical_hover": {
+                "description": "",
+                "type": "color",
+                "value": "#ea5a49ff"
+            },
+            "critical_pressed": {
+                "description": "",
+                "type": "color",
+                "value": "#ed6c5dff"
+            },
+            "critical_depressed": {
+                "description": "",
+                "type": "color",
+                "value": "#f9b4aaff"
+            }
+        }
+    }
+}
