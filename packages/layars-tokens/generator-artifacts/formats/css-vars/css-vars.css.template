@@ -1,0 +1,5 @@
+:root {
+{{#properties}}
+  --{{name}}: {{value}};
+{{/properties}}
+}

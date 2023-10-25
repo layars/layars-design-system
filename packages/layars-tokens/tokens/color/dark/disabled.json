@@ -1,0 +1,21 @@
+{
+    "color": {
+        "disabled": {
+            "surface": {
+                "description": "",
+                "type": "color",
+                "value": "#151f28ff"
+            },
+            "content": {
+                "description": "",
+                "type": "color",
+                "value": "#5b6a79ff"
+            },
+            "border": {
+                "description": "",
+                "type": "color",
+                "value": "#212c36ff"
+            }
+        }
+    }
+}

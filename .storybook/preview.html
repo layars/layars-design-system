@@ -1,0 +1,49 @@
+<storybook-theme-provider
+    class="preview-theme-provider"
+    type="light"
+    scope="global"
+>
+    <div id="storybook-root"></div>
+    <div id="storybook-docs"></div>
+</storybook-theme-provider>
+<script>
+    const setThemeProviders = (globals, args) => {
+        const theme = globals['theme'] || 'light'
+
+        const providers = document.querySelectorAll(
+            'storybook-theme-provider.preview-theme-provider',
+        )
+
+        providers.forEach((provider) => {
+            provider.type = theme
+        })
+    }
+
+    const handleGlobalUpdates = () => {
+        setTimeout(() => {
+            const params = {
+                globals:
+                    Object.fromEntries(new URLSearchParams(window.location.search))?.globals || '',
+                args: Object.fromEntries(new URLSearchParams(window.location.search))?.args || '',
+            }
+
+            if (typeof params.globals === 'string') {
+                const globals = Object.fromEntries(
+                    params.globals.split(';').map((entry) => entry.split(':')) || [],
+                )
+                const args = Object.fromEntries(
+                    params.args.split(';').map((entry) => entry.split(':')) || [],
+                )
+
+                console.log('globals', globals)
+                console.log('args', args)
+
+                setThemeProviders(globals, args)
+            }
+        }, 10)
+    }
+
+    window.addEventListener('message', handleGlobalUpdates)
+
+    window.addEventListener('load', handleGlobalUpdates)
+</script>

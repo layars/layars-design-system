@@ -1,0 +1,16 @@
+{
+    "name": "@layars/storybook",
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "storybook": "storybook dev -p 8008 -c ./",
+        "storybook:composition": "pnpm storybook"
+    },
+    "devDependencies": {
+        "@layars/button": "workspace:latest",
+        "@layars/root": "workspace:latest",
+        "@layars/theme-provider": "workspace:latest",
+        "@layars/tokens": "workspace:latest",
+        "@layars/ui": "workspace:latest"
+    }
+}

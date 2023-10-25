@@ -1,0 +1,11 @@
+{
+    "color": {
+        "focused": {
+            "default": {
+                "description": "",
+                "type": "color",
+                "value": "#1a67c3ff"
+            }
+        }
+    }
+}

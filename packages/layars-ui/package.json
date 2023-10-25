@@ -1,0 +1,6 @@
+{
+    "name": "@layars/ui-root",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module"
+}

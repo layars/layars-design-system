@@ -1,0 +1,66 @@
+{
+    "color": {
+        "border": {
+            "default": {
+                "description": "",
+                "type": "color",
+                "value": "#8996a2ff"
+            },
+            "subdued": {
+                "description": "",
+                "type": "color",
+                "value": "#cad1d7ff"
+            },
+            "hover": {
+                "description": "",
+                "type": "color",
+                "value": "#99a4afff"
+            },
+            "depressed": {
+                "description": "",
+                "type": "color",
+                "value": "#4c5b69ff"
+            },
+            "error": {
+                "description": "",
+                "type": "color",
+                "value": "#e6443aff"
+            },
+            "error_subdued": {
+                "description": "",
+                "type": "color",
+                "value": "#f4a39dff"
+            },
+            "success": {
+                "description": "",
+                "type": "color",
+                "value": "#34a47aff"
+            },
+            "success_subdued": {
+                "description": "",
+                "type": "color",
+                "value": "#81ceadff"
+            },
+            "warning": {
+                "description": "",
+                "type": "color",
+                "value": "#d17c33ff"
+            },
+            "warning_subdued": {
+                "description": "",
+                "type": "color",
+                "value": "#e8b480ff"
+            },
+            "highlight": {
+                "description": "",
+                "type": "color",
+                "value": "#4393f0ff"
+            },
+            "highlight_subdued": {
+                "description": "",
+                "type": "color",
+                "value": "#91c2f8ff"
+            }
+        }
+    }
+}

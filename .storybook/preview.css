@@ -1,0 +1,32 @@
+body.sb-show-main.sb-main-padded {
+    padding: 0;
+}
+
+storybook-theme-provider > #storybook-root:not(:empty) {
+    min-height: calc(100vh - 2rem);
+    min-width: calc(100vw - 2rem);
+    background-color: var(--layars-color-surface-default);
+    padding: 1rem;
+}
+
+storybook-theme-provider .docs-story {
+    background-color: var(--layars-color-surface-default);
+}
+
+.typography {
+    font-family: Roboto, Helvetica;
+
+    color: var(--layars-color-content-default);
+}
+
+.row {
+    padding: var(--layars-sizes-size-16);
+    border-radius: var(--layars-border-radius-lg);
+    background-color: var(--layars-color-surface-default);
+}
+.buttons > * {
+    margin: 0 var(--layars-sizes-size-4);
+}
+.spacer {
+    height: var(--layars-sizes-size-24);
+}

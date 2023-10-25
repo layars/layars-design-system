@@ -1,0 +1,61 @@
+{
+    "color": {
+        "elevation": {
+            "100": {
+                "0": {
+                    "type": "color",
+                    "value": "#080e12ff"
+                },
+                "1": {
+                    "type": "color",
+                    "value": "#ffffff03"
+                },
+                "description": ""
+            },
+            "200": {
+                "0": {
+                    "type": "color",
+                    "value": "#080e12ff"
+                },
+                "1": {
+                    "type": "color",
+                    "value": "#ffffff05"
+                },
+                "description": ""
+            },
+            "300": {
+                "0": {
+                    "type": "color",
+                    "value": "#080e12ff"
+                },
+                "1": {
+                    "type": "color",
+                    "value": "#ffffff08"
+                },
+                "description": ""
+            },
+            "400": {
+                "0": {
+                    "type": "color",
+                    "value": "#080e12ff"
+                },
+                "1": {
+                    "type": "color",
+                    "value": "#ffffff0a"
+                },
+                "description": ""
+            },
+            "500": {
+                "0": {
+                    "type": "color",
+                    "value": "#080e12ff"
+                },
+                "1": {
+                    "type": "color",
+                    "value": "#ffffff0d"
+                },
+                "description": ""
+            }
+        }
+    }
+}

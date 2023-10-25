@@ -1,0 +1,92 @@
+{
+    "@layars/root": {
+        "name": "@layars/root",
+        "path": ".",
+        "version": "0.0.0",
+        "private": true
+    },
+    "@layars/storybook": {
+        "name": "@layars/storybook",
+        "path": "./.storybook",
+        "version": "0.0.0",
+        "private": false
+    },
+    "@layars/icons-root": {
+        "name": "@layars/icons-root",
+        "path": "./packages/layars-icons",
+        "version": "0.0.0",
+        "private": true
+    },
+    "@layars/icons-generator": {
+        "name": "@layars/icons-generator",
+        "path": "./packages/layars-icons/icons-generator",
+        "version": "0.0.0",
+        "private": true
+    },
+    "@layars/icons-svgs": {
+        "name": "@layars/icons-svgs",
+        "path": "./packages/layars-icons/icons-svgs",
+        "version": "0.0.0",
+        "private": false
+    },
+    "@layars/icons": {
+        "name": "@layars/icons",
+        "path": "./packages/layars-icons/icons-web-components",
+        "version": "0.0.0",
+        "private": false
+    },
+    "@layars/tokens": {
+        "name": "@layars/tokens",
+        "path": "./packages/layars-tokens",
+        "version": "0.0.0",
+        "private": false
+    },
+    "@layars/types": {
+        "name": "@layars/types",
+        "path": "./packages/layars-types",
+        "version": "0.0.0",
+        "private": false
+    },
+    "@layars/ui-root": {
+        "name": "@layars/ui-root",
+        "path": "./packages/layars-ui",
+        "version": "0.0.0",
+        "private": true
+    },
+    "@layars/web-components-root": {
+        "name": "@layars/web-components-root",
+        "path": "./packages/layars-ui/web-components",
+        "version": "0.0.0",
+        "private": true
+    },
+    "@layars/ui": {
+        "name": "@layars/ui",
+        "path": "./packages/layars-ui/web-components/layars-bundle",
+        "version": "0.0.0",
+        "private": false
+    },
+    "@layars/button": {
+        "name": "@layars/button",
+        "path": "./packages/layars-ui/web-components/layars-button",
+        "version": "0.0.0",
+        "private": false
+    },
+    "@layars/icon": {
+        "name": "@layars/icon",
+        "path": "./packages/layars-ui/web-components/layars-icon",
+        "version": "0.0.0",
+        "private": false
+    },
+    "@layars/theme-provider": {
+        "name": "@layars/theme-provider",
+        "path": "./packages/layars-ui/web-components/layars-theme-provider",
+        "version": "0.0.0",
+        "private": false
+    },
+    "@layars/utils": {
+        "name": "@layars/utils",
+        "path": "./packages/layars-utils",
+        "version": "0.0.0",
+        "private": false
+    }
+}

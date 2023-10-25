@@ -1,0 +1,3359 @@
+[
+    {
+        "value": "light",
+        "filePath": "tokens/meta/light/meta.json",
+        "isSource": true,
+        "original": {
+            "value": "light"
+        },
+        "name": "layars-meta-name",
+        "attributes": {
+            "category": "meta",
+            "type": "name"
+        },
+        "path": ["meta", "name"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#964ef0ff",
+        "filePath": "tokens/color/light/action.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#964ef0ff"
+        },
+        "name": "layars-color-action-primary",
+        "attributes": {
+            "category": "color",
+            "type": "action",
+            "item": "primary"
+        },
+        "path": ["color", "action", "primary"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#8a46dfff",
+        "filePath": "tokens/color/light/action.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#8a46dfff"
+        },
+        "name": "layars-color-action-primary-hover",
+        "attributes": {
+            "category": "color",
+            "type": "action",
+            "item": "primary_hover"
+        },
+        "path": ["color", "action", "primary_hover"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#7d3fcfff",
+        "filePath": "tokens/color/light/action.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#7d3fcfff"
+        },
+        "name": "layars-color-action-primary-pressed",
+        "attributes": {
+            "category": "color",
+            "type": "action",
+            "item": "primary_pressed"
+        },
+        "path": ["color", "action", "primary_pressed"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#4c208cff",
+        "filePath": "tokens/color/light/action.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#4c208cff"
+        },
+        "name": "layars-color-action-primary-depressed",
+        "attributes": {
+            "category": "color",
+            "type": "action",
+            "item": "primary_depressed"
+        },
+        "path": ["color", "action", "primary_depressed"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ffffffff",
+        "filePath": "tokens/color/light/action.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ffffffff"
+        },
+        "name": "layars-color-action-default",
+        "attributes": {
+            "category": "color",
+            "type": "action",
+            "item": "default"
+        },
+        "path": ["color", "action", "default"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ebeef1ff",
+        "filePath": "tokens/color/light/action.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ebeef1ff"
+        },
+        "name": "layars-color-action-default-hover",
+        "attributes": {
+            "category": "color",
+            "type": "action",
+            "item": "default_hover"
+        },
+        "path": ["color", "action", "default_hover"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#dbdfe4ff",
+        "filePath": "tokens/color/light/action.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#dbdfe4ff"
+        },
+        "name": "layars-color-action-default-pressed",
+        "attributes": {
+            "category": "color",
+            "type": "action",
+            "item": "default_pressed"
+        },
+        "path": ["color", "action", "default_pressed"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#687888ff",
+        "filePath": "tokens/color/light/action.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#687888ff"
+        },
+        "name": "layars-color-action-default-depressed",
+        "attributes": {
+            "category": "color",
+            "type": "action",
+            "item": "default_depressed"
+        },
+        "path": ["color", "action", "default_depressed"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#e22c21ff",
+        "filePath": "tokens/color/light/action.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#e22c21ff"
+        },
+        "name": "layars-color-action-critical",
+        "attributes": {
+            "category": "color",
+            "type": "action",
+            "item": "critical"
+        },
+        "path": ["color", "action", "critical"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#d1271dff",
+        "filePath": "tokens/color/light/action.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#d1271dff"
+        },
+        "name": "layars-color-action-critical-hover",
+        "attributes": {
+            "category": "color",
+            "type": "action",
+            "item": "critical_hover"
+        },
+        "path": ["color", "action", "critical_hover"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#c02119ff",
+        "filePath": "tokens/color/light/action.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#c02119ff"
+        },
+        "name": "layars-color-action-critical-pressed",
+        "attributes": {
+            "category": "color",
+            "type": "action",
+            "item": "critical_pressed"
+        },
+        "path": ["color", "action", "critical_pressed"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#7b0b08ff",
+        "filePath": "tokens/color/light/action.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#7b0b08ff"
+        },
+        "name": "layars-color-action-critical-depressed",
+        "attributes": {
+            "category": "color",
+            "type": "action",
+            "item": "critical_depressed"
+        },
+        "path": ["color", "action", "critical_depressed"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#8996a2ff",
+        "filePath": "tokens/color/light/border.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#8996a2ff"
+        },
+        "name": "layars-color-border-default",
+        "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "default"
+        },
+        "path": ["color", "border", "default"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#cad1d7ff",
+        "filePath": "tokens/color/light/border.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#cad1d7ff"
+        },
+        "name": "layars-color-border-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "subdued"
+        },
+        "path": ["color", "border", "subdued"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#99a4afff",
+        "filePath": "tokens/color/light/border.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#99a4afff"
+        },
+        "name": "layars-color-border-hover",
+        "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "hover"
+        },
+        "path": ["color", "border", "hover"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#4c5b69ff",
+        "filePath": "tokens/color/light/border.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#4c5b69ff"
+        },
+        "name": "layars-color-border-depressed",
+        "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "depressed"
+        },
+        "path": ["color", "border", "depressed"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#e6443aff",
+        "filePath": "tokens/color/light/border.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#e6443aff"
+        },
+        "name": "layars-color-border-error",
+        "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "error"
+        },
+        "path": ["color", "border", "error"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f4a39dff",
+        "filePath": "tokens/color/light/border.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f4a39dff"
+        },
+        "name": "layars-color-border-error-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "error_subdued"
+        },
+        "path": ["color", "border", "error_subdued"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#34a47aff",
+        "filePath": "tokens/color/light/border.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#34a47aff"
+        },
+        "name": "layars-color-border-success",
+        "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "success"
+        },
+        "path": ["color", "border", "success"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#81ceadff",
+        "filePath": "tokens/color/light/border.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#81ceadff"
+        },
+        "name": "layars-color-border-success-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "success_subdued"
+        },
+        "path": ["color", "border", "success_subdued"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#d17c33ff",
+        "filePath": "tokens/color/light/border.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#d17c33ff"
+        },
+        "name": "layars-color-border-warning",
+        "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "warning"
+        },
+        "path": ["color", "border", "warning"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#e8b480ff",
+        "filePath": "tokens/color/light/border.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#e8b480ff"
+        },
+        "name": "layars-color-border-warning-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "warning_subdued"
+        },
+        "path": ["color", "border", "warning_subdued"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#4393f0ff",
+        "filePath": "tokens/color/light/border.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#4393f0ff"
+        },
+        "name": "layars-color-border-highlight",
+        "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "highlight"
+        },
+        "path": ["color", "border", "highlight"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#91c2f8ff",
+        "filePath": "tokens/color/light/border.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#91c2f8ff"
+        },
+        "name": "layars-color-border-highlight-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "highlight_subdued"
+        },
+        "path": ["color", "border", "highlight_subdued"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#1c2a35ff",
+        "filePath": "tokens/color/light/content.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#1c2a35ff"
+        },
+        "name": "layars-color-content-default",
+        "attributes": {
+            "category": "color",
+            "type": "content",
+            "item": "default"
+        },
+        "path": ["color", "content", "default"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#556573ff",
+        "filePath": "tokens/color/light/content.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#556573ff"
+        },
+        "name": "layars-color-content-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "content",
+            "item": "subdued"
+        },
+        "path": ["color", "content", "subdued"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ffffffff",
+        "filePath": "tokens/color/light/content.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ffffffff"
+        },
+        "name": "layars-color-content-inverse",
+        "attributes": {
+            "category": "color",
+            "type": "content",
+            "item": "inverse"
+        },
+        "path": ["color", "content", "inverse"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#d1271dff",
+        "filePath": "tokens/color/light/content.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#d1271dff"
+        },
+        "name": "layars-color-content-error",
+        "attributes": {
+            "category": "color",
+            "type": "content",
+            "item": "error"
+        },
+        "path": ["color", "content", "error"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#017d51ff",
+        "filePath": "tokens/color/light/content.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#017d51ff"
+        },
+        "name": "layars-color-content-success",
+        "attributes": {
+            "category": "color",
+            "type": "content",
+            "item": "success"
+        },
+        "path": ["color", "content", "success"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#b34f00ff",
+        "filePath": "tokens/color/light/content.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#b34f00ff"
+        },
+        "name": "layars-color-content-warning",
+        "attributes": {
+            "category": "color",
+            "type": "content",
+            "item": "warning"
+        },
+        "path": ["color", "content", "warning"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#0c6ad8ff",
+        "filePath": "tokens/color/light/content.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#0c6ad8ff"
+        },
+        "name": "layars-color-content-highlight",
+        "attributes": {
+            "category": "color",
+            "type": "content",
+            "item": "highlight"
+        },
+        "path": ["color", "content", "highlight"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ebeef1ff",
+        "filePath": "tokens/color/light/disabled.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ebeef1ff"
+        },
+        "name": "layars-color-disabled-surface",
+        "attributes": {
+            "category": "color",
+            "type": "disabled",
+            "item": "surface"
+        },
+        "path": ["color", "disabled", "surface"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#8996a2ff",
+        "filePath": "tokens/color/light/disabled.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#8996a2ff"
+        },
+        "name": "layars-color-disabled-content",
+        "attributes": {
+            "category": "color",
+            "type": "disabled",
+            "item": "content"
+        },
+        "path": ["color", "disabled", "content"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#dbdfe4ff",
+        "filePath": "tokens/color/light/disabled.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#dbdfe4ff"
+        },
+        "name": "layars-color-disabled-border",
+        "attributes": {
+            "category": "color",
+            "type": "disabled",
+            "item": "border"
+        },
+        "path": ["color", "disabled", "border"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ffffffff",
+        "filePath": "tokens/color/light/elevation.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ffffffff"
+        },
+        "name": "layars-color-elevation-100",
+        "attributes": {
+            "category": "color",
+            "type": "elevation",
+            "item": "100"
+        },
+        "path": ["color", "elevation", "100"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ffffffff",
+        "filePath": "tokens/color/light/elevation.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ffffffff"
+        },
+        "name": "layars-color-elevation-200",
+        "attributes": {
+            "category": "color",
+            "type": "elevation",
+            "item": "200"
+        },
+        "path": ["color", "elevation", "200"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ffffffff",
+        "filePath": "tokens/color/light/elevation.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ffffffff"
+        },
+        "name": "layars-color-elevation-300",
+        "attributes": {
+            "category": "color",
+            "type": "elevation",
+            "item": "300"
+        },
+        "path": ["color", "elevation", "300"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ffffffff",
+        "filePath": "tokens/color/light/elevation.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ffffffff"
+        },
+        "name": "layars-color-elevation-400",
+        "attributes": {
+            "category": "color",
+            "type": "elevation",
+            "item": "400"
+        },
+        "path": ["color", "elevation", "400"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ffffffff",
+        "filePath": "tokens/color/light/elevation.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ffffffff"
+        },
+        "name": "layars-color-elevation-500",
+        "attributes": {
+            "category": "color",
+            "type": "elevation",
+            "item": "500"
+        },
+        "path": ["color", "elevation", "500"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#4393f0ff",
+        "filePath": "tokens/color/light/focused.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#4393f0ff"
+        },
+        "name": "layars-color-focused-default",
+        "attributes": {
+            "category": "color",
+            "type": "focused",
+            "item": "default"
+        },
+        "path": ["color", "focused", "default"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ffffffff",
+        "filePath": "tokens/color/light/surface.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ffffffff"
+        },
+        "name": "layars-color-surface-default",
+        "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "default"
+        },
+        "path": ["color", "surface", "default"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ebeef1ff",
+        "filePath": "tokens/color/light/surface.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ebeef1ff"
+        },
+        "name": "layars-color-surface-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "subdued"
+        },
+        "path": ["color", "surface", "subdued"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#dec4fbff",
+        "filePath": "tokens/color/light/surface.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#dec4fbff"
+        },
+        "name": "layars-color-surface-primary",
+        "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "primary"
+        },
+        "path": ["color", "surface", "primary"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f6ebffff",
+        "filePath": "tokens/color/light/surface.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f6ebffff"
+        },
+        "name": "layars-color-surface-primary-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "primary_subdued"
+        },
+        "path": ["color", "surface", "primary_subdued"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f0c799ff",
+        "filePath": "tokens/color/light/surface.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f0c799ff"
+        },
+        "name": "layars-color-surface-warning",
+        "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "warning"
+        },
+        "path": ["color", "surface", "warning"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ffeed1ff",
+        "filePath": "tokens/color/light/surface.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ffeed1ff"
+        },
+        "name": "layars-color-surface-warning-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "warning_subdued"
+        },
+        "path": ["color", "surface", "warning_subdued"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f8bbb6ff",
+        "filePath": "tokens/color/light/surface.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f8bbb6ff"
+        },
+        "name": "layars-color-surface-error",
+        "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "error"
+        },
+        "path": ["color", "surface", "error"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#ffebe7ff",
+        "filePath": "tokens/color/light/surface.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#ffebe7ff"
+        },
+        "name": "layars-color-surface-error-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "error_subdued"
+        },
+        "path": ["color", "surface", "error_subdued"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#9bdcbeff",
+        "filePath": "tokens/color/light/surface.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#9bdcbeff"
+        },
+        "name": "layars-color-surface-success",
+        "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "success"
+        },
+        "path": ["color", "surface", "success"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#d2f9e3ff",
+        "filePath": "tokens/color/light/surface.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#d2f9e3ff"
+        },
+        "name": "layars-color-surface-success-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "success_subdued"
+        },
+        "path": ["color", "surface", "success_subdued"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#acd2faff",
+        "filePath": "tokens/color/light/surface.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#acd2faff"
+        },
+        "name": "layars-color-surface-highlight",
+        "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "highlight"
+        },
+        "path": ["color", "surface", "highlight"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#e0f2ffff",
+        "filePath": "tokens/color/light/surface.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#e0f2ffff"
+        },
+        "name": "layars-color-surface-highlight-subdued",
+        "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "highlight_subdued"
+        },
+        "path": ["color", "surface", "highlight_subdued"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa0a",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa0a"
+        },
+        "name": "layars-color-static-light-4",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "4"
+        },
+        "path": ["color", "static", "light", "4"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa14",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa14"
+        },
+        "name": "layars-color-static-light-8",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "8"
+        },
+        "path": ["color", "static", "light", "8"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa1f",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa1f"
+        },
+        "name": "layars-color-static-light-12",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "12"
+        },
+        "path": ["color", "static", "light", "12"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa29",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa29"
+        },
+        "name": "layars-color-static-light-16",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "16"
+        },
+        "path": ["color", "static", "light", "16"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa33",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa33"
+        },
+        "name": "layars-color-static-light-20",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "20"
+        },
+        "path": ["color", "static", "light", "20"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa3d",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa3d"
+        },
+        "name": "layars-color-static-light-24",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "24"
+        },
+        "path": ["color", "static", "light", "24"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa47",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa47"
+        },
+        "name": "layars-color-static-light-28",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "28"
+        },
+        "path": ["color", "static", "light", "28"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa52",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa52"
+        },
+        "name": "layars-color-static-light-32",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "32"
+        },
+        "path": ["color", "static", "light", "32"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa5c",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa5c"
+        },
+        "name": "layars-color-static-light-36",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "36"
+        },
+        "path": ["color", "static", "light", "36"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa66",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa66"
+        },
+        "name": "layars-color-static-light-40",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "40"
+        },
+        "path": ["color", "static", "light", "40"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa70",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa70"
+        },
+        "name": "layars-color-static-light-44",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "44"
+        },
+        "path": ["color", "static", "light", "44"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa7a",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa7a"
+        },
+        "name": "layars-color-static-light-48",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "48"
+        },
+        "path": ["color", "static", "light", "48"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa85",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa85"
+        },
+        "name": "layars-color-static-light-52",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "52"
+        },
+        "path": ["color", "static", "light", "52"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa8f",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa8f"
+        },
+        "name": "layars-color-static-light-56",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "56"
+        },
+        "path": ["color", "static", "light", "56"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafa99",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafa99"
+        },
+        "name": "layars-color-static-light-60",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "60"
+        },
+        "path": ["color", "static", "light", "60"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafaa3",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafaa3"
+        },
+        "name": "layars-color-static-light-64",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "64"
+        },
+        "path": ["color", "static", "light", "64"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafaad",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafaad"
+        },
+        "name": "layars-color-static-light-68",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "68"
+        },
+        "path": ["color", "static", "light", "68"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafab8",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafab8"
+        },
+        "name": "layars-color-static-light-72",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "72"
+        },
+        "path": ["color", "static", "light", "72"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafac2",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafac2"
+        },
+        "name": "layars-color-static-light-76",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "76"
+        },
+        "path": ["color", "static", "light", "76"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafacc",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafacc"
+        },
+        "name": "layars-color-static-light-80",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "80"
+        },
+        "path": ["color", "static", "light", "80"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafad6",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafad6"
+        },
+        "name": "layars-color-static-light-84",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "84"
+        },
+        "path": ["color", "static", "light", "84"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafae0",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafae0"
+        },
+        "name": "layars-color-static-light-88",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "88"
+        },
+        "path": ["color", "static", "light", "88"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafaeb",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafaeb"
+        },
+        "name": "layars-color-static-light-92",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "92"
+        },
+        "path": ["color", "static", "light", "92"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafaf5",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafaf5"
+        },
+        "name": "layars-color-static-light-96",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "96"
+        },
+        "path": ["color", "static", "light", "96"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#f9fafaff",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#f9fafaff"
+        },
+        "name": "layars-color-static-light-100",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "light",
+            "subitem": "100"
+        },
+        "path": ["color", "static", "light", "100"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e120a",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e120a"
+        },
+        "name": "layars-color-static-dark-4",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "4"
+        },
+        "path": ["color", "static", "dark", "4"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e1214",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e1214"
+        },
+        "name": "layars-color-static-dark-8",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "8"
+        },
+        "path": ["color", "static", "dark", "8"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e121f",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e121f"
+        },
+        "name": "layars-color-static-dark-12",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "12"
+        },
+        "path": ["color", "static", "dark", "12"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e1229",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e1229"
+        },
+        "name": "layars-color-static-dark-16",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "16"
+        },
+        "path": ["color", "static", "dark", "16"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e1233",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e1233"
+        },
+        "name": "layars-color-static-dark-20",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "20"
+        },
+        "path": ["color", "static", "dark", "20"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e123d",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e123d"
+        },
+        "name": "layars-color-static-dark-24",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "24"
+        },
+        "path": ["color", "static", "dark", "24"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e1247",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e1247"
+        },
+        "name": "layars-color-static-dark-28",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "28"
+        },
+        "path": ["color", "static", "dark", "28"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e1252",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e1252"
+        },
+        "name": "layars-color-static-dark-32",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "32"
+        },
+        "path": ["color", "static", "dark", "32"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e125c",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e125c"
+        },
+        "name": "layars-color-static-dark-36",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "36"
+        },
+        "path": ["color", "static", "dark", "36"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e1266",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e1266"
+        },
+        "name": "layars-color-static-dark-40",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "40"
+        },
+        "path": ["color", "static", "dark", "40"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e1270",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e1270"
+        },
+        "name": "layars-color-static-dark-44",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "44"
+        },
+        "path": ["color", "static", "dark", "44"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e127a",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e127a"
+        },
+        "name": "layars-color-static-dark-48",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "48"
+        },
+        "path": ["color", "static", "dark", "48"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e1285",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e1285"
+        },
+        "name": "layars-color-static-dark-52",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "52"
+        },
+        "path": ["color", "static", "dark", "52"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e128f",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e128f"
+        },
+        "name": "layars-color-static-dark-56",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "56"
+        },
+        "path": ["color", "static", "dark", "56"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e1299",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e1299"
+        },
+        "name": "layars-color-static-dark-60",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "60"
+        },
+        "path": ["color", "static", "dark", "60"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e12a3",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e12a3"
+        },
+        "name": "layars-color-static-dark-64",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "64"
+        },
+        "path": ["color", "static", "dark", "64"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e12ad",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e12ad"
+        },
+        "name": "layars-color-static-dark-68",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "68"
+        },
+        "path": ["color", "static", "dark", "68"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e12b8",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e12b8"
+        },
+        "name": "layars-color-static-dark-72",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "72"
+        },
+        "path": ["color", "static", "dark", "72"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e12c2",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e12c2"
+        },
+        "name": "layars-color-static-dark-76",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "76"
+        },
+        "path": ["color", "static", "dark", "76"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e12cc",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e12cc"
+        },
+        "name": "layars-color-static-dark-80",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "80"
+        },
+        "path": ["color", "static", "dark", "80"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e12d6",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e12d6"
+        },
+        "name": "layars-color-static-dark-84",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "84"
+        },
+        "path": ["color", "static", "dark", "84"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e12e0",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e12e0"
+        },
+        "name": "layars-color-static-dark-88",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "88"
+        },
+        "path": ["color", "static", "dark", "88"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e12eb",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e12eb"
+        },
+        "name": "layars-color-static-dark-92",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "92"
+        },
+        "path": ["color", "static", "dark", "92"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e12f5",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e12f5"
+        },
+        "name": "layars-color-static-dark-96",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "96"
+        },
+        "path": ["color", "static", "dark", "96"]
+    },
+    {
+        "description": "",
+        "type": "color",
+        "value": "#080e12ff",
+        "filePath": "tokens/color/shared/static.json",
+        "isSource": true,
+        "original": {
+            "description": "",
+            "type": "color",
+            "value": "#080e12ff"
+        },
+        "name": "layars-color-static-dark-100",
+        "attributes": {
+            "category": "color",
+            "type": "static",
+            "item": "dark",
+            "subitem": "100"
+        },
+        "path": ["color", "static", "dark", "100"]
+    },
+    {
+        "value": "0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px 0px rgba(0, 0, 0, 0.20)",
+        "filePath": "tokens/effect/elevation-100.json",
+        "isSource": true,
+        "original": {
+            "value": "0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px 0px rgba(0, 0, 0, 0.20)"
+        },
+        "name": "layars-elevation-100",
+        "attributes": {
+            "category": "elevation",
+            "type": "100"
+        },
+        "path": ["elevation", "100"]
+    },
+    {
+        "value": "0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.20)",
+        "filePath": "tokens/effect/elevation-200.json",
+        "isSource": true,
+        "original": {
+            "value": "0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.20)"
+        },
+        "name": "layars-elevation-200",
+        "attributes": {
+            "category": "elevation",
+            "type": "200"
+        },
+        "path": ["elevation", "200"]
+    },
+    {
+        "value": "0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12), 0px 1px 8px 0px rgba(0, 0, 0, 0.20)",
+        "filePath": "tokens/effect/elevation-300.json",
+        "isSource": true,
+        "original": {
+            "value": "0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12), 0px 1px 8px 0px rgba(0, 0, 0, 0.20)"
+        },
+        "name": "layars-elevation-300",
+        "attributes": {
+            "category": "elevation",
+            "type": "300"
+        },
+        "path": ["elevation", "300"]
+    },
+    {
+        "value": "0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.20)",
+        "filePath": "tokens/effect/elevation-400.json",
+        "isSource": true,
+        "original": {
+            "value": "0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.20)"
+        },
+        "name": "layars-elevation-400",
+        "attributes": {
+            "category": "elevation",
+            "type": "400"
+        },
+        "path": ["elevation", "400"]
+    },
+    {
+        "value": "0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12), 0px 3px 5px -1px rgba(0, 0, 0, 0.20)",
+        "filePath": "tokens/effect/elevation-500.json",
+        "isSource": true,
+        "original": {
+            "value": "0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12), 0px 3px 5px -1px rgba(0, 0, 0, 0.20)"
+        },
+        "name": "layars-elevation-500",
+        "attributes": {
+            "category": "elevation",
+            "type": "500"
+        },
+        "path": ["elevation", "500"]
+    },
+    {
+        "value": "0.125rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_2.value}"
+        },
+        "name": "layars-border-radius-100",
+        "attributes": {
+            "category": "border",
+            "type": "radius",
+            "item": "100"
+        },
+        "path": ["border", "radius", "100"]
+    },
+    {
+        "value": "0.25rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_4.value}"
+        },
+        "name": "layars-border-radius-200",
+        "attributes": {
+            "category": "border",
+            "type": "radius",
+            "item": "200"
+        },
+        "path": ["border", "radius", "200"]
+    },
+    {
+        "value": "0.5rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_8.value}"
+        },
+        "name": "layars-border-radius-300",
+        "attributes": {
+            "category": "border",
+            "type": "radius",
+            "item": "300"
+        },
+        "path": ["border", "radius", "300"]
+    },
+    {
+        "value": "8rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_128.value}"
+        },
+        "name": "layars-border-radius-circle",
+        "attributes": {
+            "category": "border",
+            "type": "radius",
+            "item": "circle"
+        },
+        "path": ["border", "radius", "circle"]
+    },
+    {
+        "value": "0rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_0.value}"
+        },
+        "name": "layars-border-radius-none",
+        "attributes": {
+            "category": "border",
+            "type": "radius",
+            "item": "none"
+        },
+        "path": ["border", "radius", "none"]
+    },
+    {
+        "value": "0.0625rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_1.value}"
+        },
+        "name": "layars-border-width-100",
+        "attributes": {
+            "category": "border",
+            "type": "width",
+            "item": "100"
+        },
+        "path": ["border", "width", "100"]
+    },
+    {
+        "value": "0.125rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_2.value}"
+        },
+        "name": "layars-border-width-200",
+        "attributes": {
+            "category": "border",
+            "type": "width",
+            "item": "200"
+        },
+        "path": ["border", "width", "200"]
+    },
+    {
+        "value": "0.25rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_4.value}"
+        },
+        "name": "layars-border-width-300",
+        "attributes": {
+            "category": "border",
+            "type": "width",
+            "item": "300"
+        },
+        "path": ["border", "width", "300"]
+    },
+    {
+        "value": "0rem",
+        "filePath": "tokens/border.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_0.value}"
+        },
+        "name": "layars-border-width-none",
+        "attributes": {
+            "category": "border",
+            "type": "width",
+            "item": "none"
+        },
+        "path": ["border", "width", "none"]
+    },
+    {
+        "value": "0rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "0"
+        },
+        "name": "layars-grid-breakpoint-xs-min",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "xs",
+            "subitem": "min"
+        },
+        "path": ["grid", "breakpoint", "xs", "min"]
+    },
+    {
+        "value": "20rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "20"
+        },
+        "name": "layars-grid-breakpoint-xs-max",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "xs",
+            "subitem": "max"
+        },
+        "path": ["grid", "breakpoint", "xs", "max"]
+    },
+    {
+        "value": "20.0625rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "20.0625"
+        },
+        "name": "layars-grid-breakpoint-sm-min",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "sm",
+            "subitem": "min"
+        },
+        "path": ["grid", "breakpoint", "sm", "min"]
+    },
+    {
+        "value": "42rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "42"
+        },
+        "name": "layars-grid-breakpoint-sm-max",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "sm",
+            "subitem": "max"
+        },
+        "path": ["grid", "breakpoint", "sm", "max"]
+    },
+    {
+        "value": "42.0625rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "42.0625"
+        },
+        "name": "layars-grid-breakpoint-md-min",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "md",
+            "subitem": "min"
+        },
+        "path": ["grid", "breakpoint", "md", "min"]
+    },
+    {
+        "value": "66rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "66"
+        },
+        "name": "layars-grid-breakpoint-md-max",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "md",
+            "subitem": "max"
+        },
+        "path": ["grid", "breakpoint", "md", "max"]
+    },
+    {
+        "value": "66.0625rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "66.0625"
+        },
+        "name": "layars-grid-breakpoint-lg-min",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "lg",
+            "subitem": "min"
+        },
+        "path": ["grid", "breakpoint", "lg", "min"]
+    },
+    {
+        "value": "82rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "82"
+        },
+        "name": "layars-grid-breakpoint-lg-max",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "lg",
+            "subitem": "max"
+        },
+        "path": ["grid", "breakpoint", "lg", "max"]
+    },
+    {
+        "value": "82.0625rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "82.0625"
+        },
+        "name": "layars-grid-breakpoint-xl-min",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "xl",
+            "subitem": "min"
+        },
+        "path": ["grid", "breakpoint", "xl", "min"]
+    },
+    {
+        "value": "99rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "99"
+        },
+        "name": "layars-grid-breakpoint-xl-max",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "xl",
+            "subitem": "max"
+        },
+        "path": ["grid", "breakpoint", "xl", "max"]
+    },
+    {
+        "value": "99.0625rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "99.0625"
+        },
+        "name": "layars-grid-breakpoint-xxl-min",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "xxl",
+            "subitem": "min"
+        },
+        "path": ["grid", "breakpoint", "xxl", "min"]
+    },
+    {
+        "value": "117rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "117"
+        },
+        "name": "layars-grid-breakpoint-xxl-max",
+        "attributes": {
+            "category": "grid",
+            "type": "breakpoint",
+            "item": "xxl",
+            "subitem": "max"
+        },
+        "path": ["grid", "breakpoint", "xxl", "max"]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "layars-grid-padding",
+        "attributes": {
+            "category": "grid",
+            "type": "padding"
+        },
+        "path": ["grid", "padding"]
+    },
+    {
+        "value": "0rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_0.value}"
+        },
+        "name": "layars-grid-margin-none",
+        "attributes": {
+            "category": "grid",
+            "type": "margin",
+            "item": "none"
+        },
+        "path": ["grid", "margin", "none"]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value}"
+        },
+        "name": "layars-grid-margin-sm",
+        "attributes": {
+            "category": "grid",
+            "type": "margin",
+            "item": "sm"
+        },
+        "path": ["grid", "margin", "sm"]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value}"
+        },
+        "name": "layars-grid-margin-md",
+        "attributes": {
+            "category": "grid",
+            "type": "margin",
+            "item": "md"
+        },
+        "path": ["grid", "margin", "md"]
+    },
+    {
+        "value": "2.5rem",
+        "filePath": "tokens/grid.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_40.value}"
+        },
+        "name": "layars-grid-margin-lg",
+        "attributes": {
+            "category": "grid",
+            "type": "margin",
+            "item": "lg"
+        },
+        "path": ["grid", "margin", "lg"]
+    },
+    {
+        "value": "0rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0"
+        },
+        "name": "layars-sizes-size-0",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_0"
+        },
+        "path": ["sizes", "size_0"]
+    },
+    {
+        "value": "0.0625rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.0625"
+        },
+        "name": "layars-sizes-size-1",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_1"
+        },
+        "path": ["sizes", "size_1"]
+    },
+    {
+        "value": "0.125rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.125"
+        },
+        "name": "layars-sizes-size-2",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_2"
+        },
+        "path": ["sizes", "size_2"]
+    },
+    {
+        "value": "0.1875rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.1875"
+        },
+        "name": "layars-sizes-size-3",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_3"
+        },
+        "path": ["sizes", "size_3"]
+    },
+    {
+        "value": "0.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.25"
+        },
+        "name": "layars-sizes-size-4",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_4"
+        },
+        "path": ["sizes", "size_4"]
+    },
+    {
+        "value": "0.3125rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.3125"
+        },
+        "name": "layars-sizes-size-5",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_5"
+        },
+        "path": ["sizes", "size_5"]
+    },
+    {
+        "value": "0.375rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.375"
+        },
+        "name": "layars-sizes-size-6",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_6"
+        },
+        "path": ["sizes", "size_6"]
+    },
+    {
+        "value": "0.4375rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.4375"
+        },
+        "name": "layars-sizes-size-7",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_7"
+        },
+        "path": ["sizes", "size_7"]
+    },
+    {
+        "value": "0.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.5"
+        },
+        "name": "layars-sizes-size-8",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_8"
+        },
+        "path": ["sizes", "size_8"]
+    },
+    {
+        "value": "0.625rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.625"
+        },
+        "name": "layars-sizes-size-10",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_10"
+        },
+        "path": ["sizes", "size_10"]
+    },
+    {
+        "value": "0.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.75"
+        },
+        "name": "layars-sizes-size-12",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_12"
+        },
+        "path": ["sizes", "size_12"]
+    },
+    {
+        "value": "0.875rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "0.875"
+        },
+        "name": "layars-sizes-size-14",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_14"
+        },
+        "path": ["sizes", "size_14"]
+    },
+    {
+        "value": "1rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "1"
+        },
+        "name": "layars-sizes-size-16",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_16"
+        },
+        "path": ["sizes", "size_16"]
+    },
+    {
+        "value": "1.125rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "1.125"
+        },
+        "name": "layars-sizes-size-18",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_18"
+        },
+        "path": ["sizes", "size_18"]
+    },
+    {
+        "value": "1.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "1.25"
+        },
+        "name": "layars-sizes-size-20",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_20"
+        },
+        "path": ["sizes", "size_20"]
+    },
+    {
+        "value": "1.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "1.5"
+        },
+        "name": "layars-sizes-size-24",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_24"
+        },
+        "path": ["sizes", "size_24"]
+    },
+    {
+        "value": "1.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "1.75"
+        },
+        "name": "layars-sizes-size-28",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_28"
+        },
+        "path": ["sizes", "size_28"]
+    },
+    {
+        "value": "2rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "2"
+        },
+        "name": "layars-sizes-size-32",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_32"
+        },
+        "path": ["sizes", "size_32"]
+    },
+    {
+        "value": "2.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "2.25"
+        },
+        "name": "layars-sizes-size-36",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_36"
+        },
+        "path": ["sizes", "size_36"]
+    },
+    {
+        "value": "2.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "2.5"
+        },
+        "name": "layars-sizes-size-40",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_40"
+        },
+        "path": ["sizes", "size_40"]
+    },
+    {
+        "value": "2.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "2.75"
+        },
+        "name": "layars-sizes-size-44",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_44"
+        },
+        "path": ["sizes", "size_44"]
+    },
+    {
+        "value": "3rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "3"
+        },
+        "name": "layars-sizes-size-48",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_48"
+        },
+        "path": ["sizes", "size_48"]
+    },
+    {
+        "value": "3.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "3.25"
+        },
+        "name": "layars-sizes-size-52",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_52"
+        },
+        "path": ["sizes", "size_52"]
+    },
+    {
+        "value": "3.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "3.5"
+        },
+        "name": "layars-sizes-size-56",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_56"
+        },
+        "path": ["sizes", "size_56"]
+    },
+    {
+        "value": "3.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "3.75"
+        },
+        "name": "layars-sizes-size-60",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_60"
+        },
+        "path": ["sizes", "size_60"]
+    },
+    {
+        "value": "4rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "4"
+        },
+        "name": "layars-sizes-size-64",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_64"
+        },
+        "path": ["sizes", "size_64"]
+    },
+    {
+        "value": "4.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "4.25"
+        },
+        "name": "layars-sizes-size-68",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_68"
+        },
+        "path": ["sizes", "size_68"]
+    },
+    {
+        "value": "4.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "4.5"
+        },
+        "name": "layars-sizes-size-72",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_72"
+        },
+        "path": ["sizes", "size_72"]
+    },
+    {
+        "value": "4.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "4.75"
+        },
+        "name": "layars-sizes-size-76",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_76"
+        },
+        "path": ["sizes", "size_76"]
+    },
+    {
+        "value": "5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "5"
+        },
+        "name": "layars-sizes-size-80",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_80"
+        },
+        "path": ["sizes", "size_80"]
+    },
+    {
+        "value": "5.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "5.25"
+        },
+        "name": "layars-sizes-size-84",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_84"
+        },
+        "path": ["sizes", "size_84"]
+    },
+    {
+        "value": "5.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "5.5"
+        },
+        "name": "layars-sizes-size-88",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_88"
+        },
+        "path": ["sizes", "size_88"]
+    },
+    {
+        "value": "5.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "5.75"
+        },
+        "name": "layars-sizes-size-92",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_92"
+        },
+        "path": ["sizes", "size_92"]
+    },
+    {
+        "value": "6rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "6"
+        },
+        "name": "layars-sizes-size-96",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_96"
+        },
+        "path": ["sizes", "size_96"]
+    },
+    {
+        "value": "6.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "6.25"
+        },
+        "name": "layars-sizes-size-100",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_100"
+        },
+        "path": ["sizes", "size_100"]
+    },
+    {
+        "value": "6.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "6.5"
+        },
+        "name": "layars-sizes-size-104",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_104"
+        },
+        "path": ["sizes", "size_104"]
+    },
+    {
+        "value": "6.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "6.75"
+        },
+        "name": "layars-sizes-size-108",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_108"
+        },
+        "path": ["sizes", "size_108"]
+    },
+    {
+        "value": "7rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "7"
+        },
+        "name": "layars-sizes-size-112",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_112"
+        },
+        "path": ["sizes", "size_112"]
+    },
+    {
+        "value": "7.25rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "7.25"
+        },
+        "name": "layars-sizes-size-116",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_116"
+        },
+        "path": ["sizes", "size_116"]
+    },
+    {
+        "value": "7.5rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "7.5"
+        },
+        "name": "layars-sizes-size-120",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_120"
+        },
+        "path": ["sizes", "size_120"]
+    },
+    {
+        "value": "7.75rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "7.75"
+        },
+        "name": "layars-sizes-size-124",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_124"
+        },
+        "path": ["sizes", "size_124"]
+    },
+    {
+        "value": "8rem",
+        "filePath": "tokens/sizes.json",
+        "isSource": true,
+        "original": {
+            "value": "8"
+        },
+        "name": "layars-sizes-size-128",
+        "attributes": {
+            "category": "sizes",
+            "type": "size_128"
+        },
+        "path": ["sizes", "size_128"]
+    },
+    {
+        "value": "0.125rem ",
+        "filePath": "tokens/spacing.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_2.value} "
+        },
+        "name": "layars-spacing-100",
+        "attributes": {
+            "category": "spacing",
+            "type": "100"
+        },
+        "path": ["spacing", "100"]
+    },
+    {
+        "value": "0.25rem ",
+        "filePath": "tokens/spacing.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_4.value} "
+        },
+        "name": "layars-spacing-200",
+        "attributes": {
+            "category": "spacing",
+            "type": "200"
+        },
+        "path": ["spacing", "200"]
+    },
+    {
+        "value": "0.5rem ",
+        "filePath": "tokens/spacing.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_8.value} "
+        },
+        "name": "layars-spacing-300",
+        "attributes": {
+            "category": "spacing",
+            "type": "300"
+        },
+        "path": ["spacing", "300"]
+    },
+    {
+        "value": "0.75rem ",
+        "filePath": "tokens/spacing.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_12.value} "
+        },
+        "name": "layars-spacing-400",
+        "attributes": {
+            "category": "spacing",
+            "type": "400"
+        },
+        "path": ["spacing", "400"]
+    },
+    {
+        "value": "1rem ",
+        "filePath": "tokens/spacing.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_16.value} "
+        },
+        "name": "layars-spacing-500",
+        "attributes": {
+            "category": "spacing",
+            "type": "500"
+        },
+        "path": ["spacing", "500"]
+    },
+    {
+        "value": "1.5rem ",
+        "filePath": "tokens/spacing.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_24.value} "
+        },
+        "name": "layars-spacing-600",
+        "attributes": {
+            "category": "spacing",
+            "type": "600"
+        },
+        "path": ["spacing", "600"]
+    },
+    {
+        "value": "2rem ",
+        "filePath": "tokens/spacing.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_32.value} "
+        },
+        "name": "layars-spacing-700",
+        "attributes": {
+            "category": "spacing",
+            "type": "700"
+        },
+        "path": ["spacing", "700"]
+    },
+    {
+        "value": "2.5rem ",
+        "filePath": "tokens/spacing.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_40.value} "
+        },
+        "name": "layars-spacing-800",
+        "attributes": {
+            "category": "spacing",
+            "type": "800"
+        },
+        "path": ["spacing", "800"]
+    },
+    {
+        "value": "3rem ",
+        "filePath": "tokens/spacing.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_48.value} "
+        },
+        "name": "layars-spacing-900",
+        "attributes": {
+            "category": "spacing",
+            "type": "900"
+        },
+        "path": ["spacing", "900"]
+    },
+    {
+        "value": "4rem ",
+        "filePath": "tokens/spacing.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_64.value} "
+        },
+        "name": "layars-spacing-1000",
+        "attributes": {
+            "category": "spacing",
+            "type": "1000"
+        },
+        "path": ["spacing", "1000"]
+    },
+    {
+        "value": "5rem ",
+        "filePath": "tokens/spacing.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_80.value} "
+        },
+        "name": "layars-spacing-1100",
+        "attributes": {
+            "category": "spacing",
+            "type": "1100"
+        },
+        "path": ["spacing", "1100"]
+    },
+    {
+        "value": "6rem ",
+        "filePath": "tokens/spacing.json",
+        "isSource": true,
+        "original": {
+            "value": "{sizes.size_96.value} "
+        },
+        "name": "layars-spacing-1200",
+        "attributes": {
+            "category": "spacing",
+            "type": "1200"
+        },
+        "path": ["spacing", "1200"]
+    },
+    {
+        "value": "Dosis, Roboto, helvetica, sans-serif",
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": "Dosis, Roboto, helvetica, sans-serif"
+        },
+        "name": "layars-font-family",
+        "attributes": {
+            "category": "font",
+            "type": "family"
+        },
+        "path": ["font", "family"]
+    },
+    {
+        "value": 400,
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": 400
+        },
+        "name": "layars-font-weight-regular",
+        "attributes": {
+            "category": "font",
+            "type": "weight",
+            "item": "regular"
+        },
+        "path": ["font", "weight", "regular"]
+    },
+    {
+        "value": 600,
+        "filePath": "tokens/typography.json",
+        "isSource": true,
+        "original": {
+            "value": 600
+        },
+        "name": "layars-font-weight-bold",
+        "attributes": {
+            "category": "font",
+            "type": "weight",
+            "item": "bold"
+        },
+        "path": ["font", "weight", "bold"]
+    },
+    {
+        "value": 1050,
+        "filePath": "tokens/z-index.json",
+        "isSource": true,
+        "original": {
+            "value": 1050
+        },
+        "name": "layars-z-index-floating",
+        "attributes": {
+            "category": "z_index",
+            "type": "floating"
+        },
+        "path": ["z_index", "floating"]
+    },
+    {
+        "value": 1150,
+        "filePath": "tokens/z-index.json",
+        "isSource": true,
+        "original": {
+            "value": 1150
+        },
+        "name": "layars-z-index-overlay",
+        "attributes": {
+            "category": "z_index",
+            "type": "overlay"
+        },
+        "path": ["z_index", "overlay"]
+    },
+    {
+        "value": 1200,
+        "filePath": "tokens/z-index.json",
+        "isSource": true,
+        "original": {
+            "value": 1200
+        },
+        "name": "layars-z-index-drawer",
+        "attributes": {
+            "category": "z_index",
+            "type": "drawer"
+        },
+        "path": ["z_index", "drawer"]
+    },
+    {
+        "value": 1300,
+        "filePath": "tokens/z-index.json",
+        "isSource": true,
+        "original": {
+            "value": 1300
+        },
+        "name": "layars-z-index-modal",
+        "attributes": {
+            "category": "z_index",
+            "type": "modal"
+        },
+        "path": ["z_index", "modal"]
+    },
+    {
+        "value": 1400,
+        "filePath": "tokens/z-index.json",
+        "isSource": true,
+        "original": {
+            "value": 1400
+        },
+        "name": "layars-z-index-notification",
+        "attributes": {
+            "category": "z_index",
+            "type": "notification"
+        },
+        "path": ["z_index", "notification"]
+    },
+    {
+        "value": 1500,
+        "filePath": "tokens/z-index.json",
+        "isSource": true,
+        "original": {
+            "value": 1500
+        },
+        "name": "layars-z-index-tooltip",
+        "attributes": {
+            "category": "z_index",
+            "type": "tooltip"
+        },
+        "path": ["z_index", "tooltip"]
+    }
+]

@@ -1,0 +1,66 @@
+{
+    "color": {
+        "surface": {
+            "default": {
+                "description": "",
+                "type": "color",
+                "value": "#ffffffff"
+            },
+            "subdued": {
+                "description": "",
+                "type": "color",
+                "value": "#ebeef1ff"
+            },
+            "primary": {
+                "description": "",
+                "type": "color",
+                "value": "#dec4fbff"
+            },
+            "primary_subdued": {
+                "description": "",
+                "type": "color",
+                "value": "#f6ebffff"
+            },
+            "warning": {
+                "description": "",
+                "type": "color",
+                "value": "#f0c799ff"
+            },
+            "warning_subdued": {
+                "description": "",
+                "type": "color",
+                "value": "#ffeed1ff"
+            },
+            "error": {
+                "description": "",
+                "type": "color",
+                "value": "#f8bbb6ff"
+            },
+            "error_subdued": {
+                "description": "",
+                "type": "color",
+                "value": "#ffebe7ff"
+            },
+            "success": {
+                "description": "",
+                "type": "color",
+                "value": "#9bdcbeff"
+            },
+            "success_subdued": {
+                "description": "",
+                "type": "color",
+                "value": "#d2f9e3ff"
+            },
+            "highlight": {
+                "description": "",
+                "type": "color",
+                "value": "#acd2faff"
+            },
+            "highlight_subdued": {
+                "description": "",
+                "type": "color",
+                "value": "#e0f2ffff"
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "extends": "../../../tsconfig",
+    "compilerOptions": {
+        "target": "ES2018",
+        "types": ["vitest/globals"],
+        "allowImportingTsExtensions": false
+    },
+    "include": ["scripts/*.ts*", "utils/**/*.ts", ".config/*.ts"],
+    "exclude": ["**/node_modules"],
+    "references": [{ "path": "../../../tsconfig.json" }]
+}

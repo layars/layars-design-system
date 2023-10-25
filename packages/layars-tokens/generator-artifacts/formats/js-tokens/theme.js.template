@@ -1,0 +1,4 @@
+const Theme = {{{properties}}}
+
+export { Theme }
+export default Theme

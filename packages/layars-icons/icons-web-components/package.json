@@ -1,0 +1,21 @@
+{
+    "name": "@layars/icons",
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "generate:svgs": "pnpm ts:node --esm scripts/generate-svgs.ts",
+        "ts:node": "ts-node --project ./tsconfig.json",
+        "analyze": "custom-elements-manifest analyze --litelement --config '.config/custom-elements-manifest.config.mjs'",
+        "storybook": "pnpm analyze && storybook dev -p 19000 -c .storybook",
+        "storybook:composition": "pnpm storybook --no-open"
+    },
+    "dependencies": {
+        "@layars/icon": "workspace:^0.0.0",
+        "@layars/icons-svgs": "workspace:^0.0.0",
+        "lit": "^2.7.5",
+        "lit-html": "^2.7.4"
+    },
+    "devDependencies": {
+        "@layars/root": "workspace:latest"
+    }
+}

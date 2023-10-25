@@ -1,0 +1,15 @@
+{
+    "font": {
+        "family": {
+            "value": "Dosis, Roboto, helvetica, sans-serif"
+        },
+        "weight": {
+            "regular": {
+                "value": 400
+            },
+            "bold": {
+                "value": 600
+            }
+        }
+    }
+}

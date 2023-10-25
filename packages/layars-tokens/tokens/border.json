@@ -1,0 +1,17 @@
+{
+    "border": {
+        "radius": {
+            "100": { "value": "{sizes.size_2.value}" },
+            "200": { "value": "{sizes.size_4.value}" },
+            "300": { "value": "{sizes.size_8.value}" },
+            "circle": { "value": "{sizes.size_128.value}" },
+            "none": { "value": "{sizes.size_0.value}" }
+        },
+        "width": {
+            "100": { "value": "{sizes.size_1.value}" },
+            "200": { "value": "{sizes.size_2.value}" },
+            "300": { "value": "{sizes.size_4.value}" },
+            "none": { "value": "{sizes.size_0.value}" }
+        }
+    }
+}

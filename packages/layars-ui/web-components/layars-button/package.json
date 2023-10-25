@@ -1,0 +1,55 @@
+{
+    "name": "@layars/button",
+    "version": "0.0.0",
+    "type": "module",
+    "main": "src/index.ts",
+    "module": "src/index.ts",
+    "types": "src/index.ts",
+    "exports": {
+        ".": {
+            "require": "./src/index.ts",
+            "import": "./src/index.ts",
+            "types": "./src/index.ts"
+        }
+    },
+    "publishConfig": {
+        "main": "lib/layars-button.cjs",
+        "module": "lib/layars-button.js",
+        "types": "types/index.d.ts",
+        "exports": {
+            ".": {
+                "require": "./lib/layars-button.cjs",
+                "import": "./lib/layars-button.js",
+                "types": "./types/index.d.ts"
+            }
+        }
+    },
+    "files": [
+        "lib",
+        "types"
+    ],
+    "scripts": {
+        "storybook": "storybook dev -p 18001 -c .storybook",
+        "build": "rm -rf lib tsconfig.tsbuildinfo && tsc && pnpm vite build",
+        "test": "pnpm vitest",
+        "test:update": "pnpm vitest -u",
+        "test:visual": "pnpm playwright test --config .config/playwright.config.ts",
+        "test:visual:update": "pnpm playwright test --update-snapshots --config .config/playwright.config.ts && pnpm test:clean:after",
+        "test:clean:after": "rm -rf ./test-results",
+        "test:ui": "pnpm vitest --ui",
+        "coverage": "pnpm vitest --coverage",
+        "playwright": "playwright",
+        "vite": "vite --config .config/vite.config.ts",
+        "vitest": "vitest --config .config/vitest.config.ts"
+    },
+    "dependencies": {
+        "lit": "^2.7.5"
+    },
+    "devDependencies": {
+        "@layars/theme-provider": "workspace:^0.0.0",
+        "@layars/types": "workspace:^0.0.0",
+        "@layars/utils": "workspace:^0.0.0",
+        "@layars/web-components-root": "workspace:^0.0.0",
+        "clsx": "^1.2.1"
+    }
+}

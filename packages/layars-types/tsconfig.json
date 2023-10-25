@@ -1,0 +1,11 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "rootDir": "types",
+        "composite": true,
+        "types": ["node"],
+        "noImplicitAny": false
+    },
+    "include": ["src", "types"],
+    "exclude": ["dist", "tests", "lib"]
+}

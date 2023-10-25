@@ -1,0 +1,29 @@
+import { html } from 'lit'
+import { customElement } from 'lit/decorators.js'
+import { unsafeHTML } from 'lit-html/directives/unsafe-html.js'
+
+import { LayarsIcon } from '@layars/layars-icon'
+
+// @ts-ignore
+import {{pascalCaseName}}Svg from '@layars/layars-icons-svgs/{{kebabCaseName}}.svg?raw'
+
+@customElement('layars-{{kebabCaseName}}')
+class Layars{{pascalCaseName}} extends LayarsIcon {
+    static pascalName: string = 'Layars{{pascalCaseName}}'
+    static kebabName: string = 'layars-{{kebabCaseName}}'
+
+    protected render() {
+        return html`
+            <layars-icon
+                .color=${this.color}
+                .size=${this.size}
+            >
+                ${unsafeHTML({{pascalCaseName}}Svg)}
+            </layars-icon>
+        `
+    }
+}
+
+export { Layars{{pascalCaseName}} }
+
+export default Layars{{pascalCaseName}}

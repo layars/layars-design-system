@@ -1,0 +1,14 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "lib",
+        "composite": true,
+        "types": ["node"],
+        "noImplicitAny": false,
+        "moduleResolution": "NodeNext",
+        "emitDeclarationOnly": true
+    },
+    "include": ["src"],
+    "exclude": ["lib", "tests", "src/**/*.stories.ts*"]
+}

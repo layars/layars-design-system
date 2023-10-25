@@ -1,0 +1,12 @@
+{
+    "name": "@layars/icons-svgs",
+    "version": "0.0.0",
+    "type": "module",
+    "exports": {
+        "./*.svg": "./svgs/*.svg"
+    },
+    "scripts": {
+        "build": "pnpm @layars/icons-generator generate:svgs",
+        "@layars/icons-generator": "pnpm --filter '@layars/icons-generator'"
+    }
+}

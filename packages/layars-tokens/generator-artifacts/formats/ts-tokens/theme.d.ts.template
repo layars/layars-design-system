@@ -1,0 +1,4 @@
+type Theme = {{{properties}}}
+
+export { Theme }
+export default Theme

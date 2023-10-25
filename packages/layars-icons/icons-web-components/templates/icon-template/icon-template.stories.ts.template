@@ -1,0 +1,58 @@
+import { Meta, StoryObj } from '@storybook/web-components'
+import { html } from 'lit'
+import type { TemplateResult } from 'lit'
+
+import Layars{{pascalCaseName}} from './layars-{{kebabCaseName}}.js'
+import './layars-{{kebabCaseName}}.js'
+
+type ArgsOverride = Omit<Layars{{pascalCaseName}}, 'slot'>
+
+interface Args extends ArgsOverride {
+    slot: TemplateResult | string
+}
+
+const Render = (args: Args) => {
+    const { size, color, viewBox } = args
+
+    return html`
+        <layars-{{kebabCaseName}} class="story-icon" .size=${size} .color=${color} .viewbox=${viewBox}></layars-{{kebabCaseName}}>
+    `
+}
+
+const meta: Meta<Args> = {
+    title: '@layars/layars-icons-wc',
+    component: 'layars-{{kebabCaseName}}',
+    render: Render,
+    args: {
+        slot: html`+`,
+        size: 'size_16',
+        color: 'text_primary',
+        viewBox: '0 0 16 16',
+        styles: {},
+    },
+    argTypes: {
+        slot: {
+            defaultValue: {},
+            control: {
+                type: 'object',
+            },
+        },
+    },
+    parameters: {
+        controls: {
+            exclude: ['styles'],
+        },
+    },
+}
+
+export default meta
+
+type Story = StoryObj<Args>
+
+export const Layars{{pascalCaseName}}Story: Story = {
+    name: 'layars-{{kebabCaseName}}',
+    args: {
+        size: 'size_32',
+        color: 'text_primary',
+    },
+}

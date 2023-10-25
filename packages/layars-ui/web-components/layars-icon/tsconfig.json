@@ -1,0 +1,19 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "target": "ES2018",
+        "types": ["vitest/globals", "vite/client"],
+        "rootDir": "src",
+        "outDir": "types"
+    },
+    "include": ["src"],
+    "exclude": [
+        "**/*.test.ts",
+        "**/*.spec.ts",
+        "**/*.stories.ts",
+        "**/*.performance.ts",
+        "**/*.visual.ts",
+        "**/node_modules"
+    ],
+    "references": [{ "path": "../tsconfig.json" }]
+}

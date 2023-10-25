@@ -1,0 +1,60 @@
+{
+    "source": [
+        "tokens/meta/dark/*.json",
+        "tokens/color/dark/*.json",
+        "tokens/color/shared/*.json",
+        "tokens/effect/*.json",
+        "tokens/typography/*.json",
+        "tokens/*.json"
+    ],
+    "platforms": {
+        "css": {
+            "transformGroup": "custom/css",
+            "prefix": "layars",
+            "buildPath": "src/dark/",
+            "files": [
+                {
+                    "destination": "css-vars.css",
+                    "format": "css-vars"
+                },
+                {
+                    "destination": "css-vars.d.ts",
+                    "format": "ts-layars-css-vars"
+                },
+                {
+                    "destination": "properties.json",
+                    "format": "json-properties"
+                }
+            ]
+        },
+        "js": {
+            "transformGroup": "custom/js",
+            "buildPath": "src/dark/",
+            "files": [
+                {
+                    "destination": "theme.json",
+                    "format": "json-tokens"
+                },
+                {
+                    "destination": "theme.js",
+                    "format": "js-tokens"
+                },
+                {
+                    "destination": "theme.d.ts",
+                    "format": "ts-tokens"
+                }
+            ]
+        },
+        "json": {
+            "transformGroup": "custom/json",
+            "buildPath": "src/dark/",
+            "prefix": "layars",
+            "files": [
+                {
+                    "destination": "css-vars.json",
+                    "format": "json-css-vars"
+                }
+            ]
+        }
+    }
+}

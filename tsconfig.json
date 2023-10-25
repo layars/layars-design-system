@@ -1,0 +1,137 @@
+// Layars Monorepo Base TS Config
+// @link https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+{
+    "compilerOptions": {
+        // Specify what module code is generated.
+        // @link https://www.typescriptlang.org/tsconfig#module
+        "module": "NodeNext",
+
+        // Specify a set of bundled library declaration files that describe the target runtime environment.
+        // @link https://www.typescriptlang.org/tsconfig#lib
+        "lib": ["es2017", "dom", "dom.iterable"],
+
+        // Generate .d.ts files from TypeScript and JavaScript files in your project.
+        // @link https://www.typescriptlang.org/tsconfig#declaration
+        "declaration": true,
+
+        // Only output d.ts files and not JavaScript files.
+        // @link https://www.typescriptlang.org/tsconfig#emitDeclarationOnly
+        "emitDeclarationOnly": true,
+
+        // Enable all strict type checking options.
+        // @link https://www.typescriptlang.org/tsconfig#strict
+        "strict": true,
+
+        // Enable error reporting when a local variables aren't read.
+        // @link https://www.typescriptlang.org/tsconfig#noUnusedLocals
+        "noUnusedLocals": true,
+
+        // Raise an error when a function parameter isn't read
+        // @link https://www.typescriptlang.org/tsconfig#noUnusedParameters
+        "noUnusedParameters": true,
+
+        // Enable error reporting for codepaths that do not explicitly return in a function.
+        // @link https://www.typescriptlang.org/tsconfig#noImplicitReturns
+        "noImplicitReturns": true,
+
+        // Enable error reporting for fallthrough cases in switch statements.
+        // @link https://www.typescriptlang.org/tsconfig#noFallthroughCasesInSwitch
+        "noFallthroughCasesInSwitch": true,
+
+        // Specify how TypeScript looks up a file from a given module specifier.
+        // @link https://www.typescriptlang.org/tsconfig#moduleResolution
+        "moduleResolution": "NodeNext",
+
+        // Allow 'import x from y' when a module doesn't have a default export.
+        // @link https://www.typescriptlang.org/tsconfig#allowSyntheticDefaultImports
+        "allowSyntheticDefaultImports": true,
+
+        // Enable experimental support for TC39 stage 2 draft decorators.
+        // @link https://www.typescriptlang.org/tsconfig#experimentalDecorators
+        "experimentalDecorators": true,
+
+        // Ensure that casing is correct in imports.
+        // @link https://www.typescriptlang.org/tsconfig#forceConsistentCasingInFileNames
+        "forceConsistentCasingInFileNames": true,
+
+        // Emit additional JavaScript to ease support for importing CommonJS modules.
+        // @link https://www.typescriptlang.org/tsconfig#esModuleInterop
+        "esModuleInterop": true,
+
+        // Check for class properties that are declared but not set in the constructor.
+        // @link https://www.typescriptlang.org/tsconfig#strictPropertyInitialization
+        "strictPropertyInitialization": false,
+
+        // Emit ECMAScript-standard-compliant class fields.
+        // @link https://www.typescriptlang.org/tsconfig#useDefineForClassFields
+        "useDefineForClassFields": false,
+
+        // Enable constraints that allow a TypeScript project to be used with project references.
+        // @link https://www.typescriptlang.org/tsconfig#composite
+        "composite": true,
+
+        // Specify type package names to be included without being referenced in a source file.
+        // @link https://www.typescriptlang.org/tsconfig#types
+        "types": [
+            // @link https://github.com/vitejs/vite/blob/main/packages/vite/client.d.ts
+            "vite/client"
+        ],
+
+        // Allow imports to include TypeScript file extensions
+        // Requires '--moduleResolution bundler' and
+        // either '--noEmit' or '--emitDeclarationOnly' to be set.
+        // @link https://www.typescriptlang.org/tsconfig#allowImportingTsExtensions
+        "allowImportingTsExtensions": true,
+
+        // Enable importing .json files.
+        // @link https://www.typescriptlang.org/tsconfig#resolveJsonModule
+        "resolveJsonModule": true,
+
+        // Specify a list of language service plugins to include.
+        // @link https://www.typescriptlang.org/tsconfig#plugins
+        "plugins": [
+            {
+                // Using Lit's TS plugin
+                // `lit-plugin` type checks all attributes and property assignment,
+                // both on your own elements, library elements and built in elements.
+                // @link https://github.com/rictic/ts-lit-plugin
+                "name": "ts-lit-plugin",
+                "strict": true
+            }
+        ]
+    },
+
+    // Specifies a list of glob patterns that match files to be included in compilation
+    "include": [
+        // Include ts files from monorepo configs
+        ".config/**/*.ts*",
+
+        // Include storybook web component in monorepo environment
+        ".storybook/web-components/*.mts"
+    ],
+
+    // Specifies a list of files to be excluded from compilation.
+    "exclude": [
+        // Exclude all distribution or build files
+        "**/dist",
+        "**/build",
+
+        // Exclude all node_modules
+        "**/node_modules"
+    ],
+
+    // `ts-node` offers TypeScript execution and REPL for node.js, with source map support.
+    // @link https://typestrong.org/ts-node/docs/configuration
+    "ts-node": {
+        // Enable native ESM support
+        "esm": true,
+
+        // Load "files" and "include" from `tsconfig.json` on startup
+        // Default is to override `tsconfig.json` "files" and "include"
+        // to only include the entrypoint script
+        "files": true,
+
+        // Use TypeScript's faster `transpileModule`
+        "transpileOnly": true
+    }
+}
