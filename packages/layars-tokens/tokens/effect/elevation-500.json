@@ -1,39 +1,7 @@
 {
-    "effect": {
-        "elevation_500": {
-            "0": {
-                "type": "custom-shadow",
-                "value": {
-                    "shadow_type": "dropShadow",
-                    "radius": 10,
-                    "color": "#00000024",
-                    "offset_x": 0,
-                    "offset_y": 6,
-                    "spread": 0
-                }
-            },
-            "1": {
-                "type": "custom-shadow",
-                "value": {
-                    "shadow_type": "dropShadow",
-                    "radius": 18,
-                    "color": "#0000001f",
-                    "offset_x": 0,
-                    "offset_y": 1,
-                    "spread": 0
-                }
-            },
-            "2": {
-                "type": "custom-shadow",
-                "value": {
-                    "shadow_type": "dropShadow",
-                    "radius": 5,
-                    "color": "#00000033",
-                    "offset_x": 0,
-                    "offset_y": 3,
-                    "spread": -1
-                }
-            }
+    "elevation": {
+        "500": {
+            "value": "0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12), 0px 3px 5px -1px rgba(0, 0, 0, 0.20)"
         }
     }
 }
