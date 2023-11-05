@@ -2,5 +2,5 @@ import StyleDictionary from 'style-dictionary'
 
 StyleDictionary.registerTransformGroup({
     name: 'custom/css',
-    transforms: ['attribute/cti', 'name/cti/kebab', 'size/rem'],
+    transforms: ['attribute/cti', 'name/cti/kebab', 'size/rem', 'effect/elevation'],
 })

@@ -1,0 +1,36 @@
+{
+    "elevation": {
+        "z_index": {
+            "100": {
+                "description": "",
+                "type": "z-index",
+                "value": 1050
+            },
+            "200": {
+                "description": "",
+                "type": "z-index",
+                "value": 1150
+            },
+            "300": {
+                "description": "",
+                "type": "z-index",
+                "value": 1200
+            },
+            "400": {
+                "description": "",
+                "type": "z-index",
+                "value": 1300
+            },
+            "500": {
+                "description": "",
+                "type": "z-index",
+                "value": 1400
+            },
+            "600": {
+                "description": "",
+                "type": "z-index",
+                "value": 1500
+            }
+        }
+    }
+}

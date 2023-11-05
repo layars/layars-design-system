@@ -1,0 +1,98 @@
+{
+    "color": {
+        "border": {
+            "default": {
+                "description": "",
+                "type": "color",
+                "value": "{color.grey.400}"
+            },
+            "strong": {
+                "description": "",
+                "type": "color",
+                "value": "{color.grey.600}"
+            },
+            "subtle": {
+                "description": "",
+                "type": "color",
+                "value": "{color.grey.200}"
+            },
+            "inverted": {
+                "description": "",
+                "type": "color",
+                "value": "{color.grey.600}"
+            },
+            "brand": {
+                "strong": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.purple.650}"
+                },
+                "subtle": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.purple.400}"
+                }
+            },
+            "accent": {
+                "strong": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.seafoam.650}"
+                },
+                "subtle": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.seafoam.400}"
+                }
+            },
+            "information": {
+                "strong": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.blue.650}"
+                },
+                "subtle": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.blue.400}"
+                }
+            },
+            "positive": {
+                "strong": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.green.650}"
+                },
+                "subtle": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.green.400}"
+                }
+            },
+            "warning": {
+                "strong": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.orange.650}"
+                },
+                "subtle": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.orange.400}"
+                }
+            },
+            "negative": {
+                "strong": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.red.650}"
+                },
+                "subtle": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.red.400}"
+                }
+            }
+        }
+    }
+}

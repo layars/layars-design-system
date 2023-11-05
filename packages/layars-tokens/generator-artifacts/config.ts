@@ -9,6 +9,7 @@ import './formats/ts-tokens/register.js'
 
 // Transforms
 import './transforms/size-rem/register.js'
+import './transforms/effect-elevation/register.js'
 
 // Transform Groups
 import './transform-groups/custom-css/register.js'

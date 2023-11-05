@@ -2,10 +2,10 @@ import { html } from 'lit'
 import { customElement } from 'lit/decorators.js'
 import { unsafeHTML } from 'lit-html/directives/unsafe-html.js'
 
-import { LayarsIcon } from '@layars/layars-icon'
+import { LayarsIcon } from '@layars/icon'
 
 // @ts-ignore
-import {{pascalCaseName}}Svg from '@layars/layars-icons-svgs/{{kebabCaseName}}.svg?raw'
+import {{pascalCaseName}}Svg from '@layars/icons-svgs/{{kebabCaseName}}.svg?raw'
 
 @customElement('layars-{{kebabCaseName}}')
 class Layars{{pascalCaseName}} extends LayarsIcon {

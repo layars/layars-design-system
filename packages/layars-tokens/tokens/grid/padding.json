@@ -1,0 +1,9 @@
+{
+    "grid": {
+        "padding": {
+            "description": "",
+            "type": "sizes",
+            "value": "{sizes.size_16}"
+        }
+    }
+}

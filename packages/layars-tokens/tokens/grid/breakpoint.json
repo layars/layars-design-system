@@ -1,0 +1,78 @@
+{
+    "grid": {
+        "breakpoint": {
+            "xs": {
+                "min": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "0"
+                },
+                "max": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "20"
+                }
+            },
+            "sm": {
+                "min": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "20.0625"
+                },
+                "max": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "42"
+                }
+            },
+            "md": {
+                "min": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "42.0625"
+                },
+                "max": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "66"
+                }
+            },
+            "lg": {
+                "min": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "66.0625"
+                },
+                "max": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "82"
+                }
+            },
+            "xl": {
+                "min": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "82.0625"
+                },
+                "max": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "99"
+                }
+            },
+            "xxxl": {
+                "min": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "99.0625"
+                },
+                "max": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "117"
+                }
+            }
+        }
+    }
+}
