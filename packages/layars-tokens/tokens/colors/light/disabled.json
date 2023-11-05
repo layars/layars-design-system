@@ -1,0 +1,38 @@
+{
+    "color": {
+        "disabled": {
+            "surface": {
+                "description": "",
+                "type": "color",
+                "value": "{color.grey.200}"
+            },
+            "border": {
+                "description": "",
+                "type": "color",
+                "value": "{color.grey.200}"
+            },
+            "content": {
+                "description": "",
+                "type": "color",
+                "value": "{color.grey.400}"
+            },
+            "inverse": {
+                "surface": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.grey.900}"
+                },
+                "border": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.grey.900}"
+                },
+                "content": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.grey.700}"
+                }
+            }
+        }
+    }
+}

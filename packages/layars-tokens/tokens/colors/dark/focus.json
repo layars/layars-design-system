@@ -1,0 +1,11 @@
+{
+    "color": {
+        "focus": {
+            "default": {
+                "description": "",
+                "type": "color",
+                "value": "{color.blue.600}"
+            }
+        }
+    }
+}

@@ -24,10 +24,10 @@ async function main() {
     process.stdout.write(`\n${chalk.blue('Generating artifacts...')}\n`)
 
     // Build all platforms, light and dark themes
-    process.stdout.write(`\n=> ${chalk.blue('Generating "light" theme...')}\n`)
+    process.stdout.write(`\n  ${chalk.blue('Generating "light" theme...')}\n`)
     StyleDictionary.extend(`${workspace.path}/config.light.json`).buildAllPlatforms()
 
-    process.stdout.write(`\n=> ${chalk.blue('Generating "dark" theme...')}\n`)
+    process.stdout.write(`\n  ${chalk.blue('Generating "dark" theme...')}\n`)
     StyleDictionary.extend(`${workspace.path}/config.dark.json`).buildAllPlatforms()
 
     process.stdout.write(`\n${chalk.bold(chalk.green('Successfully generated artifacts!'))}\n\n`)

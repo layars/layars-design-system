@@ -1,0 +1,133 @@
+{
+    "color": {
+        "surface": {
+            "default": {
+                "description": "",
+                "type": "color",
+                "value": "{color.solid.100}"
+            },
+            "strong": {
+                "description": "",
+                "type": "color",
+                "value": "{color.grey.600}"
+            },
+            "muted": {
+                "description": "",
+                "type": "color",
+                "value": "{color.grey.300}"
+            },
+            "subtle": {
+                "description": "",
+                "type": "color",
+                "value": "{color.grey.100}"
+            },
+            "inverted": {
+                "description": "",
+                "type": "color",
+                "value": "{color.solid.200}"
+            },
+            "brand": {
+                "strong": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.purple.600}"
+                },
+                "muted": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.purple.300}"
+                },
+                "subtle": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.purple.100}"
+                }
+            },
+            "accent": {
+                "strong": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.seafoam.600}"
+                },
+                "muted": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.seafoam.300}"
+                },
+                "subtle": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.seafoam.100}"
+                }
+            },
+            "information": {
+                "strong": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.blue.600}"
+                },
+                "muted": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.blue.300}"
+                },
+                "subtle": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.blue.100}"
+                }
+            },
+            "positive": {
+                "strong": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.green.600}"
+                },
+                "muted": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.green.300}"
+                },
+                "subtle": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.green.100}"
+                }
+            },
+            "warning": {
+                "strong": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.orange.600}"
+                },
+                "muted": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.orange.300}"
+                },
+                "subtle": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.orange.100}"
+                }
+            },
+            "negative": {
+                "strong": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.red.600}"
+                },
+                "muted": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.red.300}"
+                },
+                "subtle": {
+                    "description": "",
+                    "type": "color",
+                    "value": "{color.red.100}"
+                }
+            }
+        }
+    }
+}

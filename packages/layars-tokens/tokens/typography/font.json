@@ -1,0 +1,23 @@
+{
+    "typography": {
+        "font": {
+            "family": {
+                "description": "",
+                "type": "font",
+                "value": "Dosis, Roboto, helvetica, arial, sans-serif"
+            },
+            "weight": {
+                "bold": {
+                    "description": "",
+                    "type": "font",
+                    "value": 600
+                },
+                "regular": {
+                    "description": "",
+                    "type": "font",
+                    "value": 400
+                }
+            }
+        }
+    }
+}

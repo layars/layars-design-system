@@ -1,0 +1,199 @@
+{
+    "sizes": {
+        "size_0": {
+            "description": "",
+            "type": "sizes",
+            "value": 0
+        },
+        "size_1": {
+            "description": "",
+            "type": "sizes",
+            "value": 0.0625
+        },
+        "size_2": {
+            "description": "",
+            "type": "sizes",
+            "value": 0.125
+        },
+        "size_3": {
+            "description": "",
+            "type": "sizes",
+            "value": 0.1875
+        },
+        "size_4": {
+            "description": "",
+            "type": "sizes",
+            "value": 0.25
+        },
+        "size_6": {
+            "description": "",
+            "type": "sizes",
+            "value": 0.375
+        },
+        "size_8": {
+            "description": "",
+            "type": "sizes",
+            "value": 0.5
+        },
+        "size_10": {
+            "description": "",
+            "type": "sizes",
+            "value": 0.625
+        },
+        "size_12": {
+            "description": "",
+            "type": "sizes",
+            "value": 0.75
+        },
+        "size_14": {
+            "description": "",
+            "type": "sizes",
+            "value": 0.875
+        },
+        "size_16": {
+            "description": "",
+            "type": "sizes",
+            "value": 1
+        },
+        "size_20": {
+            "description": "",
+            "type": "sizes",
+            "value": 1.25
+        },
+        "size_24": {
+            "description": "",
+            "type": "sizes",
+            "value": 1.5
+        },
+        "size_28": {
+            "description": "",
+            "type": "sizes",
+            "value": 1.75
+        },
+        "size_32": {
+            "description": "",
+            "type": "sizes",
+            "value": 2
+        },
+        "size_36": {
+            "description": "",
+            "type": "sizes",
+            "value": 2.25
+        },
+        "size_40": {
+            "description": "",
+            "type": "sizes",
+            "value": 2.5
+        },
+        "size_44": {
+            "description": "",
+            "type": "sizes",
+            "value": 2.75
+        },
+        "size_48": {
+            "description": "",
+            "type": "sizes",
+            "value": 3
+        },
+        "size_52": {
+            "description": "",
+            "type": "sizes",
+            "value": 3.25
+        },
+        "size_56": {
+            "description": "",
+            "type": "sizes",
+            "value": 3.5
+        },
+        "size_60": {
+            "description": "",
+            "type": "sizes",
+            "value": 3.75
+        },
+        "size_64": {
+            "description": "",
+            "type": "sizes",
+            "value": 4
+        },
+        "size_68": {
+            "description": "",
+            "type": "sizes",
+            "value": 4.25
+        },
+        "size_72": {
+            "description": "",
+            "type": "sizes",
+            "value": 4.5
+        },
+        "size_76": {
+            "description": "",
+            "type": "sizes",
+            "value": 4.75
+        },
+        "size_80": {
+            "description": "",
+            "type": "sizes",
+            "value": 5
+        },
+        "size_84": {
+            "description": "",
+            "type": "sizes",
+            "value": 5.25
+        },
+        "size_88": {
+            "description": "",
+            "type": "sizes",
+            "value": 5.5
+        },
+        "size_92": {
+            "description": "",
+            "type": "sizes",
+            "value": 5.75
+        },
+        "size_96": {
+            "description": "",
+            "type": "sizes",
+            "value": 6
+        },
+        "size_100": {
+            "description": "",
+            "type": "sizes",
+            "value": 6.25
+        },
+        "size_104": {
+            "description": "",
+            "type": "sizes",
+            "value": 6.5
+        },
+        "size_108": {
+            "description": "",
+            "type": "sizes",
+            "value": 6.75
+        },
+        "size_112": {
+            "description": "",
+            "type": "sizes",
+            "value": 7
+        },
+        "size_116": {
+            "description": "",
+            "type": "sizes",
+            "value": 7.25
+        },
+        "size_120": {
+            "description": "",
+            "type": "sizes",
+            "value": 7.5
+        },
+        "size_124": {
+            "description": "",
+            "type": "sizes",
+            "value": 7.75
+        },
+        "size_128": {
+            "description": "",
+            "type": "sizes",
+            "value": 8
+        }
+    }
+}

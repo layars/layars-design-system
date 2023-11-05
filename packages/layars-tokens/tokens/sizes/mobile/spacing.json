@@ -1,0 +1,68 @@
+{
+    "sizes": {
+        "mobile": {
+            "spacing": {
+                "100": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_2}"
+                },
+                "200": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_4}"
+                },
+                "300": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_8}"
+                },
+                "400": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_12}"
+                },
+                "500": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_16}"
+                },
+                "600": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_24}"
+                },
+                "700": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_32}"
+                },
+                "800": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_40}"
+                },
+                "900": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_48}"
+                },
+                "1000": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_64}"
+                },
+                "1100": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_80}"
+                },
+                "1200": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_96}"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "grid": {
+        "margin": {
+            "100": {
+                "description": "",
+                "type": "sizes",
+                "value": "{sizes.size_16}"
+            },
+            "200": {
+                "description": "",
+                "type": "sizes",
+                "value": "{sizes.size_24}"
+            },
+            "300": {
+                "description": "",
+                "type": "sizes",
+                "value": "{sizes.size_40}"
+            },
+            "none": {
+                "description": "",
+                "type": "sizes",
+                "value": "{sizes.size_0}"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "color": {
+        "elevation": {
+            "100": {
+                "description": "",
+                "type": "color",
+                "value": "#FFFFFF"
+            },
+            "200": {
+                "description": "",
+                "type": "color",
+                "value": "#FFFFFF"
+            },
+            "300": {
+                "description": "",
+                "type": "color",
+                "value": "#FFFFFF"
+            },
+            "400": {
+                "description": "",
+                "type": "color",
+                "value": "#FFFFFF"
+            },
+            "500": {
+                "description": "",
+                "type": "color",
+                "value": "#FFFFFF"
+            }
+        }
+    }
+}

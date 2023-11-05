@@ -1,0 +1,33 @@
+{
+    "sizes": {
+        "desktop": {
+            "radius": {
+                "100": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_2}"
+                },
+                "200": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_4}"
+                },
+                "300": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_8}"
+                },
+                "circle": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": 5000
+                },
+                "none": {
+                    "description": "",
+                    "type": "sizes",
+                    "value": "{sizes.size_0}"
+                }
+            }
+        }
+    }
+}

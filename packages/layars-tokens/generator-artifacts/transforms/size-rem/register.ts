@@ -9,9 +9,10 @@ StyleDictionary.registerTransform({
     name: 'size/rem',
     type: 'value',
     matcher: (prop) => {
-        const checker = prop.attributes?.category
+        const category = prop.attributes?.category || ''
+        const type = prop.type
 
-        return checker === 'sizes' || checker === 'grid' || checker === 'border'
+        return ['sizes', 'grid', 'border'].includes(category) || ['sizes'].includes(type)
     },
     transformer: (prop) => {
         return `${prop.value}rem`

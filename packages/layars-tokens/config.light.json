@@ -1,10 +1,13 @@
 {
     "source": [
-        "tokens/meta/light/*.json",
-        "tokens/color/light/*.json",
-        "tokens/color/shared/*.json",
-        "tokens/effect/*.json",
+        "tokens/custom/meta/light/*.json",
+        "tokens/primitives/*.json",
+        "tokens/colors/light/*.json",
+        "tokens/effects/*.json",
         "tokens/typography/*.json",
+        "tokens/misc/*.json",
+        "tokens/grid/*.json",
+        "tokens/sizes/*/*.json",
         "tokens/*.json"
     ],
     "platforms": {
