@@ -6,7 +6,7 @@ import { css } from 'lit'
 const shared = css`
     button {
         box-sizing: border-box;
-        border-radius: var(--layars-border-radius-lg);
+        border-radius: var(--layars-sizes-size-4);
         cursor: pointer;
         outline: none;
         display: inline-flex;
@@ -14,11 +14,11 @@ const shared = css`
         justify-content: center;
         transition: all 0.2s ease-in-out;
         border-style: solid;
-        border-width: var(--layars-border-width-md);
+        border-width: var(--layars-size-size-2);
         height: 100%;
-        letter-spacing: 0.015rem;
-        font-family: var(--layars-font-family-default);
-        font-weight: var(--layars-font-weight-bold);
+        letter-spacing: 0.05rem;
+        font-family: var(--layars-typography-font-family);
+        font-weight: var(--layars-typography-font-weight-bold);
         /** Disable user selecting text in Safari */
         user-select: none;
         -webkit-user-select: none;

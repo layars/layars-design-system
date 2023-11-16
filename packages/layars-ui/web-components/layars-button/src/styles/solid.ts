@@ -9,7 +9,7 @@ const solid = css`
     }
 
     .variant--solid .icon .path {
-        fill: var(--bts-icon);
+        fill: var(--btn-icon);
     }
 
     .variant--solid:hover,
@@ -20,12 +20,12 @@ const solid = css`
 
     .variant--solid:focus,
     .variant--solid.focus {
-        box-shadow: inset 0 0 0 1px var(--btn-base), inset 0px 0 0 2px var(--btn-focus);
+        box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
     }
 
     .variant--solid:focus:hover,
     .variant--solid.focus:hover {
-        box-shadow: inset 0 0 0 1px var(--btn-hover), inset 0px 0 0 2px var(--btn-focus);
+        box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
     }
 
     .variant--solid:active,
@@ -43,7 +43,7 @@ const solid = css`
 
     .variant--solid:disabled .icon .path,
     .variant--solid.disabled .icon .path {
-        fill: var(--bts-on-disabled);
+        fill: var(--btn-on-disabled);
     }
 
     .variant--solid.size--xl:focus,

@@ -3,9 +3,9 @@ import type { LayarsBaseCSSProperties, LayarsBaseStyles } from '@layars/types/we
 export type LayarsButtonElement = HTMLButtonElement
 
 export interface LayarsButtonProperties {
-    variant: 'solid' | 'outline'
-    color: 'default' | 'primary' | 'critical'
-    size: 'small' | 'medium' | 'large'
+    variant: 'solid' | 'outline' | 'ghost'
+    color: 'brand' | 'accent' | 'neutral' | 'destructive' | 'inverse'
+    size: 'sm' | 'md' | 'lg'
     type: 'button' | 'submit' | 'reset'
     fullWidth: boolean
     disabled: boolean
@@ -17,8 +17,6 @@ export interface LayarsButtonHTMLProperties extends LayarsButtonElement, LayarsB
 export interface LayarsButtonCSSProperties extends LayarsBaseCSSProperties {
     /** Background color of the button, when active and not interacted with */
     '--btn-base'?: string
-    /** Background color of a subdued button, when active and not interacted with */
-    '--btn-base-subdued'?: string
     /** Background color of the button, during the hover interaction */
     '--btn-hover'?: string
     /** Background color of the button, during the pressed interaction */
@@ -26,13 +24,9 @@ export interface LayarsButtonCSSProperties extends LayarsBaseCSSProperties {
     /** Border color of the button, during the focus interaction */
     '--btn-focus'?: string
     /** Color of the text of the button */
-    '--btn-text'?: string
-    /** Color of the icon of the button */
-    '--btn-icon'?: string
+    '--btn-content'?: string
     /** Background color of the button, when disabled */
     '--btn-disabled'?: string
-    /** Background color of the subdued button, when disabled */
-    '--btn-disabled-subdued'?: string
     /** Color of the elements (text/icons) on top of a disabled button */
     '--btn-on-disabled'?: string
 }
