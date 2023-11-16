@@ -62,12 +62,6 @@ class LayarsButton extends LitElement implements LayarsButtonProperties {
     @property({ reflect: true })
     public type: LayarsButtonProperties['type'] = 'button'
 
-    /**
-     * Should the button have elevation
-     */
-    @property({ type: Boolean, reflect: true })
-    public elevation: LayarsButtonProperties['elevation'] = false
-
     // Internal styles
     #styles: Partial<LayarsButtonStyles> = {}
 
@@ -116,8 +110,7 @@ class LayarsButton extends LitElement implements LayarsButtonProperties {
                     '--btn-disabled': `var(--layars-color-disabled-surface)`,
                     '--btn-on-disabled': `var(--layars-color-disabled-content)`,
                     '--btn-focus': 'var(--layars-color-focus-default)',
-                    '--btn-text': 'var(--layars-color-content-inverted-primary)',
-                    '--btn-icon': 'var(--layars-color-content-inverted-primary)',
+                    '--btn-content': 'var(--layars-color-content-inverted-primary)',
                     ...this.#styles,
                 }
         }
@@ -199,7 +192,6 @@ class LayarsButton extends LitElement implements LayarsButtonProperties {
                     [`color--${this.color}`]: this.color,
                     [`full-width`]: this.fullWidth,
                     [`btn--disabled`]: this.disabled,
-                    [`elevation`]: this.elevation,
                     [`disabled`]: this.disabled,
                 })}
                 type="${this.type}"

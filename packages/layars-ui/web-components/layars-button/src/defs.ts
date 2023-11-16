@@ -9,7 +9,6 @@ export interface LayarsButtonProperties {
     type: 'button' | 'submit' | 'reset'
     fullWidth: boolean
     disabled: boolean
-    elevation: boolean
 }
 
 export interface LayarsButtonHTMLProperties extends LayarsButtonElement, LayarsButtonProperties {}
@@ -21,9 +20,13 @@ export interface LayarsButtonCSSProperties extends LayarsBaseCSSProperties {
     '--btn-hover'?: string
     /** Background color of the button, during the pressed interaction */
     '--btn-pressed'?: string
-    /** Border color of the button, during the focus interaction */
-    '--btn-focus'?: string
-    /** Color of the text of the button */
+    /** Background color for the outline and ghost button variants */
+    '--btn-surface-base'?: string
+    /** Background hover color for the outline and ghost button variants */
+    '--btn-surface-hover'?: string
+    /** Background pressed color for the outline and ghost button variants */
+    '--btn-surface-pressed'?: string
+    /** Color of the text and icon of the button */
     '--btn-content'?: string
     /** Background color of the button, when disabled */
     '--btn-disabled'?: string
