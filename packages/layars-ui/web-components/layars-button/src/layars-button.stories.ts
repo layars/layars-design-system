@@ -57,8 +57,8 @@ const meta: Meta<Args> = {
     args: {
         slot: 'Button',
         variant: 'solid',
-        color: 'default',
-        size: 'medium',
+        color: 'neutral',
+        size: 'md',
         type: 'button',
     },
     argTypes: {
@@ -81,20 +81,20 @@ const meta: Meta<Args> = {
             },
         },
         variant: {
-            options: ['solid' , 'outline'],
+            options: ['solid' , 'outline', 'ghost'],
             defaultValue: 'solid',
             control: {
                 type: 'inline-radio',
             },
         },
         color: {
-            options: ['default', 'primary', 'critical'],
-            defaultValue: 'default',
+            options: ['brand', 'accent', 'neutral', 'destructive', 'inverse'],
+            defaultValue: 'neutral',
             control: { type: 'inline-radio' },
         },
         size: {
-            options: ['small', 'medium', 'large'],
-            defaultValue: 'medium',
+            options: ['sm', 'md', 'lg'],
+            defaultValue: 'md',
             control: { type: 'inline-radio' },
         },
         type: {
@@ -129,7 +129,7 @@ export const Default: Story = {
 export const Variant: Story = {
     args: {
         slot: 'Button',
-        variant: 'outline',
+        variant: 'solid',
     },
     parameters: {
         controls: {
@@ -141,7 +141,7 @@ export const Variant: Story = {
 export const Color: Story = {
     args: {
         slot: 'Button',
-        color: 'critical',
+        color: 'destructive',
     },
     parameters: {
         controls: {
@@ -153,7 +153,7 @@ export const Color: Story = {
 export const Size: Story = {
     args: {
         slot: 'Button',
-        size: 'large',
+        size: 'lg',
     },
     parameters: {
         controls: {

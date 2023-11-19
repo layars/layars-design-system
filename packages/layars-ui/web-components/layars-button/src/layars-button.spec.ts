@@ -44,17 +44,8 @@ describe('layars-button > spec', async () => {
         expect(getShadowRoot()).toMatchSnapshot()
     })
 
-    // Tests the elevation prop
-    test('prop: elevation', async () => {
-        render(html`<layars-button ?elevation="${true}">Button</layars-button>`, document.body)
-
-        await window.happyDOM.whenAsyncComplete()
-
-        expect(getShadowRoot()).toMatchSnapshot()
-    })
-
     // Test the size prop
-    const sizes = ['small', 'medium', 'large']
+    const sizes = ['sm', 'md', 'lg']
 
     sizes.forEach((size) => {
         it(`prop: size = ${size}`, async () => {
@@ -67,7 +58,7 @@ describe('layars-button > spec', async () => {
     })
 
     // Tests the variant prop
-    const variants = ['solid', 'outline']
+    const variants = ['solid', 'outline', 'ghost']
 
     variants.forEach((variant) => {
         it(`prop: variant = ${variant}`, async () => {
@@ -80,7 +71,7 @@ describe('layars-button > spec', async () => {
     })
 
     // Tests the colors
-    const colors = ['default', 'primary', 'critical']
+    const colors = ['brand', 'accent', 'neutral', 'destructive', 'inverse']
 
     variants.forEach((variant) => {
         colors.forEach((color) => {
