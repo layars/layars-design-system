@@ -3,18 +3,19 @@ import { describe, it, expect, beforeEach, vi } from 'vitest'
 import './layars-button.js'
 
 describe('layars-button > test', async () => {
-    beforeEach(async () => {
-        document.body.innerHTML = '<layars-button>Button</layars-button>'
+    const setupComponent = async (variant: string = 'solid') => {
+        document.body.innerHTML = `<layars-button variant="${variant}">Button</layars-button>`
 
         await window.happyDOM.whenAsyncComplete()
         await new Promise((resolve) => setTimeout(resolve, 0))
-    })
+    }
 
     function getButton(): HTMLElement {
         return document.body.querySelector('layars-button')!
     }
 
     it('should dispatch native click event', async () => {
+        setupComponent()
         const spyClick = vi.fn()
 
         document.querySelector('layars-button')!.addEventListener('click', spyClick)
@@ -24,6 +25,7 @@ describe('layars-button > test', async () => {
     })
 
     it('should dispatch native focus event', async () => {
+        setupComponent()
         const spyFocus = vi.fn()
 
         document.querySelector('layars-button')!.addEventListener('focus', spyFocus)
@@ -33,6 +35,7 @@ describe('layars-button > test', async () => {
     })
 
     it('should not dispatch click and focus event when disabled', async () => {
+        setupComponent()
         const spyFocus = vi.fn()
         const spyClick = vi.fn()
 
@@ -47,5 +50,32 @@ describe('layars-button > test', async () => {
 
         expect(spyFocus).toBeCalledTimes(0)
         expect(spyClick).toBeCalledTimes(0)
+    })
+
+    it('should validate the switch case for styles with variant outline', async () => {
+        setupComponent('outline')
+        
+        const button = getButton()
+
+        expect(button.getAttribute('variant')).toEqual('outline')
+    })
+
+    it('should validate the switch case for styles with variant ghost', async() => {
+        setupComponent('ghost')
+
+        const button = getButton()
+
+        expect(button.getAttribute('variant')).toEqual('ghost')
+    })
+
+    it('should validate the full width property', async() => {
+        document.body.innerHTML = `<layars-button full-width={true}>Button</layars-button>`
+
+        await window.happyDOM.whenAsyncComplete()
+        await new Promise((resolve) => setTimeout(resolve, 0))
+
+        const button = getButton()
+
+        expect(button.getAttributeNames().includes('full-width')).toBeTruthy()
     })
 })
