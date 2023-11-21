@@ -16,7 +16,6 @@ class GetThemeToken extends LitElement {
     public path: string = 'meta.name'
 
     protected render() {
-        console.log(this.theme)
         return html`${get(this.theme, this.path)}`
     }
 }

@@ -22,7 +22,6 @@ const Render = (args: Args) => {
         type,
         fullWidth,
         disabled,
-        elevation,
         styles,
         onclick,
         onfocus,
@@ -37,7 +36,6 @@ const Render = (args: Args) => {
             .type=${type}
             ?full-width=${fullWidth}
             ?disabled=${disabled}
-            ?elevation=${elevation}
             @onclick=${onclick}
             @onfocus=${onfocus}
             @onkeydown=${onkeydown}
@@ -81,7 +79,7 @@ const meta: Meta<Args> = {
             },
         },
         variant: {
-            options: ['solid' , 'outline', 'ghost'],
+            options: ['solid', 'outline', 'ghost'],
             defaultValue: 'solid',
             control: {
                 type: 'inline-radio',
@@ -166,9 +164,9 @@ export const Styles: Story = {
     args: {
         slot: 'Button',
         styles: {
-            '--btn-base': 'var(--layars-color-surface-gold)',
-            '--btn-hover': 'var(--layars-color-surface-gold-inverse)',
-            '--btn-pressed': 'var(--layars-color-surface-gold-subdued)',
+            '--btn-base': 'var(--layars-color-blue-700)',
+            '--btn-hover': 'var(--layars-color-blue-500)',
+            '--btn-pressed': 'var(--layars-color-blue-800)',
         },
     },
     parameters: {
