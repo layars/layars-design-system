@@ -41,10 +41,6 @@
                 {
                     "destination": "theme.js",
                     "format": "js-tokens"
-                },
-                {
-                    "destination": "theme.d.ts",
-                    "format": "ts-tokens"
                 }
             ]
         },

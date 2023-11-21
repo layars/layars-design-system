@@ -88,7 +88,7 @@ export const Default: Story = {
             <style>
                 .default-row {
                     padding: var(--layars-sizes-size-16);
-                    border-radius: var(--layars-border-radius-lg);
+                    border-radius: var(--layars-sizes-desktop-radius-300);
                     background-color: var(--layars-color-surface-default);
                 }
                 .default-spacer {
@@ -96,14 +96,38 @@ export const Default: Story = {
                 }
             </style>
             <div class="default-row">
-                <layars-button variant="solid" color="default">Button</layars-button>
-                <layars-button variant="outline" color="default">Button</layars-button>
+                <layars-button
+                    variant="solid"
+                    color="neutral"
+                    >Button</layars-button
+                >
+                <layars-button
+                    variant="outline"
+                    color="neutral"
+                    >Button</layars-button
+                >
                 <div class="default-spacer"></div>
-                <layars-button variant="solid" color="primary">Button</layars-button>
-                <layars-button variant="outline" color="primary">Button</layars-button>
+                <layars-button
+                    variant="solid"
+                    color="brand"
+                    >Button</layars-button
+                >
+                <layars-button
+                    variant="outline"
+                    color="brand"
+                    >Button</layars-button
+                >
                 <div class="default-spacer"></div>
-                <layars-button variant="primary" color="critical">Button</layars-button>
-                <layars-button variant="secondary" color="critical">Button</layars-button>
+                <layars-button
+                    variant="solid"
+                    color="destructive"
+                    >Button</layars-button
+                >
+                <layars-button
+                    variant="outline"
+                    color="destructive"
+                    >Button</layars-button
+                >
             </div>
         `,
     },
@@ -115,7 +139,7 @@ export const Scope: Story = {
             <style>
                 .scope-row {
                     padding: var(--layars-sizes-size-16);
-                    border-radius: var(--layars-border-radius-lg);
+                    border-radius: var(--layars-sizes-desktop-radius-300);
                     background-color: var(--layars-color-surface-default);
                 }
                 .scope-buttons > * {
@@ -127,24 +151,52 @@ export const Scope: Story = {
             </style>
             <div class="scope-row">
                 <div class="scope-buttons">
-                    <layars-button variant="solid" color="default">Button</layars-button>
-                    <layars-button variant="outline" color="default">Button</layars-button>
+                    <layars-button
+                        variant="solid"
+                        color="neutral"
+                        >Button</layars-button
+                    >
+                    <layars-button
+                        variant="outline"
+                        color="neutral"
+                        >Button</layars-button
+                    >
                 </div>
                 <div class="scope-spacer"></div>
-                <layars-theme-provider scope="local" type="dark">
+                <layars-theme-provider
+                    scope="local"
+                    type="dark"
+                >
                     <div class="scope-row">
                         <div class="scope-buttons">
-                            <layars-button variant="solid" color="default">Button</layars-button>
-                            <layars-button variant="solid" color="default">Button</layars-button>
+                            <layars-button
+                                variant="solid"
+                                color="neutral"
+                                >Button</layars-button
+                            >
+                            <layars-button
+                                variant="outline"
+                                color="neutral"
+                                >Button</layars-button
+                            >
                         </div>
                         <div class="scope-spacer"></div>
-                        <layars-theme-provider scope="local" type="light">
+                        <layars-theme-provider
+                            scope="local"
+                            type="light"
+                        >
                             <div class="scope-row">
                                 <div class="scope-buttons">
-                                    <layars-button variant="solid" color="default">
+                                    <layars-button
+                                        variant="solid"
+                                        color="neutral"
+                                    >
                                         Button
                                     </layars-button>
-                                    <layars-button variant="solid" color="default">
+                                    <layars-button
+                                        variant="outline"
+                                        color="neutral"
+                                    >
                                         Button
                                     </layars-button>
                                 </div>
@@ -168,13 +220,13 @@ export const Context: Story = {
             <style>
                 .context-row {
                     padding: var(--layars-sizes-size-16);
-                    border-radius: var(--layars-border-radius-lg);
+                    border-radius: var(--layars-sizes-desktop-radius-300);
                     background-color: var(--layars-color-surface-default);
                 }
                 .context-header {
-                    font-family: var(--layars-font-family-default);
+                    font-family: var(--layars-typography-font-family);
 
-                    color: var(--layars-color-content-default);
+                    color: var(--layars-color-content-primary);
                 }
                 .context-buttons > * {
                     margin: 0 var(--layars-sizes-size-4);
@@ -188,30 +240,58 @@ export const Context: Story = {
                     Theme: "<get-theme-token path="meta.name"></get-theme-token>"
                 </h2>
                 <div class="context-buttons">
-                    <layars-button variant="solid" color="default">Button</layars-button>
-                    <layars-button variant="solid" color="default">Button</layars-button>
+                    <layars-button
+                        variant="solid"
+                        color="neutral"
+                        >Button</layars-button
+                    >
+                    <layars-button
+                        variant="outline"
+                        color="neutral"
+                        >Button</layars-button
+                    >
                 </div>
                 <div class="context-spacer"></div>
-                <layars-theme-provider scope="local" type="dark">
+                <layars-theme-provider
+                    scope="local"
+                    type="dark"
+                >
                     <div class="context-row">
                         <h2 class="context-header">
                             Theme: "<get-theme-token path="meta.name"></get-theme-token>"
                         </h2>
                         <div class="context-buttons">
-                            <layars-button variant="solid" color="default">Button</layars-button>
-                            <layars-button variant="solid" color="default">Button</layars-button>
+                            <layars-button
+                                variant="solid"
+                                color="neutral"
+                                >Button</layars-button
+                            >
+                            <layars-button
+                                variant="outline"
+                                color="neutral"
+                                >Button</layars-button
+                            >
                         </div>
                         <div class="context-spacer"></div>
-                        <layars-theme-provider scope="local" type="light">
+                        <layars-theme-provider
+                            scope="local"
+                            type="light"
+                        >
                             <div class="context-row">
                                 <h2 class="context-header">
                                     Theme: "<get-theme-token path="meta.name"></get-theme-token>"
                                 </h2>
                                 <div class="context-buttons">
-                                    <layars-button variant="solid" color="default">
+                                    <layars-button
+                                        variant="solid"
+                                        color="neutral"
+                                    >
                                         Button
                                     </layars-button>
-                                    <layars-button variant="solid" color="default">
+                                    <layars-button
+                                        variant="outline"
+                                        color="neutral"
+                                    >
                                         Button
                                     </layars-button>
                                 </div>
@@ -235,13 +315,13 @@ export const Tokens: Story = {
             <style>
                 .tokens-row {
                     padding: var(--layars-sizes-size-16);
-                    border-radius: var(--layars-border-radius-lg);
+                    border-radius: var(--layars-sizes-desktop-radius-300);
                     background-color: var(--layars-color-surface-default);
                 }
                 .tokens-typography {
-                    font-family: var(--layars-font-family-default);
+                    font-family: var(--layars-typography-font-family);
 
-                    color: var(--layars-color-action-primary);
+                    color: var(--layars-color-content-primary);
                 }
                 .tokens-buttons > * {
                     margin: 0 var(--layars-sizes-size-4);
@@ -249,11 +329,19 @@ export const Tokens: Story = {
             </style>
             <div class="tokens-row">
                 <h2 class="tokens-typography">
-                    Hi Layars, I'm <get-theme-token path="font.family.default"></get-theme-token>!
+                    Hi Layars, I'm <get-theme-token path="typography.font.family"></get-theme-token>!
                 </h2>
                 <div class="tokens-buttons">
-                    <layars-button variant="solid" color="primary">Button</layars-button>
-                    <layars-button variant="solid" color="primary">Button</layars-button>
+                    <layars-button
+                        variant="solid"
+                        color="brand"
+                        >Button</layars-button
+                    >
+                    <layars-button
+                        variant="outline"
+                        color="brand"
+                        >Button</layars-button
+                    >
                 </div>
             </div>
         `,
@@ -263,18 +351,18 @@ export const Tokens: Story = {
             custom: merge({}, tokens.light, {
                 name: 'custom',
                 color: {
-                    surface_default: 'var(--layars-color-surface-gold-subdued)',
-                    action_interactive: 'red',
-                    action_interactive_hover: 'darkred',
-                    action_interactive_pressed: 'lightsalmon',
-                    action_interactive_subdued: 'lightsalmon',
-                    action_interactive_subdued_hover: 'lightpink',
-                    action_interactive_subdued_pressed: 'coral',
-                    text_interactive: 'darkred',
+                    surface_default: 'var(--layars-color-yellow-150)',
+                    action_brand_enabled: 'red',
+                    action_brand_hover: 'darkred',
+                    action_brand_pressed: 'lightsalmon',
+                    action_brand_subdued: 'lightsalmon',
+                    action_brand_subdued_hover: 'lightpink',
+                    action_brand_subdued_pressed: 'coral',
+                    content_primary: 'darkred',
                 },
-                font: {
-                    family: {
-                        default: '"Comic Sans MS"',
+                typography: {
+                    font: {
+                        family: '"Comic Sans MS"',
                     },
                 },
             }),

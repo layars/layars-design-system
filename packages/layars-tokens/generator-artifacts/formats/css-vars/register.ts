@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 
-import StyleDictionary from 'style-dictionary'
+import StyleDictionary, { TransformedToken } from 'style-dictionary'
 import _ from 'lodash'
 import Mustache from 'mustache'
 
@@ -19,6 +19,9 @@ StyleDictionary.registerFormat({
 
         const properties = dictionary.allProperties
 
-        return Mustache.render(template, { properties })
+        return Mustache.render(template, {
+            properties,
+            scheme: (dictionary.properties.meta.name as TransformedToken).value,
+        })
     },
 })

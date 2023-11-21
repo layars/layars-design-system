@@ -5,6 +5,11 @@
     },
     "typescript.tsdk": "node_modules/typescript/lib",
     "eslint.experimental.useFlatConfig": true,
+    "cssvar.enable": true,
+    "cssvar.files": ["packages/layars-tokens/lib/light/css-vars.css"],
+    "cssvar.themes": ["light", "dark"],
+    "cssvar.excludeThemedVariables": true,
+    "cssvar.extensions": ["css", "svelte", "ts", "tsx", "js", "jsx"],
     "lit-plugin.strict": true,
     "lit-plugin.maxNodeModuleImportDepth": -1
 }
