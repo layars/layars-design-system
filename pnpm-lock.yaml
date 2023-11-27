@@ -267,6 +267,28 @@ importers:
         specifier: ^1.2.1
         version: 1.2.1
 
+  packages/layars-ui/web-components/layars-button-group:
+    dependencies:
+      lit:
+        specifier: ^2.7.5
+        version: 2.8.0
+    devDependencies:
+      '@layars/theme-provider':
+        specifier: workspace:^0.0.0
+        version: link:../layars-theme-provider
+      '@layars/types':
+        specifier: workspace:^0.0.0
+        version: link:../../../layars-types
+      '@layars/utils':
+        specifier: workspace:^0.0.0
+        version: link:../../../layars-utils
+      '@layars/web-components-root':
+        specifier: workspace:^0.0.0
+        version: link:..
+      clsx:
+        specifier: ^1.2.1
+        version: 1.2.1
+
   packages/layars-ui/web-components/layars-icon:
     dependencies:
       '@layars/icons-svgs':
@@ -2316,7 +2338,7 @@ packages:
     resolution: {integrity: sha512-5pWPLiXJnx8fZREF4w7RXBwJOxqRBJ57tujo7k23s0ZDfnSltomvYGW4kTOurXfyzDR0OLBBkv9xsWGDhauqew==}
     dependencies:
       '@lit/reactive-element': 1.6.3
-      lit: 2.7.5
+      lit: 2.8.0
     dev: false
 
   /@lit-labs/ssr-dom-shim@1.1.2:
@@ -7749,7 +7771,6 @@ packages:
       '@lit/reactive-element': 1.6.3
       lit-element: 3.3.3
       lit-html: 2.8.0
-    dev: true
 
   /load-json-file@4.0.0:
     resolution: {integrity: sha512-Kx8hMakjX03tiGTLAIdJ+lL0htKnXjEZN6hk/tozf/WOuYGdZBJrZ+rCJRbVCugsjB3jMLn9746NsQIf5VjBMw==}
