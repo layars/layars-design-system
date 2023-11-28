@@ -46,6 +46,7 @@
         "lit": "^2.7.5"
     },
     "devDependencies": {
+        "@layars/button": "workspace:^0.0.0",
         "@layars/theme-provider": "workspace:^0.0.0",
         "@layars/types": "workspace:^0.0.0",
         "@layars/utils": "workspace:^0.0.0",
