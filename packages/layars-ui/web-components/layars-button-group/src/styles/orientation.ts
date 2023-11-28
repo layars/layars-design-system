@@ -10,10 +10,6 @@ const orientation = css`
         display: flex;
         flex-direction: column;
     }
-
-    .orientation--column {
-        width: 100%;
-    }
 `
 
 export { orientation }
