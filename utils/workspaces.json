@@ -71,6 +71,12 @@
         "version": "0.0.0",
         "private": false
     },
+    "@layars/button-group": {
+        "name": "@layars/button-group",
+        "path": "./packages/layars-ui/web-components/layars-button-group",
+        "version": "0.0.0",
+        "private": false
+    },
     "@layars/icon": {
         "name": "@layars/icon",
         "path": "./packages/layars-ui/web-components/layars-icon",
