@@ -1,7 +1,5 @@
 name: layars-tokens
 on:
-  pull_request:
-    types: [opened, reopened]
   push:
     paths:
       - packages/layars-tokens/**
