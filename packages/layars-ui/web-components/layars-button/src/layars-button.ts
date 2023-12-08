@@ -2,8 +2,6 @@ import { html, LitElement, unsafeCSS } from 'lit'
 import { customElement, property, eventOptions } from 'lit/decorators.js'
 import { classMap } from 'lit/directives/class-map.js'
 
-import { config } from '@layars/web-components-root/.config/layars.config.js'
-
 import { Theme } from '@layars/theme-provider'
 
 import { LayarsButtonProperties, LayarsButtonStyles } from './defs.js'
@@ -19,7 +17,7 @@ import button_styles from './styles/index.js'
  * @slot [item-before] - used to pass in icons or other elements to be used before the text of the button
  * @slot [item-after] - used to pass in icons or other elements to be used after the text of the button
  */
-@customElement(`${config.web_components.prefix}-button`)
+@customElement(`layars-button`)
 class LayarsButton extends LitElement implements LayarsButtonProperties {
     /**
      * The variant of the button

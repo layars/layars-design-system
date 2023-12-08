@@ -2,8 +2,6 @@ import { html, LitElement, css, render } from 'lit'
 import { customElement, property, state } from 'lit/decorators.js'
 import { provide } from '@lit-labs/context'
 
-import { config } from '@layars/web-components-root/.config/layars.config.js'
-
 import { _themeContext, themeContext, Theme, cssvarsContext } from './layars-theme-context.js'
 import type { LayarsThemeProviderProperties, LayarsThemeProviderThemes } from './defs.js'
 
@@ -16,7 +14,7 @@ import type { LayarsThemeProviderProperties, LayarsThemeProviderThemes } from '.
  *
  * @slot [slot] - default slot, all children of the theme
  */
-@customElement(`${config.web_components.prefix}-theme-provider`)
+@customElement(`layars-theme-provider`)
 class LayarsThemeProvider extends LitElement implements LayarsThemeProviderProperties {
     /**
      * The type of the theme variables
