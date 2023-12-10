@@ -1,0 +1,121 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`layars-icon > spec > default 1`] = `
+"<style>
+    :host {
+        display: inline-block;
+
+        width: var(--icon-width);
+        height: var(--icon-height);
+    }
+
+    :host(.start) {
+        margin-right: var(--layars-sizes-size-8);
+    }
+
+    :host(.end) {
+        margin-left: var(--layars-sizes-size-8);
+    }
+
+    slot::slotted(svg) {
+        width: var(--icon-width);
+        height: var(--icon-height);
+    }
+</style>"
+`;
+
+exports[`layars-icon > spec > props: color = green 1`] = `
+"<style>
+    :host {
+        display: inline-block;
+
+        width: var(--icon-width);
+        height: var(--icon-height);
+    }
+
+    :host(.start) {
+        margin-right: var(--layars-sizes-size-8);
+    }
+
+    :host(.end) {
+        margin-left: var(--layars-sizes-size-8);
+    }
+
+    slot::slotted(svg) {
+        width: var(--icon-width);
+        height: var(--icon-height);
+    }
+</style>"
+`;
+
+exports[`layars-icon > spec > props: color = interactive 1`] = `
+"<style>
+    :host {
+        display: inline-block;
+
+        width: var(--icon-width);
+        height: var(--icon-height);
+    }
+
+    :host(.start) {
+        margin-right: var(--layars-sizes-size-8);
+    }
+
+    :host(.end) {
+        margin-left: var(--layars-sizes-size-8);
+    }
+
+    slot::slotted(svg) {
+        width: var(--icon-width);
+        height: var(--icon-height);
+    }
+</style>"
+`;
+
+exports[`layars-icon > spec > props: color = neutral 1`] = `
+"<style>
+    :host {
+        display: inline-block;
+
+        width: var(--icon-width);
+        height: var(--icon-height);
+    }
+
+    :host(.start) {
+        margin-right: var(--layars-sizes-size-8);
+    }
+
+    :host(.end) {
+        margin-left: var(--layars-sizes-size-8);
+    }
+
+    slot::slotted(svg) {
+        width: var(--icon-width);
+        height: var(--icon-height);
+    }
+</style>"
+`;
+
+exports[`layars-icon > spec > props: color = red 1`] = `
+"<style>
+    :host {
+        display: inline-block;
+
+        width: var(--icon-width);
+        height: var(--icon-height);
+    }
+
+    :host(.start) {
+        margin-right: var(--layars-sizes-size-8);
+    }
+
+    :host(.end) {
+        margin-left: var(--layars-sizes-size-8);
+    }
+
+    slot::slotted(svg) {
+        width: var(--icon-width);
+        height: var(--icon-height);
+    }
+</style>"
+`;

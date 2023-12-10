@@ -3,7 +3,7 @@ import type { IWindow } from 'happy-dom'
 import { describe, it, expect } from 'vitest'
 import { html, render } from 'lit'
 
-import './layars-button.js'
+import './layars-icon.js'
 
 declare global {
     interface Window extends IWindow {}

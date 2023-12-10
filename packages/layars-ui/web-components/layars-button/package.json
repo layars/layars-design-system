@@ -50,6 +50,7 @@
         "@layars/types": "workspace:^0.0.0",
         "@layars/utils": "workspace:^0.0.0",
         "@layars/web-components-root": "workspace:^0.0.0",
+        "@vitest/coverage-v8": "^1.0.4",
         "clsx": "^1.2.1"
     }
 }
