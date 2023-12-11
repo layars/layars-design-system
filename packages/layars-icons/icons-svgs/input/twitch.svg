@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <g class="twitch">
-    <g class="Vector">
-      <path fill="#556573" d="M6 0 1.716 4.286v15.428h5.143V24l4.285-4.286h3.43L22.285 12V0H6.001Zm14.572 11.143-3.428 3.428h-3.429l-3 3v-3H6.858V1.714h13.714v9.429Z"/>
-      <path fill="#556573" d="M18 4.714h-1.714v5.143h1.715V4.714Zm-4.714 0h-1.714v5.143h1.714V4.714Z"/>
-    </g>
-  </g>
-</svg>

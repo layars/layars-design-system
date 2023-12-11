@@ -2,6 +2,8 @@ import { html, LitElement, unsafeCSS } from 'lit'
 import { customElement, property, eventOptions } from 'lit/decorators.js'
 import { classMap } from 'lit/directives/class-map.js'
 
+import { settings } from '@layars/utils/web-components'
+
 import { Theme } from '@layars/theme-provider'
 
 import { LayarsButtonProperties, LayarsButtonStyles } from './defs.js'
@@ -17,7 +19,7 @@ import button_styles from './styles/index.js'
  * @slot [item-before] - used to pass in icons or other elements to be used before the text of the button
  * @slot [item-after] - used to pass in icons or other elements to be used after the text of the button
  */
-@customElement(`layars-button`)
+@customElement(`${settings.prefix}-button`)
 class LayarsButton extends LitElement implements LayarsButtonProperties {
     /**
      * The variant of the button
@@ -89,9 +91,10 @@ class LayarsButton extends LitElement implements LayarsButtonProperties {
                     '--btn-base': `var(--layars-color-action-${this.color}-enabled)`,
                     '--btn-hover': `var(--layars-color-action-${this.color}-hover)`,
                     '--btn-pressed': `var(--layars-color-action-${this.color}-pressed)`,
-                    '--btn-surface-base': this.variant === 'outline' ?
-                        `transparent`:
-                        `var(--layars-color-action-${this.color}-subtle-enabled)`,
+                    '--btn-surface-base':
+                        this.variant === 'outline'
+                            ? `transparent`
+                            : `var(--layars-color-action-${this.color}-subtle-enabled)`,
                     '--btn-surface-hover': `var(--layars-color-action-${this.color}-subtle-hover)`,
                     '--btn-surface-pressed': `var(--layars-color-action-${this.color}-subtle-pressed)`,
                     '--btn-disabled': `var(--layars-color-disabled-surface)`,

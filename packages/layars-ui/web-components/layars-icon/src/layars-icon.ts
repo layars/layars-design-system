@@ -3,7 +3,7 @@ import { customElement, property, state } from 'lit/decorators.js'
 import { classMap } from 'lit/directives/class-map.js'
 import { consume } from '@lit-labs/context'
 
-import { config } from '@layars/ui-web-components-root/.config/layars.config.ts'
+import { settings } from '@layars/utils/web-components'
 
 import { type ExtendedTheme, Theme, themeContext } from '@layars/theme-provider'
 
@@ -18,7 +18,7 @@ import icon_styles from './styles/index.ts'
  *
  * @slot [slot] - default slot, used for the path(s) of the icon
  */
-@customElement(`${config.web_components.prefix}-icon`)
+@customElement(`${settings.prefix}-icon`)
 class LayarsIcon extends LitElement {
     @consume({ context: themeContext, subscribe: true })
     @state()

@@ -51,7 +51,7 @@
     ],
     "scripts": {
         "build": "tsc && pnpm vite build",
-        "test": "echo \"Error: no test specified\"",
+        "test": "echo \"@todo no tests\"",
         "vite": "vite --config .config/vite.config.ts"
     },
     "keywords": [],

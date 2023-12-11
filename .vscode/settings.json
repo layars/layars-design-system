@@ -11,5 +11,11 @@
     "cssvar.excludeThemedVariables": true,
     "cssvar.extensions": ["css", "svelte", "ts", "tsx", "js", "jsx"],
     "lit-plugin.strict": true,
-    "lit-plugin.maxNodeModuleImportDepth": -1
+    "lit-plugin.maxNodeModuleImportDepth": -1,
+    "[dotenv]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[ignore]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    }
 }

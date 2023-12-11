@@ -1,8 +1,8 @@
 /// <reference types="vitest" />
 
 import { defineConfig } from 'vite'
-// @ts-ignore
-import eslintPlugin from 'vite-plugin-eslint'
+
+import { workspaces } from '@layars/root/utils'
 
 export default defineConfig({
     build: {
@@ -32,5 +32,5 @@ export default defineConfig({
         include: ['**/*.{spec,test}.ts'],
         resolveSnapshotPath: (path, ext) => `.test/snapshots/spec/${path.split('/').pop()}${ext}`,
     },
-    plugins: [eslintPlugin()],
+    plugins: [],
 })

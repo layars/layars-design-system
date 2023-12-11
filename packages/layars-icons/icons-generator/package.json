@@ -4,9 +4,9 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "generate:svgs": "pnpm ts:node --esm scripts/generate-svgs.ts",
-        "generate:wc": "GEN_TYPE='wc' pnpm ts:node --esm scripts/generate-icons.ts",
-        "ts:node": "ts-node --project ./tsconfig.json"
+        "generate:svgs": "pnpm node:ts --esm scripts/generate-svgs.ts",
+        "generate:wc": "GEN_TYPE='wc' pnpm node:ts --esm scripts/generate-icons.ts",
+        "node:ts": "node --import @layars/root/register.js --project ./tsconfig.json"
     },
     "devDependencies": {
         "@layars/root": "workspace:latest",

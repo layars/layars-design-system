@@ -3,12 +3,12 @@ import type { Theme as DarkTheme } from '@layars/tokens/dark'
 import type { LayarsBaseStyles } from '@layars/types/web-components'
 
 interface LayarsThemeProviderThemes {
-    light?: Partial<LightTheme>
-    dark?: Partial<DarkTheme>
+    light?: Partial<typeof LightTheme>
+    dark?: Partial<typeof DarkTheme>
 }
 
 interface LayarsThemeProviderCustomThemes {
-    [key: string]: Partial<LightTheme> & Record<string, any>
+    [key: string]: Partial<typeof LightTheme> & Record<string, any>
 }
 
 interface LayarsThemeProviderProperties {
