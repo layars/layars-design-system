@@ -30,6 +30,10 @@ export default defineConfig({
         globals: true,
         environment: 'happy-dom',
         include: ['**/*.{spec,test}.ts'],
+        coverage: {
+            include: ['**/src'],
+            exclude: ['**/defs.ts', '**/*.stories.ts', '**/index.ts', '**/*.visual.ts']
+        },
         resolveSnapshotPath: (path, ext) => `.test/snapshots/spec/${path.split('/').pop()}${ext}`,
     },
     plugins: [],

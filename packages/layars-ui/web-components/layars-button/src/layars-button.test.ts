@@ -1,6 +1,11 @@
+import type { IWindow } from 'happy-dom'
 import { describe, it, expect, vi } from 'vitest'
 
 import './layars-button.js'
+
+declare global {
+    interface Window extends IWindow {}
+}
 
 describe('layars-button > test', async () => {
     const setupComponent = async (variant: string = 'solid') => {
@@ -77,5 +82,20 @@ describe('layars-button > test', async () => {
         const button = getButton()
 
         expect(button.getAttributeNames().includes('full-width')).toBeTruthy()
+    })
+
+    it('should validate the style setter', async() => {
+        document.body.innerHTML = `<layars-button styles={{
+            '--btn-base': 'var(--layars-color-blue-700)',
+            '--btn-hover': 'var(--layars-color-blue-500)',
+            '--btn-pressed': 'var(--layars-color-blue-800)',
+        }}>Button</layars-button>`
+
+        await window.happyDOM.whenAsyncComplete()
+        await new Promise((resolve) => setTimeout(resolve, 0))
+
+        const button = getButton()
+
+        expect(button.getAttributeNames().includes('styles')).toBeTruthy()
     })
 })
