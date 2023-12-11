@@ -2,27 +2,33 @@ name: layars-tokens
 on:
   push:
     paths:
-      - packages/layars-tokens/**
+      - packages/**
 
 jobs:
   build:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        node-version: [18]
+        node-version: [20]
+    
     steps:
     - uses: actions/checkout@v3
+    
     - uses: pnpm/action-setup@v2
       with:
         version: 8
+    
     - name: use node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'pnpm'
+    
     - name: install
       run: pnpm install
+    
     - name: build
-      run: pnpm --filter @layars/tokens build
+      run: pnpm build
+    
     - name: test
-      run: pnpm --filter @layars/tokens test
+      run: pnpm test
