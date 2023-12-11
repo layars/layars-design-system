@@ -1,7 +1,6 @@
 /// <reference types="vitest" />
 
 import { defineConfig } from 'vite'
-import eslintPlugin from 'vite-plugin-eslint'
 
 export default defineConfig({
     build: {
@@ -22,5 +21,5 @@ export default defineConfig({
         reportCompressedSize: true,
         emptyOutDir: true,
     },
-    plugins: [eslintPlugin()],
+    plugins: [],
 })

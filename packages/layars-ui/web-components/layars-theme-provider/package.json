@@ -53,7 +53,6 @@
         "lodash.merge": "^4.6.2"
     },
     "devDependencies": {
-        "@layars/button": "workspace:^0.0.0",
         "@layars/tokens": "workspace:^0.0.0",
         "@layars/types": "workspace:^0.0.0",
         "@layars/utils": "workspace:^0.0.0",

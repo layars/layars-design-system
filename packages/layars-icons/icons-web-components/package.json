@@ -3,11 +3,11 @@
     "version": "0.0.0",
     "type": "module",
     "scripts": {
-        "generate:svgs": "pnpm ts:node --esm scripts/generate-svgs.ts",
-        "ts:node": "ts-node --project ./tsconfig.json",
+        "generate:svgs": "pnpm node:ts --esm scripts/generate-svgs.ts",
+        "node:ts": "node --import @layars/root/register.js --project ./tsconfig.json",
         "analyze": "custom-elements-manifest analyze --litelement --config '.config/custom-elements-manifest.config.mjs'",
         "storybook": "pnpm analyze && storybook dev -p 19000 -c .storybook",
-        "storybook:composition": "pnpm storybook --no-open"
+        "storybook:composition@todo": "pnpm storybook --no-open"
     },
     "dependencies": {
         "@layars/icon": "workspace:^0.0.0",

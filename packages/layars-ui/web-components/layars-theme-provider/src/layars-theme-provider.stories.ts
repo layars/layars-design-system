@@ -10,7 +10,6 @@ import { _themeContext } from './layars-theme-context.js'
 import { LayarsThemeProvider } from './layars-theme-provider.js'
 import './layars-theme-provider.js'
 
-import '@layars/button'
 import '../.storybook/src/get-theme-token.js'
 
 type ArgsOverride = Omit<LayarsThemeProvider, 'slot'>
@@ -329,7 +328,8 @@ export const Tokens: Story = {
             </style>
             <div class="tokens-row">
                 <h2 class="tokens-typography">
-                    Hi Layars, I'm <get-theme-token path="typography.font.family"></get-theme-token>!
+                    Hi Layars, I'm
+                    <get-theme-token path="typography.font.family"></get-theme-token>!
                 </h2>
                 <div class="tokens-buttons">
                     <layars-button
