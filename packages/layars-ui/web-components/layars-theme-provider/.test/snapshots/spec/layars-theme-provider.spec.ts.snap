@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`layars-theme-provider > spec > default 1`] = `
+"
+
+<slot></slot>"
+`;
+
+exports[`layars-theme-provider > spec > prop: type > dark 1`] = `
+"
+
+<slot></slot>"
+`;
+
+exports[`layars-theme-provider > spec > prop: type > light 1`] = `
+"
+
+<slot></slot>"
+`;
+
+exports[`layars-theme-provider > spec > props: tokens 1`] = `
+"
+
+<slot></slot>"
+`;

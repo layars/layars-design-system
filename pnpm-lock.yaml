@@ -56,6 +56,9 @@ importers:
       cors:
         specifier: ^2.8.5
         version: 2.8.5
+      dedent-js:
+        specifier: ^1.0.1
+        version: 1.0.1
       eslint:
         specifier: ^8.54.0
         version: 8.55.0
@@ -5216,6 +5219,10 @@ packages:
     resolution: {integrity: sha512-O8x12RzrUF8xyVcY0KJowWsmaJxQbmy0/EtnNtHRpsOcT7dFk5W598coHqBVpmWo1oQQfsCqfCmkZN5DJrZVdg==}
     dependencies:
       character-entities: 2.0.2
+    dev: true
+
+  /dedent-js@1.0.1:
+    resolution: {integrity: sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ==}
     dev: true
 
   /deep-eql@4.1.3:

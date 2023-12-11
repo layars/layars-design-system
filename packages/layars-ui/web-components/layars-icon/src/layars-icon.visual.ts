@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test'
 
-import { visual } from '../.config/test.utils.js'
+import { visual } from '@layars/web-components-root/.config/test.utils.js'
 
-test('layars-icon > visual > default', async ({ page }, info) => {
+test('layars-icon > visual > default', async ({ page }) => {
     await page.goto(
         'http://localhost:18000/iframe.html?id=layars-icon--default&globals=theme:light&viewMode=story',
         { ...visual.gotoOptions },

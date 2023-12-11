@@ -1,0 +1,7029 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`layars-button > spec > default 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > prop: disabled 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > prop: full-width 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > prop: size = lg 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > prop: size = md 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > prop: size = sm 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > prop: styles ~ "overrides" 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > prop: type = button 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > prop: type = reset 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > prop: type = submit 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > prop: variant = ghost 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > prop: variant = outline 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > prop: variant = solid 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = ghost and color = accent 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = ghost and color = brand 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = ghost and color = destructive 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = ghost and color = inverse 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = ghost and color = neutral 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = outline and color = accent 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = outline and color = brand 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = outline and color = destructive 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = outline and color = inverse 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = outline and color = neutral 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = solid and color = accent 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = solid and color = brand 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = solid and color = destructive 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = solid and color = inverse 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;
+
+exports[`layars-button > spec > props: variant = solid and color = neutral 1`] = `
+"
+        <style>
+            :host {
+                --btn-base:var(--layars-color-action-neutral-enabled);--btn-hover:var(--layars-color-action-neutral-hover);--btn-pressed:var(--layars-color-action-neutral-pressed);--btn-disabled:var(--layars-color-disabled-surface);--btn-on-disabled:var(--layars-color-disabled-content);--btn-focus:var(--layars-color-focus-default);--btn-content:var(--layars-color-content-inverted-primary);;
+                display: inline-flex
+            }
+        </style>
+        <button part="button" class="" lit="" type="" disabled="">
+            <slot name="item-before" part="btn-item-before"></slot>
+            <slot part="btn-label"></slot>
+            <slot name="item-after" part="btn-item-after"></slot>
+        </button>
+    <style>
+
+button {
+    box-sizing: border-box;
+    border-radius: var(--layars-sizes-size-4);
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-width: var(--layars-size-size-2);
+    height: 100%;
+    letter-spacing: 0.05rem;
+    font-family: var(--layars-typography-font-family);
+    font-weight: var(--layars-typography-font-weight-bold);
+    /** Disable user selecting text in Safari */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+.disabled:active,
+button:disabled:active {
+    pointer-events: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.elevation {
+    filter: var(--layars-drop-shadows-shadow-03);
+}
+
+slot::slotted([slot='item-before']:not(:empty)) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+slot::slotted([slot='item-after']:not(:empty)) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+
+.size--sm {
+    height: var(--layars-sizes-size-32);
+    padding: 0 var(--layars-sizes-size-20);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--md {
+    height: var(--layars-sizes-size-40);
+    padding: 0 var(--layars-sizes-size-24);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--lg {
+    height: var(--layars-sizes-size-48);
+    padding: 0 var(--layars-sizes-size-32);
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizess-size-24);
+}
+
+
+.variant--solid:enabled,
+.variant--solid.enabled {
+    background-color: var(--btn-base);
+    border-color: var(--btn-base);
+    color: var(--btn-content);
+}
+
+.variant--solid .icon .path {
+    fill: var(--btn-content);
+}
+
+.variant--solid:hover,
+.variant--solid.hover {
+    background-color: var(--btn-hover);
+    border-color: var(--btn-hover);
+}
+
+.variant--solid:focus,
+.variant--solid.focus {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:focus:hover,
+.variant--solid.focus:hover {
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--solid:active,
+.variant--solid.active {
+    background-color: var(--btn-pressed);
+    border-color: var(--btn-pressed);
+}
+
+.variant--solid:disabled,
+.variant--solid.disabled {
+    background-color: var(--btn-disabled);
+    border-color: transparent;
+    color: var(--btn-on-disabled);
+}
+
+.variant--solid:disabled .icon .path,
+.variant--solid.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+
+.variant--outline:enabled,
+.variant--outline.enabled,
+.variant--outline:enabled,
+.variant--outline.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+}
+
+.variant--outline .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--outline:hover,
+.variant--outline.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.variant--outline:focus,
+.variant--outline.focus {
+    background-color: var(--btn-surface-base);
+    border-color: var(--btn-base);
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:focus:hover,
+.variant--outline.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--outline:active,
+.variant--outline.active,
+.variant--outline:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: var(--btn-pressed);
+    color: var(--btn-pressed);
+}
+
+.variant--outline:disabled,
+.variant--outline.disabled {
+    background-color: transparent;
+    border-color: var(--btn-disabled);
+    color: var(--btn-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-disabled);
+}
+
+
+.variant--ghost:enabled,
+.variant--ghost.enabled,
+.variant--ghost:enabled,
+.variant--ghost.enabled {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+}
+
+.variant--ghost .icon .path {
+    fill: var(--btn-base);
+}
+
+.variant--ghost:hover,
+.variant--ghost.hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+}
+
+.variant--ghost:focus,
+.variant--ghost.focus {
+    background-color: var(--btn-surface-base);
+    border-color: transparent;
+    color: var(--btn-base);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:focus:hover,
+.variant--ghost.focus:hover {
+    background-color: var(--btn-surface-hover);
+    border-color: transparent;
+    color: var(--btn-hover);
+    box-shadow: 0 0 0 var(--layars-sizes-size-4) var(--layars-color-focus-default);
+}
+
+.variant--ghost:active,
+.variant--ghost.active,
+.variant--ghost:focus:active {
+    background-color: var(--btn-surface-pressed);
+    border-color: transparent;
+    color: var(--btn-pressed);
+}
+
+.variant--ghost:disabled,
+.variant--ghost.disabled {
+    background-color: var(--btn-disabled);
+    border-color: var(--btn-disabled);
+    color: var(--btn-on-disabled);
+}
+
+.variant--primary:disabled .icon .path,
+.variant--primary.disabled .icon .path {
+    fill: var(--btn-on-disabled);
+}
+
+</style>"
+`;

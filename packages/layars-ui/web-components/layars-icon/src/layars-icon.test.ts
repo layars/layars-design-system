@@ -1,5 +1,5 @@
 import type { IWindow } from 'happy-dom'
-import { describe, it, expect, beforeEach, vi } from 'vitest'
+import { describe, it, expect, beforeEach } from 'vitest'
 
 import './layars-icon.js'
 
