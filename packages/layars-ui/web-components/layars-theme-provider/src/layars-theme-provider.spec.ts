@@ -4,10 +4,11 @@ import { describe, expect } from 'vitest'
 import { html, render } from 'lit'
 import merge from 'lodash.merge'
 
+import { serializeSnapshot } from '@layars/utils/web-components/tests'
+
 import { light } from '@layars/tokens'
 
 import './layars-theme-provider.js'
-import '../../layars-button/src/layars-button.js'
 
 declare global {
     interface Window extends IWindow {}
@@ -15,9 +16,9 @@ declare global {
 
 // Function to retrieve the shadowroot of the component mounted
 function getShadowRoot(): string | null | undefined {
-    return document.body
-        .querySelector('layars-theme-provider')
-        ?.shadowRoot?.innerHTML.replace(/<!--.*?-->/g, '')
+    return serializeSnapshot(
+        document.body.querySelector('layars-theme-provider')?.shadowRoot?.innerHTML
+    )
 }
 
 describe('layars-theme-provider > spec', async () => {
@@ -28,7 +29,7 @@ describe('layars-theme-provider > spec', async () => {
                     <layars-button>Button</layars-button>
                 </layars-theme-provider>
             `,
-            document.body,
+            document.body
         )
 
         await window.happyDOM.whenAsyncComplete()
@@ -46,7 +47,7 @@ describe('layars-theme-provider > spec', async () => {
                     <layars-button>Button</layars-button>
                 </layars-theme-provider>
             `,
-            document.body,
+            document.body
         )
 
         await window.happyDOM.whenAsyncComplete()
@@ -64,7 +65,7 @@ describe('layars-theme-provider > spec', async () => {
                     <layars-button>Button</layars-button>
                 </layars-theme-provider>
             `,
-            document.body,
+            document.body
         )
 
         await window.happyDOM.whenAsyncComplete()
@@ -104,7 +105,7 @@ describe('layars-theme-provider > spec', async () => {
                     <layars-button>Button</layars-button>
                 </layars-theme-provider>
             `,
-            document.body,
+            document.body
         )
 
         await window.happyDOM.whenAsyncComplete()

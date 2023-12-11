@@ -3,7 +3,9 @@ import type { IWindow } from 'happy-dom'
 import { describe, it, expect } from 'vitest'
 import { html, render } from 'lit'
 
-import './layars-button.js'
+import { serializeSnapshot } from '@layars/utils/web-components/tests'
+
+import './layars-icon.js'
 
 declare global {
     interface Window extends IWindow {}
@@ -11,7 +13,7 @@ declare global {
 
 // Function to retrieve the shadowroot of the component mounted
 function getShadowRoot(): string | null | undefined {
-    return document.body.querySelector('layars-icon')?.shadowRoot?.innerHTML
+    return serializeSnapshot(document.body.querySelector('layars-icon')?.shadowRoot?.innerHTML)
 }
 
 describe('layars-icon > spec', async () => {

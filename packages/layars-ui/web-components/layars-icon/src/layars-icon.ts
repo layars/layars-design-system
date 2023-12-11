@@ -68,16 +68,16 @@ class LayarsIcon extends LitElement {
     public get styles(): LayarsIconStyles {
         return {
             // @ts-ignore
-            '--icon-color': this.theme.color[this.color!]
+            '--icon-color': this.theme?.color?.[this.color!]
                 ? `var(--layars-color-${this.color?.replace('_', '-')})`
                 : this.color,
             // @ts-ignore
-            '--icon-width': this.theme.sizes[this.size!]
+            '--icon-width': this.theme?.sizes?.[this.size!]
                 ? // @ts-ignore @todo
                   `var(--layars-sizes-${this.size?.replace('_', '-')})`
                 : this.size,
             // @ts-ignore
-            '--icon-height': this.theme.sizes[this.size!]
+            '--icon-height': this.theme?.sizes?.[this.size!]
                 ? // @ts-ignore @todo
                   `var(--layars-sizes-${this.size?.replace('_', '-')})`
                 : this.size,

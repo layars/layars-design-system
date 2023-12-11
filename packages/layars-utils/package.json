@@ -21,6 +21,11 @@
             "require": "./src/web-components/index.ts",
             "import": "./src/web-components/index.ts",
             "types": "./src/web-components/index.ts"
+        },
+        "./web-components/tests": {
+            "require": "./src/web-components/tests/index.ts",
+            "import": "./src/web-components/tests/index.ts",
+            "types": "./src/web-components/tests/index.ts"
         }
     },
     "publishConfig": {
@@ -39,6 +44,11 @@
                 "types": "./types/index.d.ts"
             },
             "./web-components": {
+                "require": "./lib/layars-utils.cjs",
+                "import": "./lib/layars-utils.js",
+                "types": "./types/index.d.ts"
+            },
+            "./web-components/tests": {
                 "require": "./lib/layars-utils.cjs",
                 "import": "./lib/layars-utils.js",
                 "types": "./types/index.d.ts"

@@ -3,6 +3,8 @@ import type { IWindow } from 'happy-dom'
 import { describe, it, expect } from 'vitest'
 import { html, render } from 'lit'
 
+import { serializeSnapshot } from '@layars/utils/web-components/tests'
+
 import type { LayarsButtonStyles } from './defs.js'
 
 import './layars-button.js'
@@ -13,7 +15,7 @@ declare global {
 
 // Function to retrieve the shadowroot of the component mounted
 function getShadowRoot(): string | null | undefined {
-    return document.body.querySelector('layars-button')?.shadowRoot?.innerHTML
+    return serializeSnapshot(document.body.querySelector('layars-button')?.shadowRoot?.innerHTML)
 }
 
 describe('layars-button > spec', async () => {
@@ -82,7 +84,7 @@ describe('layars-button > spec', async () => {
                         .color="${color}"
                         >Button</layars-button
                     >`,
-                    document.body,
+                    document.body
                 )
 
                 await window.happyDOM.whenAsyncComplete()

@@ -1,0 +1,166 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`layars-icon > spec > default 1`] = `
+"
+        <style>
+            :host {
+                --icon-color:text_solid;--icon-width:size_16;--icon-height:size_16;;
+            }
+        </style>
+        <span part="wrapper" class="" lit="">
+            <slot part="svg"></slot>
+        </span>
+    <style>
+:host {
+    display: inline-block;
+
+    width: var(--icon-width);
+    height: var(--icon-height);
+}
+
+:host(.start) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+:host(.end) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+slot::slotted(svg) {
+    width: var(--icon-width);
+    height: var(--icon-height);
+}
+</style>"
+`;
+
+exports[`layars-icon > spec > props: color = green 1`] = `
+"
+        <style>
+            :host {
+                --icon-color:text_solid;--icon-width:size_16;--icon-height:size_16;;
+            }
+        </style>
+        <span part="wrapper" class="" lit="">
+            <slot part="svg"></slot>
+        </span>
+    <style>
+:host {
+    display: inline-block;
+
+    width: var(--icon-width);
+    height: var(--icon-height);
+}
+
+:host(.start) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+:host(.end) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+slot::slotted(svg) {
+    width: var(--icon-width);
+    height: var(--icon-height);
+}
+</style>"
+`;
+
+exports[`layars-icon > spec > props: color = interactive 1`] = `
+"
+        <style>
+            :host {
+                --icon-color:text_solid;--icon-width:size_16;--icon-height:size_16;;
+            }
+        </style>
+        <span part="wrapper" class="" lit="">
+            <slot part="svg"></slot>
+        </span>
+    <style>
+:host {
+    display: inline-block;
+
+    width: var(--icon-width);
+    height: var(--icon-height);
+}
+
+:host(.start) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+:host(.end) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+slot::slotted(svg) {
+    width: var(--icon-width);
+    height: var(--icon-height);
+}
+</style>"
+`;
+
+exports[`layars-icon > spec > props: color = neutral 1`] = `
+"
+        <style>
+            :host {
+                --icon-color:text_solid;--icon-width:size_16;--icon-height:size_16;;
+            }
+        </style>
+        <span part="wrapper" class="" lit="">
+            <slot part="svg"></slot>
+        </span>
+    <style>
+:host {
+    display: inline-block;
+
+    width: var(--icon-width);
+    height: var(--icon-height);
+}
+
+:host(.start) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+:host(.end) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+slot::slotted(svg) {
+    width: var(--icon-width);
+    height: var(--icon-height);
+}
+</style>"
+`;
+
+exports[`layars-icon > spec > props: color = red 1`] = `
+"
+        <style>
+            :host {
+                --icon-color:text_solid;--icon-width:size_16;--icon-height:size_16;;
+            }
+        </style>
+        <span part="wrapper" class="" lit="">
+            <slot part="svg"></slot>
+        </span>
+    <style>
+:host {
+    display: inline-block;
+
+    width: var(--icon-width);
+    height: var(--icon-height);
+}
+
+:host(.start) {
+    margin-right: var(--layars-sizes-size-8);
+}
+
+:host(.end) {
+    margin-left: var(--layars-sizes-size-8);
+}
+
+slot::slotted(svg) {
+    width: var(--icon-width);
+    height: var(--icon-height);
+}
+</style>"
+`;
