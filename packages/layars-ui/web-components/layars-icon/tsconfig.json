@@ -8,6 +8,11 @@
     },
     "include": ["src"],
     "exclude": [
+        "**/*.test.ts",
+        "**/*.spec.ts",
+        "**/*.stories.ts",
+        "**/*.performance.ts",
+        "**/*.visual.ts",
         "**/node_modules"
     ],
     "references": [{ "path": "../tsconfig.json" }]

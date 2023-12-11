@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test'
 
 import { visual } from '@layars/web-components-root/.config/test.utils.js'
 
-test('layars-button > visual > default', async ({ page }, info) => {
+test('layars-button > visual > default', async ({ page }) => {
     await page.goto(
         'http://localhost:18000/iframe.html?id=layars-button--default&globals=theme:light&viewMode=story',
         { ...visual.gotoOptions }

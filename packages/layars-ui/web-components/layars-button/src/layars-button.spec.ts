@@ -3,6 +3,7 @@ import type { IWindow } from 'happy-dom'
 import { describe, it, expect } from 'vitest'
 import { html, render } from 'lit'
 
+// @ts-ignore
 import { serializeSnapshot } from '@layars/utils/web-components/tests'
 
 import type { LayarsButtonStyles } from './defs.js'

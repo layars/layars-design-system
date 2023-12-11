@@ -4,6 +4,7 @@ import { describe, expect } from 'vitest'
 import { html, render } from 'lit'
 import merge from 'lodash.merge'
 
+// @ts-ignore
 import { serializeSnapshot } from '@layars/utils/web-components/tests'
 
 import { light } from '@layars/tokens'
