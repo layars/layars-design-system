@@ -18,7 +18,8 @@
         "node:ts": "node --import ./register.js",
         "postinstall": "pnpm workspaces:cache",
         "workspaces:cache": "pnpm node:ts utils/workspaces.js --cache-workspaces",
-        "workspaces:nuke": "pnpm node:ts utils/nuke.js"
+        "workspaces:nuke": "pnpm node:ts utils/nuke.js",
+        "ci:publish": "pnpm publish -r"
     },
     "repository": {
         "type": "git",
@@ -30,6 +31,7 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@changesets/cli": "^2.27.1",
         "@eslint/js": "^8.55.0",
         "@playwright/test": "^1.40.1",
         "@storybook/addon-essentials": "7.6.4",

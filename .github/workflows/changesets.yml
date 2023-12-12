@@ -1,8 +1,8 @@
-name: layars-tokens
+name: Deploy Changesets
 on:
   push:
-    paths:
-      - packages/**
+    branches:
+      - main
 
 jobs:
   build:
@@ -29,6 +29,8 @@ jobs:
     
     - name: build
       run: pnpm build
-    
-    - name: test
-      run: pnpm test
+
+    - name: Create Release Pull Request
+      uses: changesets/action@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
