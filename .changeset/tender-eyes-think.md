@@ -1,5 +1,5 @@
 ---
-"@layars/tokens": major
+"@layars/tokens": minor
 ---
 
 Testing this changeset release
