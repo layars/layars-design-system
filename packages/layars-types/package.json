@@ -41,6 +41,6 @@
         "lit-html": "^2.7.4"
     },
     "devDependencies": {
-        "@layars/tokens": "workspace:^0.0.0"
+        "@layars/tokens": "workspace:^1.0.0"
     }
 }
