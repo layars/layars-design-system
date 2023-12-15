@@ -1,5 +1,11 @@
 # @layars/tokens
 
+## 0.1.0
+
+### Minor Changes
+
+- 4cc457e: Bump to test pipelines
+
 ## 0.2.0
 
 ### Minor Changes
