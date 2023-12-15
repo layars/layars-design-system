@@ -1,5 +1,11 @@
 # @layars/tokens
 
+## 0.2.0
+
+### Minor Changes
+
+- 0452183: Test deploy of package
+
 ## 0.1.0
 
 ### Minor Changes
