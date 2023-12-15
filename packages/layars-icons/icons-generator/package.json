@@ -9,7 +9,7 @@
         "node:ts": "node --import @layars/root/register.js --project ./tsconfig.json"
     },
     "devDependencies": {
-        "@layars/root": "workspace:latest",
+        "@layars/root": "workspace:^0.0.0",
         "@types/mustache": "^4.2.2",
         "lit": "^2.7.5",
         "lit-html": "^2.7.4",

@@ -77,7 +77,7 @@
         "node:ts": "node --import @layars/root/register.js"
     },
     "devDependencies": {
-        "@layars/root": "workspace:latest",
+        "@layars/root": "workspace:^0.0.0",
         "@types/mustache": "^4.2.2",
         "change-case": "^4.1.2",
         "flat": "^5.0.2",

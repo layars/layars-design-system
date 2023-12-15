@@ -38,10 +38,10 @@
         "vitest": "vitest --config .config/vitest.config.ts"
     },
     "dependencies": {
-        "@layars/button": "workspace:latest",
-        "@layars/button-group": "workspace:latest",
-        "@layars/icon": "workspace:latest",
-        "@layars/theme-provider": "workspace:latest",
+        "@layars/button": "workspace:^0.0.0",
+        "@layars/button-group": "workspace:^0.0.0",
+        "@layars/icon": "workspace:^0.0.0",
+        "@layars/theme-provider": "workspace:^0.0.0",
         "lit": "^2.7.5"
     }
 }
