@@ -27,9 +27,6 @@
         "type": "git",
         "url": "git@github.com:layars/layars-design-system.git"
     },
-    "workspaces": [
-        "packages/*"
-    ],
     "author": "",
     "license": "ISC",
     "devDependencies": {

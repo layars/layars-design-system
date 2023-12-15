@@ -204,7 +204,7 @@ importers:
         version: 2.8.0
     devDependencies:
       '@layars/tokens':
-        specifier: workspace:^0.2.0
+        specifier: workspace:latest
         version: link:../layars-tokens
 
   packages/layars-ui: {}
@@ -236,13 +236,16 @@ importers:
   packages/layars-ui/web-components/layars-bundle:
     dependencies:
       '@layars/button':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../layars-button
+      '@layars/button-group':
+        specifier: workspace:latest
+        version: link:../layars-button-group
       '@layars/icon':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../layars-icon
       '@layars/theme-provider':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../layars-theme-provider
       lit:
         specifier: ^2.7.5
@@ -255,16 +258,16 @@ importers:
         version: 2.8.0
     devDependencies:
       '@layars/theme-provider':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../layars-theme-provider
       '@layars/types':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../../../layars-types
       '@layars/utils':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../../../layars-utils
       '@layars/web-components-root':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:..
       '@vitest/coverage-v8':
         specifier: ^1.0.4
@@ -280,19 +283,19 @@ importers:
         version: 2.8.0
     devDependencies:
       '@layars/button':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../layars-button
       '@layars/theme-provider':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../layars-theme-provider
       '@layars/types':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../../../layars-types
       '@layars/utils':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../../../layars-utils
       '@layars/web-components-root':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:..
       clsx:
         specifier: ^1.2.1
@@ -301,23 +304,23 @@ importers:
   packages/layars-ui/web-components/layars-icon:
     dependencies:
       '@layars/icons-svgs':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../../../layars-icons/icons-svgs
       lit:
         specifier: ^2.7.5
         version: 2.8.0
     devDependencies:
       '@layars/theme-provider':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../layars-theme-provider
       '@layars/types':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../../../layars-types
       '@layars/utils':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../../../layars-utils
       '@layars/web-components-root':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:..
       clsx:
         specifier: ^1.2.1
@@ -345,16 +348,16 @@ importers:
         version: 4.6.2
     devDependencies:
       '@layars/tokens':
-        specifier: workspace:^0.2.0
+        specifier: workspace:latest
         version: link:../../../layars-tokens
       '@layars/types':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../../../layars-types
       '@layars/utils':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:../../../layars-utils
       '@layars/web-components-root':
-        specifier: workspace:^0.0.0
+        specifier: workspace:latest
         version: link:..
 
   packages/layars-utils:

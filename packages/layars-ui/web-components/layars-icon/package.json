@@ -43,14 +43,14 @@
         "vitest": "vitest --config .config/vitest.config.ts"
     },
     "dependencies": {
-        "@layars/icons-svgs": "workspace:^0.0.0",
+        "@layars/icons-svgs": "workspace:latest",
         "lit": "^2.7.5"
     },
     "devDependencies": {
-        "@layars/theme-provider": "workspace:^0.0.0",
-        "@layars/types": "workspace:^0.0.0",
-        "@layars/utils": "workspace:^0.0.0",
-        "@layars/web-components-root": "workspace:^0.0.0",
+        "@layars/theme-provider": "workspace:latest",
+        "@layars/types": "workspace:latest",
+        "@layars/utils": "workspace:latest",
+        "@layars/web-components-root": "workspace:latest",
         "clsx": "^1.2.1"
     }
 }
