@@ -10,7 +10,7 @@
     },
     "devDependencies": {
         "@custom-elements-manifest/analyzer": "^0.8.3",
-        "@layars/root": "workspace:^0.0.0",
+        "@layars/root": "workspace:latest",
         "@types/lodash-es": "4.17.7",
         "happy-dom": "^9.20.3",
         "lit": "^2.7.5",
