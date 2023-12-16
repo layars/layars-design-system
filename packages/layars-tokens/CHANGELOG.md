@@ -1,5 +1,11 @@
 # @layars/tokens
 
+## 0.6.0
+
+### Minor Changes
+
+- 8577c00: Test private packages
+
 ## 0.5.0
 
 ### Minor Changes
