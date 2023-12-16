@@ -21,7 +21,7 @@
         "workspaces:nuke": "pnpm node:ts utils/nuke.js",
         "ci:install": "pnpm install --no-frozen-lockfile",
         "ci:version": "changeset version",
-        "ci:publish": "pnpm publish -r --no-git-checks --dry-run"
+        "ci:publish": "pnpm publish -r --no-git-checks"
     },
     "repository": {
         "type": "git",
