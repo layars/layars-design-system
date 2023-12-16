@@ -1,6 +1,7 @@
 {
     "name": "@layars/icons",
     "version": "0.0.0",
+    "private": true,
     "type": "module",
     "scripts": {
         "generate:svgs": "pnpm node:ts --esm scripts/generate-svgs.ts",

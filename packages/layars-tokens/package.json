@@ -74,8 +74,7 @@
         "test:update": "echo \"@layars/tokens: no test... \"",
         "test:ci": "echo \"@layars/tokens: no tests... \"",
         "lint": "echo \"@layars/tokens: no lint... \"",
-        "node:ts": "node --import @layars/root/register.js",
-        "publish": "pnpm publish --no-git-checks --dry-run"
+        "node:ts": "node --import @layars/root/register.js"
     },
     "devDependencies": {
         "@layars/root": "workspace:latest",
