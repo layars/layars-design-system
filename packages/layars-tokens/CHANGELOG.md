@@ -1,5 +1,11 @@
 # @layars/tokens
 
+## 0.7.0
+
+### Minor Changes
+
+- 52527ee: test new pipeline script
+
 ## 0.6.0
 
 ### Minor Changes

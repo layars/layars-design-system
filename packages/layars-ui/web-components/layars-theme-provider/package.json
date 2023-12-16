@@ -54,7 +54,7 @@
         "lodash.merge": "^4.6.2"
     },
     "devDependencies": {
-        "@layars/tokens": "workspace:^0.6.0",
+        "@layars/tokens": "workspace:^0.7.0",
         "@layars/types": "workspace:^0.0.0",
         "@layars/utils": "workspace:^0.0.0",
         "@layars/web-components-root": "workspace:^0.0.0"
