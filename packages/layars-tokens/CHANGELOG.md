@@ -1,5 +1,11 @@
 # @layars/tokens
 
+## 0.8.0
+
+### Minor Changes
+
+- test deployment again
+
 ## 0.7.0
 
 ### Minor Changes

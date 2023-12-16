@@ -2,7 +2,6 @@
     "name": "@layars/types",
     "version": "0.0.0",
     "description": "",
-    "private": true,
     "type": "module",
     "types": "src/index.d.ts",
     "exports": {
@@ -42,6 +41,6 @@
         "lit-html": "^2.7.4"
     },
     "devDependencies": {
-        "@layars/tokens": "workspace:^0.7.0"
+        "@layars/tokens": "workspace:^0.8.0"
     }
 }

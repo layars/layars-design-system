@@ -2,7 +2,6 @@
     "name": "@layars/utils",
     "version": "0.0.0",
     "description": "",
-    "private": true,
     "type": "module",
     "main": "./src/index.ts",
     "module": "./src/index.ts",

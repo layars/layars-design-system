@@ -2,7 +2,6 @@
     "name": "@layars/icons-svgs",
     "version": "0.0.0",
     "type": "module",
-    "private": true,
     "exports": {
         "./*.svg": "./svgs/*.svg"
     },

@@ -2,7 +2,6 @@
     "name": "@layars/ui",
     "version": "0.0.0",
     "type": "module",
-    "private": true,
     "main": "src/index.ts",
     "module": "src/index.ts",
     "types": "src/index.ts",

@@ -38,7 +38,7 @@
     "@layars/tokens": {
         "name": "@layars/tokens",
         "path": "./packages/layars-tokens",
-        "version": "0.5.0",
+        "version": "0.8.0",
         "private": false
     },
     "@layars/types": {
