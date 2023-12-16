@@ -27,25 +27,25 @@
         "name": "@layars/icons-svgs",
         "path": "./packages/layars-icons/icons-svgs",
         "version": "0.0.0",
-        "private": false
+        "private": true
     },
     "@layars/icons": {
         "name": "@layars/icons",
         "path": "./packages/layars-icons/icons-web-components",
         "version": "0.0.0",
-        "private": false
+        "private": true
     },
     "@layars/tokens": {
         "name": "@layars/tokens",
         "path": "./packages/layars-tokens",
-        "version": "0.8.0",
+        "version": "0.0.0",
         "private": false
     },
     "@layars/types": {
         "name": "@layars/types",
         "path": "./packages/layars-types",
         "version": "0.0.0",
-        "private": false
+        "private": true
     },
     "@layars/ui-root": {
         "name": "@layars/ui-root",
@@ -63,36 +63,36 @@
         "name": "@layars/ui",
         "path": "./packages/layars-ui/web-components/layars-bundle",
         "version": "0.0.0",
-        "private": false
+        "private": true
     },
     "@layars/button": {
         "name": "@layars/button",
         "path": "./packages/layars-ui/web-components/layars-button",
         "version": "0.0.0",
-        "private": false
+        "private": true
     },
     "@layars/button-group": {
         "name": "@layars/button-group",
         "path": "./packages/layars-ui/web-components/layars-button-group",
         "version": "0.0.0",
-        "private": false
+        "private": true
     },
     "@layars/icon": {
         "name": "@layars/icon",
         "path": "./packages/layars-ui/web-components/layars-icon",
         "version": "0.0.0",
-        "private": false
+        "private": true
     },
     "@layars/theme-provider": {
         "name": "@layars/theme-provider",
         "path": "./packages/layars-ui/web-components/layars-theme-provider",
         "version": "0.0.0",
-        "private": false
+        "private": true
     },
     "@layars/utils": {
         "name": "@layars/utils",
         "path": "./packages/layars-utils",
         "version": "0.0.0",
-        "private": false
+        "private": true
     }
 }

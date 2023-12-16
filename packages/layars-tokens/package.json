@@ -1,6 +1,6 @@
 {
     "name": "@layars/tokens",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "type": "module",
     "description": "Design tokens for Layars Design System",
     "keywords": [
@@ -39,6 +39,7 @@
     },
     "publishConfig": {
         "main": "./lib/index.js",
+        "registry": "https://registry.npmjs.org/",
         "exports": {
             ".": {
                 "import": "./lib/index.js",
