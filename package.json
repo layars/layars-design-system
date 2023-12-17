@@ -19,8 +19,9 @@
         "postinstall": "pnpm workspaces:cache",
         "workspaces:cache": "pnpm node:ts utils/workspaces.js --cache-workspaces",
         "workspaces:nuke": "pnpm node:ts utils/nuke.js",
+        "changeset": "changeset",
         "ci:install": "pnpm install --no-frozen-lockfile",
-        "ci:version": "changeset version",
+        "ci:version": "pnpm changeset version",
         "ci:publish": "pnpm publish -r --no-git-checks --access public"
     },
     "repository": {
