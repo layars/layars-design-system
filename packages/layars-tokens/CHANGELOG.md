@@ -1,5 +1,11 @@
 # @layars/tokens
 
+## 0.2.0
+
+### Minor Changes
+
+- c7bcc52: Testing Changeset Minor Bump
+
 ## 0.1.0
 
 ### Minor Changes
