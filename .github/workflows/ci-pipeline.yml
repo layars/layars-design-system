@@ -1,8 +1,6 @@
 name: CI Pipeline
 on:
-  push:
-    paths:
-      - packages/**
+  push
 
 jobs:
   build:
