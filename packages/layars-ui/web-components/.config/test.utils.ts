@@ -1,1 +1,1 @@
-export * from '@layars/root/.config/test.utils.js'
+export * from '@layars/root/.config/test.utils.ts'
