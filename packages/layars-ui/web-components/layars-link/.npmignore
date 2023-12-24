@@ -1,0 +1,6 @@
+.config
+.storybook
+.test
+node_modules
+src
+tsconfig.json

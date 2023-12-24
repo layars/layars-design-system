@@ -83,6 +83,12 @@
         "version": "0.0.0",
         "private": true
     },
+    "@layars/link": {
+        "name": "@layars/link",
+        "path": "./packages/layars-ui/web-components/layars-link",
+        "version": "0.0.0",
+        "private": true
+    },
     "@layars/theme-provider": {
         "name": "@layars/theme-provider",
         "path": "./packages/layars-ui/web-components/layars-theme-provider",
