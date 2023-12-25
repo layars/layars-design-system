@@ -86,6 +86,7 @@ export const Default: Story = {
         slot: html`
             <style>
                 .default-row {
+                    display: inline-block;
                     padding: var(--layars-sizes-size-16);
                     border-radius: var(--layars-sizes-desktop-radius-300);
                     background-color: var(--layars-color-surface-default);
@@ -94,7 +95,7 @@ export const Default: Story = {
                     height: var(--layars-sizes-size-24);
                 }
             </style>
-            <div class="default-row">
+            <span class="default-row">
                 <layars-button
                     variant="solid"
                     color="neutral"
@@ -127,7 +128,7 @@ export const Default: Story = {
                     color="destructive"
                     >Button</layars-button
                 >
-            </div>
+            </span>
         `,
     },
 }
