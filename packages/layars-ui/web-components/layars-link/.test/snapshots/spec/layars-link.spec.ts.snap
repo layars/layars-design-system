@@ -1,0 +1,428 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`layars-link > spec > default 1`] = `
+"
+        <a href="" lit="" target="" class="">
+            <slot></slot>
+        </a>
+    <style>
+a {
+    font-family: var(--layars-typography-font-family);
+}
+
+
+.variant--primary {
+    color: var(--layars-color-action-brand-enabled);
+
+    &:hover {
+        color: var(--layars-color-action-brand-hover);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--secondary {
+    color: var(--layars-color-content-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--inverse {
+    color: var(--layars-color-content-inverted-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-inverted-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+
+.size--md {
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--sm {
+    font-size: var(--layars-sizes-size-14);
+    line-height: var(--layars-sizes-size-24);
+}
+
+
+.quiet {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+</style>"
+`;
+
+exports[`layars-link > spec > prop: quiet 1`] = `
+"
+        <a href="" lit="" target="" class="">
+            <slot></slot>
+        </a>
+    <style>
+a {
+    font-family: var(--layars-typography-font-family);
+}
+
+
+.variant--primary {
+    color: var(--layars-color-action-brand-enabled);
+
+    &:hover {
+        color: var(--layars-color-action-brand-hover);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--secondary {
+    color: var(--layars-color-content-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--inverse {
+    color: var(--layars-color-content-inverted-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-inverted-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+
+.size--md {
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--sm {
+    font-size: var(--layars-sizes-size-14);
+    line-height: var(--layars-sizes-size-24);
+}
+
+
+.quiet {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+</style>"
+`;
+
+exports[`layars-link > spec > prop: size = md 1`] = `
+"
+        <a href="" lit="" target="" class="">
+            <slot></slot>
+        </a>
+    <style>
+a {
+    font-family: var(--layars-typography-font-family);
+}
+
+
+.variant--primary {
+    color: var(--layars-color-action-brand-enabled);
+
+    &:hover {
+        color: var(--layars-color-action-brand-hover);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--secondary {
+    color: var(--layars-color-content-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--inverse {
+    color: var(--layars-color-content-inverted-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-inverted-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+
+.size--md {
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--sm {
+    font-size: var(--layars-sizes-size-14);
+    line-height: var(--layars-sizes-size-24);
+}
+
+
+.quiet {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+</style>"
+`;
+
+exports[`layars-link > spec > prop: size = sm 1`] = `
+"
+        <a href="" lit="" target="" class="">
+            <slot></slot>
+        </a>
+    <style>
+a {
+    font-family: var(--layars-typography-font-family);
+}
+
+
+.variant--primary {
+    color: var(--layars-color-action-brand-enabled);
+
+    &:hover {
+        color: var(--layars-color-action-brand-hover);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--secondary {
+    color: var(--layars-color-content-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--inverse {
+    color: var(--layars-color-content-inverted-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-inverted-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+
+.size--md {
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--sm {
+    font-size: var(--layars-sizes-size-14);
+    line-height: var(--layars-sizes-size-24);
+}
+
+
+.quiet {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+</style>"
+`;
+
+exports[`layars-link > spec > prop: variant = inverse 1`] = `
+"
+        <a href="" lit="" target="" class="">
+            <slot></slot>
+        </a>
+    <style>
+a {
+    font-family: var(--layars-typography-font-family);
+}
+
+
+.variant--primary {
+    color: var(--layars-color-action-brand-enabled);
+
+    &:hover {
+        color: var(--layars-color-action-brand-hover);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--secondary {
+    color: var(--layars-color-content-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--inverse {
+    color: var(--layars-color-content-inverted-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-inverted-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+
+.size--md {
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--sm {
+    font-size: var(--layars-sizes-size-14);
+    line-height: var(--layars-sizes-size-24);
+}
+
+
+.quiet {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+</style>"
+`;
+
+exports[`layars-link > spec > prop: variant = primary 1`] = `
+"
+        <a href="" lit="" target="" class="">
+            <slot></slot>
+        </a>
+    <style>
+a {
+    font-family: var(--layars-typography-font-family);
+}
+
+
+.variant--primary {
+    color: var(--layars-color-action-brand-enabled);
+
+    &:hover {
+        color: var(--layars-color-action-brand-hover);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--secondary {
+    color: var(--layars-color-content-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--inverse {
+    color: var(--layars-color-content-inverted-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-inverted-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+
+.size--md {
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--sm {
+    font-size: var(--layars-sizes-size-14);
+    line-height: var(--layars-sizes-size-24);
+}
+
+
+.quiet {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+</style>"
+`;
+
+exports[`layars-link > spec > prop: variant = secondary 1`] = `
+"
+        <a href="" lit="" target="" class="">
+            <slot></slot>
+        </a>
+    <style>
+a {
+    font-family: var(--layars-typography-font-family);
+}
+
+
+.variant--primary {
+    color: var(--layars-color-action-brand-enabled);
+
+    &:hover {
+        color: var(--layars-color-action-brand-hover);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--secondary {
+    color: var(--layars-color-content-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+.variant--inverse {
+    color: var(--layars-color-content-inverted-secondary);
+
+    &:hover {
+        color: var(--layars-color-content-inverted-primary);
+        text-decoration-thickness: var(--layars-sizes-size-2);
+    }
+}
+
+
+.size--md {
+    font-size: var(--layars-sizes-size-16);
+    line-height: var(--layars-sizes-size-24);
+}
+
+.size--sm {
+    font-size: var(--layars-sizes-size-14);
+    line-height: var(--layars-sizes-size-24);
+}
+
+
+.quiet {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+</style>"
+`;
