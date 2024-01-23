@@ -71,6 +71,12 @@
         "version": "0.0.0",
         "private": true
     },
+    "@layars/button-base": {
+        "name": "@layars/button-base",
+        "path": "./packages/layars-ui/web-components/layars-button-base",
+        "version": "0.0.0",
+        "private": true
+    },
     "@layars/button-group": {
         "name": "@layars/button-group",
         "path": "./packages/layars-ui/web-components/layars-button-group",
