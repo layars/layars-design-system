@@ -83,6 +83,12 @@
         "version": "0.0.0",
         "private": true
     },
+    "@layars/button-styled": {
+        "name": "@layars/button-styled",
+        "path": "./packages/layars-ui/web-components/layars-button-styled",
+        "version": "0.0.0",
+        "private": true
+    },
     "@layars/icon": {
         "name": "@layars/icon",
         "path": "./packages/layars-ui/web-components/layars-icon",

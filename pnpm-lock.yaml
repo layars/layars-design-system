@@ -323,6 +323,28 @@ importers:
         specifier: ^1.2.1
         version: 1.2.1
 
+  packages/layars-ui/web-components/layars-button-styled:
+    dependencies:
+      lit:
+        specifier: ^2.7.5
+        version: 2.8.0
+    devDependencies:
+      '@layars/button-base':
+        specifier: workspace:^0.0.0
+        version: link:../layars-button-base
+      '@layars/types':
+        specifier: workspace:^0.0.0
+        version: link:../../../layars-types
+      '@layars/utils':
+        specifier: workspace:^0.0.0
+        version: link:../../../layars-utils
+      '@layars/web-components-root':
+        specifier: workspace:^0.0.0
+        version: link:..
+      clsx:
+        specifier: ^1.2.1
+        version: 1.2.1
+
   packages/layars-ui/web-components/layars-icon:
     dependencies:
       '@layars/icons-svgs':

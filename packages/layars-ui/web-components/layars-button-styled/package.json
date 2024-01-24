@@ -1,5 +1,5 @@
 {
-    "name": "@layars/button-base",
+    "name": "@layars/button-styled",
     "version": "0.0.0",
     "private": true,
     "type": "module",
@@ -14,13 +14,13 @@
         }
     },
     "publishConfig": {
-        "main": "lib/button-base.cjs",
-        "module": "lib/button-base.js",
+        "main": "lib/layars-button-styled.cjs",
+        "module": "lib/layars-button-styled.js",
         "types": "types/index.d.ts",
         "exports": {
             ".": {
-                "require": "./lib/button-base.cjs",
-                "import": "./lib/button-base.js",
+                "require": "./lib/layars-button-styled.cjs",
+                "import": "./lib/layars-button-styled.js",
                 "types": "./types/index.d.ts"
             }
         }
@@ -47,11 +47,10 @@
         "lit": "^2.7.5"
     },
     "devDependencies": {
-        "@layars/theme-provider": "workspace:^0.0.0",
+        "@layars/button-base": "workspace:^0.0.0",
         "@layars/types": "workspace:^0.0.0",
         "@layars/utils": "workspace:^0.0.0",
         "@layars/web-components-root": "workspace:^0.0.0",
-        "@vitest/coverage-v8": "^1.0.4",
         "clsx": "^1.2.1"
     }
 }
