@@ -2,7 +2,8 @@ import { html, LitElement, PropertyValues } from 'lit'
 import { customElement, property, eventOptions } from 'lit/decorators.js'
 
 import { settings } from '@layars/utils/web-components'
-import { host_styles } from './styles/index.ts'
+import { host_styles, sizes, colors } from './styles/index.ts'
+
 
 import '@layars/button-base'
 
@@ -58,36 +59,19 @@ class LayarsButtonStyled extends LitElement {
 
     updated(changedProperties: PropertyValues<this>) {
         if (changedProperties.has('size')) {
-            switch(this.size) {
-                case 'sm':
-                    this.style.setProperty('--btn-height', 'var(--layars-sizes-size-32')
-                    this.style.setProperty('--btn-padding-left', 'var(--layars-sizes-size-20)')
-                    this.style.setProperty('--btn-padding-right', 'var(--layars-sizes-size-20')
-                    break
-
-                case 'lg':
-                    this.style.setProperty('--btn-height', 'var(--layars-sizes-size-48')
-                    this.style.setProperty('--btn-padding-left', 'var(--layars-sizes-size-32)')
-                    this.style.setProperty('--btn-padding-right', 'var(--layars-sizes-size-32')
-                    break
-
-                default:
-                    this.style.setProperty('--btn-height', 'var(--layars-sizes-size-40)')
-                    this.style.setProperty('--btn-padding-left', 'var(--layars-sizes-size-24)')
-                    this.style.setProperty('--btn-padding-right', 'var(--layars-sizes-size-24')
-            }
+            sizes(this.size).forEach(size => {
+                this.style.setProperty(size.variable, size.value)
+            })
         }
 
         if (changedProperties.has('color')) {
-            this.style.setProperty('--btn-surface', `var(--layars-color-action-${this.color}-enabled)`)
-            this.style.setProperty('--btn-surface-hover', `var(--layars-color-action-${this.color}-hover)`)
-            this.style.setProperty('--btn-surface-active', `var(--layars-color-action-${this.color}.pressed)`)
-            this.style.setProperty('--btn-content', `var(--layars-color-content-${(this.color === 'inverse') ? 'primary' : 'inverted-primary'})`)
-            this.style.setProperty('--btn-border-color', `var(--layars-color-action-${this.color}-enabled)`)
-            this.style.setProperty('--btn-border-color-hover', `var(--layars-color-action-${this.color}-hover)`)
-            this.style.setProperty('--btn-border-color-active', `var(--layars-color-action-${this.color}-pressed)`)
+            colors(this.color, this.variant).forEach(color => {
+                this.style.setProperty(color.variable, color.value)
+            })
         }
     }
+
+    static styles = host_styles
 
     protected render() {
         return html`
@@ -96,8 +80,6 @@ class LayarsButtonStyled extends LitElement {
             </layars-button-base>
         `
     }
-
-    static styles = host_styles
 }
 
 export { LayarsButtonStyled }
