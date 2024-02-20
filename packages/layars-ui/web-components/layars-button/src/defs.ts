@@ -4,7 +4,7 @@ export type LayarsButtonElement = HTMLButtonElement
 
 export interface LayarsButtonProperties {
     variant: 'solid' | 'outline' | 'ghost'
-    color: 'brand' | 'accent' | 'neutral' | 'destructive' | 'inverse'
+    color: 'purple' | 'green' | 'blue' | 'red' | 'orange' | 'seafoam' | 'moss' | 'cyan' | 'fuchsia' | 'indigo' | 'magenta' | 'yellow' | 'grey'
     size: 'sm' | 'md' | 'lg'
     type: 'button' | 'submit' | 'reset'
     fullWidth: boolean

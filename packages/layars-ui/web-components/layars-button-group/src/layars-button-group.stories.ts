@@ -22,8 +22,8 @@ const Render = (args: Args) => {
             .orientation=${orientation}
             .spacing=${spacing}
         >
-            <layars-button variant='ghost' color='neutral'>Cancel</layars-button>
-            <layars-button variant='solid' color='brand'>Submit</layars-button>
+            <layars-button variant='ghost' color='grey'>Cancel</layars-button>
+            <layars-button variant='solid' color='purple'>Submit</layars-button>
         </layars-button-group>
     `
 }

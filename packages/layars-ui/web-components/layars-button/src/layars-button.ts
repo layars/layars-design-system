@@ -37,7 +37,7 @@ class LayarsButton extends LitElement implements LayarsButtonProperties {
      * The color of the button
      */
     @property({ reflect: true })
-    public color: LayarsButtonProperties['color'] = 'neutral'
+    public color: LayarsButtonProperties['color'] = 'grey'
 
     /**
      * If the button should span 100% of its container
@@ -88,30 +88,29 @@ class LayarsButton extends LitElement implements LayarsButtonProperties {
             case 'outline':
             case 'ghost':
                 return {
-                    '--btn-base': `var(--layars-color-action-${this.color}-enabled)`,
-                    '--btn-hover': `var(--layars-color-action-${this.color}-hover)`,
-                    '--btn-pressed': `var(--layars-color-action-${this.color}-pressed)`,
+                    '--btn-base': `var(--layars-color-${this.color}-600)`,
+                    '--btn-hover': `var(--layars-color-${this.color}-700)`,
+                    '--btn-pressed': `var(--layars-color-${this.color}-800)`,
                     '--btn-surface-base':
                         this.variant === 'outline'
                             ? `transparent`
-                            : `var(--layars-color-action-${this.color}-subtle-enabled)`,
-                    '--btn-surface-hover': `var(--layars-color-action-${this.color}-subtle-hover)`,
-                    '--btn-surface-pressed': `var(--layars-color-action-${this.color}-subtle-pressed)`,
-                    '--btn-disabled': `var(--layars-color-disabled-surface)`,
-                    '--btn-on-disabled': `var(--layars-color-disabled-content)`,
+                            : `var(--layars-color-${this.color}-100)`,
+                    '--btn-surface-hover': `var(--layars-color-${this.color}-150)`,
+                    '--btn-surface-pressed': `var(--layars-color-${this.color}-200)`,
+                    '--btn-disabled': `var(--layars-color-grey-200)`,
+                    '--btn-on-disabled': `var(--layars-color-grey-400)`,
                     ...this.#styles,
                 }
 
             case 'solid':
             default:
                 return {
-                    '--btn-base': `var(--layars-color-action-${this.color}-enabled)`,
-                    '--btn-hover': `var(--layars-color-action-${this.color}-hover)`,
-                    '--btn-pressed': `var(--layars-color-action-${this.color}-pressed)`,
-                    '--btn-disabled': `var(--layars-color-disabled-surface)`,
-                    '--btn-on-disabled': `var(--layars-color-disabled-content)`,
-                    '--btn-focus': 'var(--layars-color-focus-default)',
-                    '--btn-content': 'var(--layars-color-content-inverted-primary)',
+                    '--btn-base': `var(--layars-color-${this.color}-500)`,
+                    '--btn-hover': `var(--layars-color-${this.color}-600)`,
+                    '--btn-pressed': `var(--layars-color-${this.color}-700)`,
+                    '--btn-disabled': `var(--layars-color-grey-200)`,
+                    '--btn-on-disabled': `var(--layars-color-grey-400)`,
+                    '--btn-content': `var(--layars-color-solid-100)`,
                     ...this.#styles,
                 }
         }

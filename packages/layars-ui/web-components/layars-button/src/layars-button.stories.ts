@@ -55,7 +55,7 @@ const meta: Meta<Args> = {
     args: {
         slot: 'Button',
         variant: 'solid',
-        color: 'neutral',
+        color: 'grey',
         size: 'md',
         type: 'button',
     },
@@ -86,7 +86,7 @@ const meta: Meta<Args> = {
             },
         },
         color: {
-            options: ['brand', 'accent', 'neutral', 'destructive', 'inverse'],
+            options: ['purple', 'green', 'blue', 'red', 'orange', 'seafoam', 'moss', 'cyan', 'fuchsia', 'indigo', 'magenta', 'yellow', 'grey'],
             defaultValue: 'neutral',
             control: { type: 'inline-radio' },
         },
@@ -139,7 +139,7 @@ export const Variant: Story = {
 export const Color: Story = {
     args: {
         slot: 'Button',
-        color: 'destructive',
+        color: 'purple',
     },
     parameters: {
         controls: {
